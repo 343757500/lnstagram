@@ -1,0 +1,1039 @@
+<resources>
+    <string-array name="podcast_array_select_tags_title">
+        <item>Welcome to Sasai Podcast!</item>
+        <item>Select Tags</item>
+        <item>Select Tags</item>
+    </string-array>
+    <string-array name="podcast_array_select_tags_tips">
+        <item>In order to show you relevant content, please select tags that you are interested in.</item>
+        <item>Select your preferred tags, and we will recommend more of the content you like</item>
+        <item>Please choose your preference, and we will recommend more accurate content for you according to your preference.</item>
+    </string-array>
+    <string-array name="podcast_array_select_tags_confirms">
+        <item>Start</item>
+        <item>Save</item>
+        <item>Save</item>
+    </string-array>
+    <string name="common_ctrl_resume">Resume</string>
+    <string name="common_ctrl_retry">Retry</string>
+    <string name="common_tip_upload_failed">Upload failed</string>
+    <string name="common_tip_dowdnload_failed">Download failed</string>
+    <string name="common_ctrl_continue">Continue</string>
+    <string name="common_ctrl_waiting">Waiting</string>
+
+    <string name="post_post">Post</string>
+
+    <string name="post_txt_always">Always</string>
+    <string name="post_txt_hour">Hour</string>
+    <string name="post_txt_day">Day</string>
+    <string name="post_txt_month">Month</string>
+
+    <string name="post_txt_privacy">Privacy</string>
+    <string name="post_txt_viewable">Visible</string>
+
+    <!--privacy-->
+    <string name="post_txt_setting_viewble_public">Public</string>
+    <string name="post_txt_setting_viewble_public_desc">Viewable by everyone</string>
+    <string name="post_txt_setting_viewble_private">Private</string>
+    <string name="post_txt_setting_viewble_private_desc">Me only</string>
+    <string name="post_txt_setting_viewble_followers">Followers</string>
+    <string name="post_txt_setting_viewble_followers_desc">Viewable by my followers only</string>
+    <string name="post_txt_setting_viewble_these_friends">Selected Friends</string>
+    <string name="post_txt_setting_viewble_these_friends_desc">Viewable by selected friends</string>
+    <string name="post_txt_setting_viewble_except_friends">Exclude</string>
+    <string name="post_txt_setting_viewble_except_friends_desc">Exclude selected friends</string>
+
+
+    <string name="post_tip_setting_can_see_moment">Who can see your moment?</string>
+    <string name="post_tip_setting_can_see_moment_desc">You can choose to show your moment to all your friends or block some friends.</string>
+
+    <!--viewable-->
+    <string name="post_tip_setting_viewable">What\'s Visible?</string>
+    <string name="post_tip_setting_viewable_desc">You can set a time for the moment to expire. After the moment has expired, the system will automatically delete the moment</string>
+
+    <!--main-->
+    <string name="post_txt_title">Moments</string>
+    <string name="post_txt_share_your_moments">Share your moments...</string>
+    <string name="post_txt_add_comment">Type...</string>
+    <string name="post_txt_moment_deleted_desc">Oops!\nContent unavailable</string>
+    <string name="post_txt_moment_save_no_data">You haven\'t save any\n post anything</string>
+    <string name="post_txt_moment_expired_desc">Oops!\nThis moment has expired</string>
+    <string name="post_txt_moment_permission_desc">Oops!\nYou don\'t have permission to access</string>
+    <string name="post_txt_moment_network_desc">Oops!\nThe network is poor, please go back and try again</string>
+    <string name="post_txt_moment_forward_expired_desc">This moment has expired</string>
+    <string name="post_txt_moment_forward_deleted_desc">Content unavailable.</string>
+    <string name="post_txt_moment_public_account_tips">You can register public account now!\nClick the button to apply:\n</string>
+    <string name="post_txt_public_account_go">Copy</string>
+    <string name="post_txt_public_account_not_now">Not now</string>
+    <string name="post_tip_public_account_rejected">Your application has been rejected.</string>
+    <string name="post_tip_public_account_reapply">Please reapply public account.</string>
+    <string name="post_tip_public_account_submitted">Application submitted successfully</string>
+    <string name="post_tip_public_account_submitted_edit_tips">There are some changes done on the page that are waiting for approval. Once they are approved, you will be able to access your page</string>
+    <string name="post_tip_public_account_submitted_tips">Your application has been submitted successfully.You will receive an email notification once the application has been approved.</string>
+    <string name="post_txt_most_active">Most active</string>
+    <string name="post_ctrl_view_all_topics">View all topics</string>
+    <string name="post_ctrl_hash_tags">Popular hashtags</string>
+    <string name="post_ctrl_happening">Trending..</string>
+    <string name="post_txt_title_topics">Topics</string>
+    <string name="post_txt_title_trends">Trends</string>
+    <string name="post_txt_live_has_ended">This Live video has ended.</string>
+    <string name="post_txt_live_available_soon">It will be available soon</string>
+    <string name="post_txt_live_your_live_video_ended">Your Live Video Has Ended,Post this video to keep it.</string>
+    <!--post-->
+    <string name="post_txt_post_title">New Moment</string>
+    <string name="post_ctrl_post_publish">Publish</string>
+    <string name="post_txt_post_hint">Say something...</string>
+    <string name="post_txt_setting_add_location">Add Location</string>
+    <string name="post_txt_setting_feeling">Feeling</string>
+    <string name="post_txt_setting_tag_users">Tag Users</string>
+    <string name="post_txt_setting_purview">Privacy</string>
+    <string name="post_txt_setting_viewable">Visible</string>
+    <string name="post_ctrl_voice_cancel">Cancel</string>
+    <string name="post_ctrl_voice_use_voice">Use</string>
+    <string name="post_txt_voice_tips">Maximum duration is 60s</string>
+    <string name="post_tip_file_audio_duration">audio duration cannot exceed 60s.</string>
+    <string name="post_tip_input_not_empty">The text content can\'t empty, please fill in</string>
+    <string name="post_ctrl_add_attach">Add Attachment:</string>
+    <string name="post_tip_save_draft">Save this to drafts?</string>
+    <string name="post_ctrl_dialog_discard">Discard</string>
+    <string name="post_ctrl_dialog_save">Save</string>
+    <string name="post_ctrl_dialog_skip">Skip</string>
+    <string name="post_ctrl_post_failed_send">Post failed to send. Please try again</string>
+    <string name="post_ctrl_post_some_media_files_lost">Your media files are not in the local gallery, please republish it.</string>
+    <string name="post_ctrl_read_expand">more</string>
+    <string name="post_ctrl_read_shrink">collapse</string>
+    <string name="post_txt_viewable_hour">Hour</string>
+    <string name="post_txt_viewable_day">Day</string>
+    <string name="post_txt_viewable_month">Month</string>
+    <string name="post_ctrl_done">Done</string>
+    <string name="post_txt_expiring_moments">Expiring moments</string>
+    <string name="post_txt_new_moments">New Moments</string>
+    <string name="post_ctrl_prompt_text_for_likes">like</string>
+    <string name="post_ctrl_prompt_text_likes">likes</string>
+    <string name="post_ctrl_prompt_text_others">others</string>
+    <string name="post_ctrl_prompt_text_all">All</string>
+    <string name="post_ctrl_prompt_text_male">Male</string>
+    <string name="post_ctrl_prompt_text_female">Female</string>
+    <string name="post_ctrl_prompt_text_you">You</string>
+    <string name="post_ctrl_prompt_text_and">and</string>
+    <string name="post_ctrl_prompt_text_for_comments">Comments</string>
+
+    <string name="post_txt_your_request_had_been_agreed">Your request had been agreed</string>
+    <string name="post_txt_you_are_follow">You are now following </string>
+    <string name="post_tip_can_not_other_media_content">Do you want to remove the content above to add other media content?</string>
+    <string name="post_tip_photo_max_content">Limit pictures is 9, please remove some pictures before add others.</string>
+    <string name="post_ctrl_confirm">Confirm</string>
+    <string name="post_ctrl_cancel">Cancel</string>
+    <string name="post_tip_video_max_mum_size_100">Maximum size is 100M</string>
+    <string name="post_tip_video_max_mum_size">Maximum size is </string>
+
+    <string name="post_tip_moment_character_limit">Moment exceeds character limit</string>
+    <string name="post_tip_delete_menents_content">Do you want to delete this post?</string>
+    <string name="post_tip_not_friend_content">Add user as a friend first</string>
+    <string name="post_ctrl_add_friend_confirm">Add friend</string>
+
+    <string name="post_tip_play_video_mobile_data_content_new">You are using mobile data. Do you want to continue?</string>
+
+    <string name="post_txt_agree_request_follow_you_tips">Are you sure to agree this friend request?</string>
+    <string name="post_txt_decline_request_follow_you_tips">Are you sure to decline this friend request?</string>
+    <string name="post_txt_confirm">Confirm</string>
+    <string name="post_txt_back">Back</string>
+    <string name="post_txt_notice">Notice</string>
+    <string name="post_tip_discard_your_changes">Do you want to discard your changes?</string>
+    <string name="post_txt_edit_title">Edit</string>
+    <string name="post_tip_had_been_edited">This moment had been edited</string>
+    <string name="post_txt_you_can_only_pin">You can only pin</string>
+    <string name="post_txt_posts_at_a_time">posts at a time:</string>
+    <string name="post_txt_posts_hot_num">post</string>
+    <string name="post_txt_posts_hot_nums">posts</string>
+
+    <string name="post_main_tab_live_new">Live</string>
+    <string name="post_main_tab_photo_new">Normal</string>
+    <string name="post_main_tab_video_new">Video</string>
+    <string name="post_ctrl_go_live_video">Go Live</string>
+    <string name="post_txt_tap_add_description">Tap to add a description...</string>
+    <string name="post_txt_tap_add_description_and_theme">Tap to add a description and theme</string>
+    <string name="post_tips_to_do_live_video">You are about to do a live video, Would you like to continue?</string>
+    <string name="post_tips_live_want_to_exit">Are you sure you want to exit?</string>
+    <string name="post_tips_live_select_live_theme">Please select a live theme!</string>
+    <string name="post_tips_live_add_description">Please add a description</string>
+    <string name="post_txt_live_choose_theme">Choose Theme</string>
+    <string name="post_txt_live_is_live">is live</string>
+    <string name="post_txt_live_state">LIVE</string>
+    <string name="post_tip_live_scheduled_current_time">The scheduled start time can‘t be less than the current time</string>
+
+    <string name="post_tip_live_network_unavailable">Network unavailable, check your network setting</string>
+    <string name="post_tip_live_network_err">Poor network</string>
+    <string name="post_tip_live_write_comment">Write a comment...</string>
+    <string name="post_tip_live_write_reply">Write a reply...</string>
+    <string name="post_tip_live_join_failed">Join failed</string>
+    <string name="post_tip_live_please_try_again">Loading failed,please try again.</string>
+    <string name="post_tip_live_you_can_tag_20_users">You can tag 20 users at most</string>
+    <string name="live_root_chat_into">joined</string>
+    <string name="live_root_see_more">See More</string>
+    <string name="live_root_see_more_adress">The service address and streaming key is generating</string>
+
+    <!--user-->
+    <string name="post_ctrl_user_moments">Moments</string>
+    <string name="post_ctrl_user_album">Album</string>
+    <string name="post_ctrl_user_following">Following</string>
+    <string name="post_ctrl_user_followers">Followers</string>
+    <string name="post_ctrl_user_likes">Likes</string>
+    <string name="post_ctrl_user_follow">Follow</string>
+    <string name="post_ctrl_user_promote">Promote</string>
+    <string name="post_ctrl_user_un_follow">UnFollow</string>
+
+    <string name="post_ctrl_user_like">Like</string>
+    <string name="post_ctrl_user_comment">Comment</string>
+    <string name="post_ctrl_user_share">Share</string>
+
+    <string name="post_ctrl_moment_turn_on_notification">Turn on notifications for this post</string>
+    <string name="post_ctrl_moment_turn_off_notification">Turn off notifications for this post</string>
+    <string name="post_ctrl_watch_turn_on_notification">Turn on notifications for this video</string>
+    <string name="post_ctrl_watch_turn_off_notification">Turn off notifications for this video</string>
+    <string name="post_ctrl_moment_turn_on_notification_successfully">Turn on notifications successfully</string>
+    <string name="post_ctrl_moment_turn_off_notification_successfully">Turn off notifications successfully</string>
+    <string name="post_ctrl_moment_delete">Delete</string>
+    <string name="post_ctrl_moment_report">Report</string>
+    <string name="post_ctrl_moment_report_ad">Report Ad</string>
+    <string name="post_ctrl_moment_block">Block</string>
+    <string name="post_ctrl_moment_unblock">Unblock</string>
+    <string name="post_ctrl_moment_block_user">Block user</string>
+    <string name="post_ctrl_moment_unblock_user">Unblock user</string>
+    <string name="post_ctrl_moment_translate_with_google">Translate with Google</string>
+    <string name="post_ctrl_moment_block_successfully">Blocked successfully</string>
+    <string name="post_tip_moment_block_tips">won\'t be able to follow or tag you.  You won\'t receive the notification from</string>
+    <string name="post_tip_moment_unblock_tips">Do you want to unblock</string>
+    <string name="post_ctrl_moment_unblock_successfully">Unblocked successfully</string>
+    <string name="post_ctrl_moment_save">Save post</string>
+    <string name="post_ctrl_moment_save_video">Save video</string>
+    <string name="post_ctrl_moment_saved_posts">Saved posts</string>
+    <string name="post_ctrl_moment_un_save">Unsave post</string>
+    <string name="post_ctrl_moment_save_tips">Saved successfully</string>
+    <string name="post_ctrl_moment_un_save_tips">Saved successfully</string>
+    <string name="post_ctrl_moment_share_to_chat">Share to Chat</string>
+    <string name="post_ctrl_moment_share_to_moment">Share to Moments</string>
+    <string name="post_ctrl_moment_share_to_other_app">Share to other apps</string>
+    <string name="post_tip_waiting_acceptance">Sent successfully, waiting for acceptance...</string>
+    <string name="post_txt_moment_public_company">Company</string>
+    <string name="post_txt_moment_public_personal">Personal</string>
+    <string name="post_txt_moment_you_are_muted">You are muted</string>
+
+    <!--setting-->
+    <string name="post_txt_moment_setting">Moment Settings</string>
+    <string name="post_txt_notification_setting_desc">Notification Settings</string>
+    <string name="post_txt_privacy_setting_desc">Privacy Settings</string>
+    <string name="post_txt_tag_setting_desc">Tag Settings</string>
+    <string name="post_txt_allow_direct_messages">Allow Direct Messages</string>
+    <string name="post_txt_allow_direct_messages_moment">Allow Direct Messages From Moment</string>
+    <string name="post_txt_follow_me">Follow me</string>
+    <string name="post_txt_tag_notification">Tag notification</string>
+    <string name="post_txt_share_notification">Share notification</string>
+    <string name="post_txt_blocked">Blocked</string>
+    <string name="post_txt_likes_notification">Likes</string>
+    <string name="post_txt_comment_my_post">Comments</string>
+    <string name="post_txt_reply_my_comment">Comment Replies</string>
+    <string name="post_txt_follow_verification">Follow Verification</string>
+    <string name="post_txt_sasai_friend_following_only">Sasai friend following only</string>
+    <string name="post_txt_view_my_following_details">View my following details</string>
+    <string name="post_txt_view_hide_my_moments">Hide my moments</string>
+    <string name="post_txt_view_hide_their_moments">Hide their moments</string>
+    <string name="post_txt_view_not_allow_comments">Not allow comments</string>
+    <string name="post_txt_view_my_moments">My moments</string>
+    <string name="post_txt_view_comment">Comment</string>
+    <string name="post_txt_view_comments">Comments</string>
+    <string name="post_txt_view_close_my_comment">Close my comment</string>
+    <string name="post_txt_view_stranger_comment">Stranger comments</string>
+    <string name="post_txt_hidden_15_days_list">Hidden 15 days list</string>
+    <string name="post_txt_follow_only_tag_you">Allow followers only to tag you</string>
+    <string name="post_txt_review_tags">Review tags</string>
+    <string name="post_hide_search_title">Moment Users</string>
+
+
+    <!--Follow-->
+    <string name="post_txt_follow">Follow</string>
+    <string name="post_txt_unfollow">UnFollow</string>
+    <string name="post_txt_search_phone_number_or_sasa_id">Search user name</string>
+    <string name="post_txt_follow_mute">Mute</string>
+    <string name="post_txt_follow_unmute">UnMute</string>
+    <string name="post_txt_follow_remove">Remove</string>
+
+    <!--search-->
+    <string name="post_txt_user">User</string>
+    <string name="post_txt_search">search</string>
+    <string name="post_txt_see_all_users">See all users</string>
+    <string name="post_txt_public_account">Public Account</string>
+    <string name="post_txt_see_all_public_account">See all public account</string>
+
+    <string name="post_txt_reply">Reply</string>
+    <string name="post_txt_delete">Delete</string>
+    <string name="post_txt_copy">Copy</string>
+    <string name="post_txt_del_fail">Delete failed</string>
+    <string name="post_txt_hide_fail">Hide failed</string>
+    <string name="post_txt_like_fail">Like failed</string>
+    <string name="post_txt_copy_success">Copy successfully</string>
+    <string name="post_txt_followers">Followers</string>
+    <string name="post_txt_following">Following</string>
+    <string name="post_txt_subscribers">Subscribers</string>
+    <string name="post_txt_view_more_replise">View %1$d replies</string>
+
+    <string name="post_txt_creator">Creator</string>
+    <string name="post_all_replise_count">All replies(%1$d)</string>
+    <string name="post_txt_trending">Trending</string>
+
+    <string name="post_txt_notification">Notifications</string>
+    <string name="post_txt_send_notification">Send Notifications</string>
+    <string name="post_txt_send_notification_tips">Turning on this button will let some users and followers receive notifications of your video during the live and after publishing it on Watch</string>
+    <string name="post_txt_send_a_friend_request_to_you">Sent a friend request to you</string>
+    <string name="post_txt_tag_timeline_after_approval">Display on you timeline after approval</string>
+    <string name="post_txt_tagged_you_post">tagged you in a post</string>
+    <string name="post_txt_agree">Agree</string>
+    <string name="post_txt_agreed">Agreed</string>
+    <string name="post_txt_approve">Approve</string>
+    <string name="post_txt_declined">Decline</string>
+    <string name="post_txt_decline">Decline</string>
+    <string name="post_txt_view">View</string>
+    <string name="post_txt_new">NEW</string>
+    <string name="post_txt_earlier">EARLIER</string>
+    <string name="post_txt_notification_clear">Clear</string>
+    <string name="post_txt_clear_notification_tips">Do you want to clear all notifications?</string>
+    <string name="post_txt_nofication_comment">commented on your post</string>
+    <string name="post_txt_nofication_like">liked your post</string>
+    <string name="post_txt_notification_like">liked your comment</string>
+    <string name="post_txt_edit_old_moment">Edit Post</string>
+    <string name="post_txt_edit_watch">Edit Watch</string>
+    <string name="post_txt_edit_privacy">Edit Privacy</string>
+    <string name="post_txt_edit_pin_on_top">Pin on-top</string>
+    <string name="post_txt_edit_cancel_top">Unpin</string>
+    <string name="post_txt_edit_power_up">Power up</string>
+    <string name="post_txt_edit_hide">Hide</string>
+    <string name="post_txt_edit_un_hide">Unhide</string>
+    <string name="post_txt_hide_tips_new">you have hidden this comment</string>
+    <string name="post_txt_edit_unpin_successfully">Unpin successfully</string>
+    <string name="post_txt_edit_pin_on_top_successfully">Pin on top successfully</string>
+
+    <string name="post_txt_follow_tips">started following you.</string>
+    <string name="post_txt_mention_on_comment">mentioned you in a comment</string>
+    <string name="post_txt_you_are_mention">has mentioned you in a post</string>
+    <string name="post_txt_share_a_moment">shared a post</string>
+    <string name="post_txt_update_a_moment">updated a post</string>
+    <string name="post_txt_published_a_moment">published a post</string>
+    <string name="post_txt_replied_to_your_comment">replied to your comment</string>
+    <string name="post_txt_replied_somone_comment">replied to %1$s\'s comment on your post</string>
+    <string name="post_txt_now_following_you">is now following you</string>
+    <string name="post_txt_nofication_report_ok">Thank you for the report. We have received your message and complience team is looking into the issue.\n\nAfter the report has been analysed and the content has been found inappropriate, we will block the content.\n\nThanks again and we wish you a very good day.</string>
+    <string name="post_txt_notification_active">You have been awarded a badge for being active on moments.</string>
+    <string name="post_txt_nofication_offline">Your post at %1$s violate Sasai rules.\nInappropriate content has been off.</string>
+    <string name="post_txt_send_you_message">send you a message</string>
+    <string name="post_txt_notification_live_now">is live now</string>
+    <string name="post_txt_notification_live_tagged">tagged you in the live video</string>
+    <string name="post_txt_notification_live_added">added you to the live video</string>
+    <string name="post_txt_notification_live_invited">invited you to watch the live video</string>
+    <string name="post_txt_notification_live_scheduler">will have a live session</string>
+    <string name="post_txt_notification_live_about">about</string>
+    <string name="post_txt_notification_live_on">on</string>
+    <string name="post_txt_notification_live_and">and</string>
+    <string name="post_txt_notification_live_with">is live with</string>
+    <string name="post_txt_notification_live_others">others</string>
+    <string name="post_txt_notification_live_feeling_with">feeling</string>
+    <string name="post_txt_notification_live_is">is</string>
+    <string name="post_txt_notification_live_at">at</string>
+    <string name="post_txt_notification_live_and_at">is live at</string>
+    <string name="post_txt_notification_live_with_only">with</string>
+    <string name="post_txt_notification_live_stream">Live Theme:</string>
+
+    <string name="post_txt_guide_follow_tips">Follow more \nsasai friends</string>
+    <string name="post_txt_guide_post_tips">Post your moment \n and share with \nyour friends</string>
+    <string name="post_txt_follow_dialog_tips">Follow more Sasai friends Get more exiting moment</string>
+    <string name="post_txt_follow_dialog_select_all">Select All</string>
+    <string name="post_txt_follow_dialog_deselect_all">DeSelect All</string>
+    <string name="post_txt_follow_dialog_change_batch">Change Batch</string>
+    <string name="post_txt_follow_dialog_follow">Follow</string>
+
+    <string name="post_txt_delete_dialog_title">Delete Comment</string>
+    <string name="post_txt_delete_dialog_content">Are you sure you want to delete this comment?</string>
+
+    <string name="post_txt_notify_type">Type:</string>
+    <string name="post_txt_notify_reason">Reason:</string>
+    <string name="post_txt_notify_published_time">Published Time:</string>
+    <string name="post_txt_notify_unblock_time">Unblock Time:</string>
+    <string name="post_txt_notify_re_audit_time">Apply Re-audit Time:</string>
+    <string name="post_txt_notify_post">Post</string>
+    <string name="post_txt_notify_account">Account</string>
+    <string name="post_txt_notify_re_audit">Re-audit</string>
+    <string name="post_txt_notify_apply_reason">Apply Reason</string>
+    <string name="post_txt_notify_apply_reason_tips">Please write your apply reason here...</string>
+
+    <!--brvah-->
+    <string name="post_txt_brvah_load_end">No more Moments</string>
+    <string name="post_txt_brvah_load_failed">load more failed</string>
+    <string name="post_txt_brvah_loading">Loading...</string>
+
+    <string name="watch_txt_tab_home_name_v2">Home</string>
+    <string name="watch_txt_tab_home_recommended">Recommended</string>
+    <string name="watch_txt_tab_sub_name">Subscription</string>
+    <string name="watch_txt_tab_download_name">Downloads</string>
+    <string name="watch_txt_tab_wish_list_name">Wish List</string>
+    <string name="watch_txt_tab_libraries_name">Libraries</string>
+    <string name="watch_txt_tab_channel_name">Channel</string>
+    <string name="watch_txt_tab_my_channel_name">My Channel</string>
+    <string name="watch_txt_wish_list_titles">Wish List</string>
+    <string name="watch_txt_subscription_title">MySubscriptions</string>
+    <string name="watch_txt_premium_title">Premium</string>
+    <string name="watch_txt_album">Album</string>
+    <string name="watch_txt_video">Video</string>
+    <string name="watch_txt_did_you_mean">Did you mean:</string>
+
+    <string name="watch_txt_following">Following</string>
+    <string name="watch_txt_followers">Followers</string>
+    <string name="watch_txt_subscribes">Subscribers</string>
+    <string name="watch_txt_personal_followers">Followers</string>
+    <string name="watch_profile_creative_center">Creative Center</string>
+    <string name="watch_ctrl_profile_edit_profile">Edit Profile</string>
+
+    <string name="watch_profile_my_creations_live">My Live and Videos</string>
+    <string name="watch_profile_my_upload">My drafts</string>
+    <string name="watch_profile_my_albums">My albums</string>
+    <string name="watch_profile_my_services">MY SERVICES</string>
+    <string name="watch_profile_my_business">MY BUSINESS</string>
+    <string name="watch_profile_history">History</string>
+    <string name="watch_profile_my_sub">My subscription</string>
+    <string name="watch_profile_download">Downloads</string>
+    <string name="watch_profile_account">Account</string>
+    <string name="watch_profile_transaction">Transaction</string>
+    <string name="watch_profile_stat">Statistics</string>
+    <string name="watch_profile_detail">Details</string>
+    <string name="watch_profile_business_desc">Upgrade to a merchant account,you can configure your work as a paid subscription and generate income</string>
+    <string name="watch_profile_business_open">Open</string>
+    <string name="watch_txt_my_profile">Edit Profile</string>
+    <string name="watch_txt_save">Save</string>
+    <string name="watch_txt_home_title">Watch</string>
+    <string name="watch_txt_home_title_kids">Kids Watch</string>
+    <string name="watch_txt_manage_your_published_work">Manage your published work here</string>
+    <string name="watch_txt_manage_your_published_portfolio">Manage your published portfolio here</string>
+    <string name="watch_txt_manage_your_upload_work">Manage your uploads here</string>
+
+    <string name="watch_txt_search_history">According to your search history</string>
+
+    <string name="watch_txt_libraries_title">Libraries</string>
+    <string name="watch_txt_community_title">Community</string>
+    <string name="watch_txt_live_video_title">Live video</string>
+    <string name="watch_txt_creators_title">Creators</string>
+
+    <string name="watch_setting_txt_auto_play">Auto-Play</string>
+    <string name="watch_setting_txt_play_break_point">Play from where you left off.</string>
+    <string name="watch_setting_txt_play_live_video">Allow followers only to tag you in live Videos</string>
+    <string name="watch_setting_txt_clear_cache">Clear cache</string>
+    <string name="watch_setting_titles">Settings</string>
+    <string name="watch_setting_tag_setting">Tag Setting</string>
+    <string name="watch_setting_clear_cache_desc_new">Clearing cache will remove videos, pictures and audio data and will require this device to download this data again in order to be viewed. Do you still want to clear cache?</string>
+    <string name="watch_setting_continue">Continue</string>
+    <string name="watch_auto_play_mobile_data">Mobile Data</string>
+    <string name="watch_auto_play_wifi">Wifi</string>
+    <string name="watch_auto_play_all">Mobile Data &amp; Wifi</string>
+    <string name="watch_txt_all_videos">All Videos</string>
+
+    <string name="watch_txt_subscribe">Subscribe</string>
+    <string name="watch_txt_subscriptions">Subscriptions</string>
+    <string name="watch_txt_notifications">Notifications</string>
+
+    <string name="watch_txt_works">All Videos</string>
+    <string name="watch_txt_albums">Albums</string>
+    <string name="watch_txt_search">Search</string>
+
+    <string name="watch_txt_record">Record</string>
+    <string name="watch_txt_author">Author</string>
+    <string name="watch_txt_related_search_results">Related Search Results</string>
+    <string name="watch_txt_view_more">View More</string>
+    <string name="watch_txt_go_watch">Go Watch</string>
+
+    <!--watch post-->
+    <string name="watch_ctrl_save_draft">Save draft</string>
+    <string name="watch_txt_add_title">Add a title...</string>
+    <string name="watch_ctrl_post">Post</string>
+    <string name="watch_ctrl_post_category">Category</string>
+    <string name="watch_ctrl_post_preferences">Preferences</string>
+    <string name="watch_ctrl_post_tag">Tag</string>
+    <string name="watch_ctrl_post_link_album">Link Album</string>
+    <string name="watch_ctrl_post_privacy">Privacy</string>
+    <string name="watch_ctrl_post_creative_income">Creative income</string>
+    <string name="watch_ctrl_set_cover">Set video cover</string>
+
+    <!--watch create album-->
+    <string name="watch_ctrl_save_album">Save</string>
+    <string name="watch_txt_create_album_title">Create Album</string>
+    <string name="watch_ctrl_change_cover_album">Change cover</string>
+
+    <string name="watch_txt_album_title">Album title:</string>
+    <string name="watch_txt_description">Description:</string>
+    <string name="watch_txt_tags">Tags:</string>
+    <string name="watch_txt_creative_income">Creative income:</string>
+
+    <string name="watch_txt_album_title_hint">Please enter album title</string>
+    <string name="watch_txt_description_hint">Please enter album description</string>
+    <string name="watch_txt_tags_hint">Please enter album tags</string>
+    <string name="watch_txt_creative_income_hint">Please set creative income</string>
+
+    <string name="post_txt_tag_users">Tag users</string>
+    <string name="post_txt_tag_choose_assistants">Choose assistants</string>
+    <string name="post_txt_tag_users_title">What\'s Tag users?</string>
+    <string name="post_txt_tag_users_tips">Tag your friends to share this moment.</string>
+    <string name="post_txt_feeling">Feeling</string>
+    <string name="post_txt_feeling_title">What\'s Feeling?</string>
+    <string name="post_txt_feeling_tips">Please select a feeling for your post</string>
+    <string name="post_txt_moment_will_be_expire_in">This moment will expire in</string>
+    <string name="post_txt_moment_was_expired">This moment was expired</string>
+
+    <string name="post_txt_more_expire_post">If you want to view more %1$d expiring moments, please click the icon above and continue to view.</string>
+
+    <string name="post_txt_view_more">View more</string>
+
+    <string name="post_ctrl_translation_original">Original</string>
+    <string name="post_ctrl_translation_with_google">Translate with Google</string>
+    <string name="post_ctrl_translation_by">Translate by</string>
+    <string name="post_txt_pinned_moments">Pinned moments</string>
+
+    <string name="post_txt_moment_had_delete">Content unavailable.</string>
+    <string name="post_txt_moment_had_expired">This moment has expired</string>
+    <string name="post_txt_moment_permission">You don\'t have permission to access</string>
+    <string name="post_tip_hide_comment_title">Hide Comment</string>
+    <string name="post_tip_hide_comment">Are you sure you want to hide this comment?</string>
+    <string name="post_tip_un_hide_comment_title">Unhide Comment</string>
+    <string name="post_tip_un_hide_comment">Are you sure you want to unHide this comment?</string>
+
+    <string name="label_brush">Brush</string>
+    <string name="label_emoji">Emoji</string>
+    <string name="label_sticker">Sticker</string>
+    <string name="label_eraser">Eraser</string>
+    <string name="label_eraser_mode">Eraser Mode</string>
+    <string name="label_text">Text</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_adjust">Adjust</string>
+    <string name="msg_save_image">Are you want to exit without saving image ?</string>
+    <string name="app_intent_name">PhotoEditor</string>
+    <string name="msg_save_image_to_share">Please save image to share</string>
+    <string name="msg_share_image">Share Image</string>
+    <string name="post_txt_done">Done</string>
+    <string name="post_image_saving">Saving...</string>
+    <string name="post_image_create_it">Create it</string>
+
+    <string name="post_txt_no_expire_post">This moment can not be viewed. Maybe it have deleted or expired.</string>
+    <string name="post_no_notification_desc">You do not have any notifications!</string>
+    <string name="post_txt_works_total">works in total</string>
+
+    <string name="watch_title_select_category">Select category</string>
+    <!--默认-->
+    <string name="watch_title_comment">Comment</string>
+    <string name="watch_title_recommend">Popular</string>
+    <string name="watch_title_tab_newest">Newest</string>
+    <string name="watch_refresh_pull_down">Pull down to refresh...</string>
+    <string name="watch_refresh_ing">Refreshing...</string>
+    <string name="watch_refresh_hans_up">Hands up to refresh</string>
+    <string name="watch_refresh_finish">Finish</string>
+    <string name="watch_load_ing">Loading...</string>
+    <string name="watch_load_finish">Loading...</string>
+
+    <!--缺省页描述-->
+    <string name="watch_holder_base_network_err">Oops!\nThe network is poor, please try again.</string>
+    <string name="watch_holder_base_no_data">No data!</string>
+    <string name="watch_holder_home_list_none">Oops!\nNo related content in this category. Please search in other categories.</string>
+    <string name="watch_holder_my_subcription_none">You didn\'t subscribe to any album yet. Click Go below to subscribe albums in Libraries page.</string>
+    <string name="watch_holder_my_subcription_none_button">View More</string>
+    <string name="watch_holder_no_content">Oops!\nNo related content in this category</string>
+    <string name="watch_holder_no_content_search">Oops!\nNo corresponding content found, you can change the key word and try again.</string>
+    <!--   播放视频（详情） -->
+    <string name="watch_video_details_video_count">All Videos:%s</string>
+    <string name="watch_video_details_album_count">Album:%s</string>
+    <string name="watch_video_details_title_comments">Comments(%d)</string>
+    <string name="watch_text_share">Share</string>
+    <string name="watch_text_wish">Wish list</string>
+    <string name="watct_hint_comment">Write comment...</string>
+    <string name="watch_tip_file_max_size">File size cannot exceed 500MB.</string>
+    <string name="watch_video_toast_delete">The video has been deleted</string>
+    <string name="watch_tip_downloading_channel">Downloading on Channel</string>
+    <string name="watch_ctrl_downloading_detail">Details</string>
+    <string name="watch_tip_already_in_download_list">This video is already in download list</string>
+    <string name="watch_tip_no_network_connection_now">No network connection now, please check</string>
+    <string name="watch_tip_under_mobile_data">Do you want to download this video using mobile data?</string>
+    <string name="watch_tip_download_nothing_here">Oops!\nNothing in here.\nYou can go to home page and download videos</string>
+    <string name="watch_tip_detele_download_video">After detele this video, you must download the cache again to view it. \nDo you want to do it?</string>
+    <string name="watch_tip_mobile_data_caution">Caution:</string>
+    <string name="watch_tip_mobile_data_content">You are using the mobile data</string>
+    <string name="watch_tip_network_disconnect">Network is disconnect, please check and connect it.</string>
+    <string name="watch_ctrl_got_it">Got it</string>
+    <string name="watch_tip_video_is_on_the_way">Please wait while video is loading</string>
+    <!--    视频列表-->
+    <string name="watch_video_item_view_count_new">Views: %s</string>
+    <string name="watch_video_item_menu_unlike">Unlike</string>
+    <string name="watch_video_home_list_desc">You might like</string>
+
+    <!--    album-->
+    <string name="watch_album_updata_time">Update time:%s</string>
+    <!--    wish-->
+    <string name="watch_wish_list_published_time">Published time:%s</string>
+    <string name="watch_wish_list_delete">Do you want to delete this video</string>
+    <string name="watch_wish_item_been_removed">This video had been removed by author.</string>
+    <!--    订阅-->
+    <string name="watch_subscribe_item_update">%1$d updated %2$s</string>
+    <string name="watch_subscribe_item_been_removed">This album had been removed by author.</string>
+    <!--    评论-->
+    <string name="watch_video_comment_more_reply">Show more replies...</string>
+    <string name="watch_video_comment_to_expand_hint">Expand</string>
+    <string name="watch_video_comment_to_shrink_hint">Shrink</string>
+    <!--    个人主页-->
+    <string name="watch_personal_follow">Follow</string>
+    <string name="watch_personal_unfollow">UnFollow</string>
+    <string name="watch_personal_view">View</string>
+    <string name="watch_personal_view_new">Views </string>
+
+    <string name="watch_tip_upload_done">upload completed</string>
+    <string name="watch_tip_upload_dialog_title">Caution</string>
+    <string name="watch_tip_upload_dialog_content">You are using mobile data to upload the video. Do you want to continue?</string>
+    <string name="watch_tip_play_dialog_content">You are using the mobile data,Do you want to continue?</string>
+    <string name="watch_ctrl_play">Play</string>
+    <string name="watch_tip_clear_notice_dialog_content">Do you want to clear the record on both notifications and subscribe</string>
+    <string name="watch_tip_clear_notice_dialog_continue">Continue</string>
+    <string name="watch_tip_clear_notice_dialog_cancel">Cancel</string>
+    <string name="watch_tip_unfollow">Do you want to unfollow this author?</string>
+    <string name="watch_tip_unsubscribe_payment">Note, the payment made for this subscription will not be refunded if you unsubscribe. Do you still want to unsubscribe?</string>
+    <string name="watch_ctrl_unsubscribe_payment_no">No, keep subscription</string>
+    <string name="watch_ctrl_unsubscribe_payment_yes">Yes, unsubscribe</string>
+    <string name="watch_txt_expired">Expired：</string>
+    <string name="watch_txt_expiring">Expiring：</string>
+    <string name="watch_ctrl_subscribe_premium_access">Subscribe for Premium Access</string>
+    <string name="watch_ctrl_subscribed">Subscribed</string>
+    <string name="watch_txt_activities_not_available">Activities not available</string>
+    <string name="watch_txt_activate_sasai_wallet">Activate Sasai Wallet</string>
+    <string name="watch_tip_activities_not_available_tips">Your Sasai wallet is not activated yet. Please go to SasaiPay and activate.</string>
+    <string name="watch_ctrl_go_to_sasaipay">Go to SasaiPay</string>
+    <string name="watch_txt_subscribe_under_subscription">You can find it under subscription</string>
+    <string name="watch_txt_subscribe_insufficient_balance">Insufficient balance.</string>
+    <string name="watch_txt_day_package">Day Package</string>
+    <string name="watch_txt_day_subscription">Day Subscription</string>
+    <string name="watch_txt_package_options">Package options</string>
+
+    <!--watch create by-->
+    <string name="watch_create_by">Created by</string>
+    <string name="watch_upload_time">Upload time：</string>
+    <string name="watch_tip_del_video">Do you want to remove this video \n from album?</string>
+    <string name="watch_tip_unsubscribe_album">Do you want to unsubscribe this album?</string>
+    <string name="watch_tip_unsubscribe_album_fail">unsubscribe album fail ! please retry</string>
+    <string name="watch_notice">Notice</string>
+    <string name="watch_notifications">Notifications</string>
+    <string name="watch_notices">Notices</string>
+    <string name="watch_yes">Yes</string>
+    <string name="watch_cancel">Cancel</string>
+    <string name="watch_delete_fail">Delete Video From Album Fail !</string>
+    <string name="watch_select_from_works">Select from My works</string>
+    <string name="watch_select_from_gallery">Select from my Gallery</string>
+    <string name="watch_select_album_editing">Album editing</string>
+    <string name="watch_take_the_video">Take the video</string>
+    <string name="watch_select_video">Select Video</string>
+    <string name="watch_select_album">Select Album</string>
+    <string name="watch_bind_video_Fail">Bind Video Fail !</string>
+    <string name="watch_move_video_to_another_album_Fail">Move Video Fail !</string>
+    <string name="watch_have_no_work">No work here! \nPlease click “Add” button and create new content</string>
+    <string name="watch_have_no_album">No Album! Please click the Add button bellow and create one</string>
+    <string name="watch_have_no_upload">No draft ! </string>
+    <string name="watch_have_no_notification">Oops! \nNo related content in here.</string>
+    <string name="watch_have_no_subscribe_new">Oops! \nNo related content in here.</string>
+    <string name="watch_have_no_history">No history ! </string>
+    <string name="watch_have_no_pay_history">No Pay history ! </string>
+    <string name="watch_request_error">Error occurred ! </string>
+    <string name="watch_add">Add</string>
+    <string name="watch_clear">Clear</string>
+    <string name="watch_history">History</string>
+    <string name="watch_album_no_work_tip">Oops!\nNo video under this album, please click the \n circle button and create one</string>
+    <string name="watch_delete_album">Delete Album</string>
+    <string name="watch_delete_album_title">Delete Album</string>
+    <string name="watch_delete_album_tip">If you delete this album, subscribers will nolonger see it\nDo you want to delete this album?</string>
+    <string name="watch_delete_creation_tip">users will nolonger see your video after deleting it.\nDo you want to continue?</string>
+
+    <string name="watch_belong_to">Belong to：</string>
+
+    <string name="watch_please_select_some_tag">Please select some tags</string>
+    <string name="watch_please_select_some_categories">Please select some categories</string>
+    <string name="watch_view_profile">View Profile</string>
+    <string name="watch_comment_on_your_watch">commented on your Watch</string>
+    <string name="watch_comment_on_your_post">to a comment on your post</string>
+    <string name="watch_following_you">is following you</string>
+    <string name="watch_liked_your_video">liked your video</string>
+    <string name="watch_subscribed">subscribed</string>
+    <string name="watch_replied_to">replied to</string>
+    <string name="watch_to_you">to your</string>
+    <string name="watch_replied_to_your_comment">replied to your comment</string>
+    <string name="watch_replied">replied</string>
+    <string name="watch_select_category">Select category</string>
+    <string name="watch_transcoding">Transcoding</string>
+
+    <!--privacy-->
+    <string name="watch_txt_setting_viewble_public">Public</string>
+    <string name="watch_txt_setting_viewble_public_desc">Visible to everyone</string>
+    <string name="watch_txt_setting_viewble_subscribers_only">Subscribers only</string>
+    <string name="watch_txt_setting_viewble_subscribers_only_desc">Visible to my subscribers only</string>
+    <string name="watch_txt_setting_viewble_followers">Followers only</string>
+    <string name="watch_txt_setting_viewble_followers_desc">Visible to my followers only</string>
+    <string name="watch_txt_setting_viewble_these_friends">Selected followers&amp;subscribers</string>
+    <string name="watch_txt_setting_viewble_these_friends_desc">Visible to selected friends</string>
+    <string name="watch_txt_setting_viewble_just_me">Private</string>
+    <string name="watch_txt_setting_viewble_just_me_desc">Only visible to myself</string>
+
+    <!--    search-->
+    <string name="watch_search_record">Record</string>
+    <!--    欢迎页 0欢迎页 1个人资料修改 2发布作品的选择-->
+    <string name="watch_array_select_tags_title_type_0">Welcome to Sasai Watch!</string>
+    <string name="watch_array_select_tags_title_type_1">Select Tags</string>
+    <string name="watch_array_select_tags_title_type_2">Select Tags</string>
+
+    <string name="watch_array_select_tags_tips_type_0">In order to show you relevant content, please select tags that you are interested in.</string>
+    <string name="watch_array_select_tags_tips_type_1">Select your preferred tags, and we will recommend more of the content you like</string>
+    <string name="watch_array_select_tags_tips_type_2">Please choose your preference, and we will recommend more accurate content for you according to your preference.</string>
+
+    <string name="watch_array_select_tags_confirms_type_0">Start</string>
+    <string name="watch_array_select_tags_confirms_type_1">Save</string>
+    <string name="watch_array_select_tags_confirms_type_2">Save</string>
+    <string name="watch_select_tags_max">At least 5 Tags:</string>
+    <string name="watch_select_tags_max_toast">At least %d Tags</string>
+    <string name="watch_tip_please_change_cover">Please change cover</string>
+    <string name="watch_tip_please_enter_album_title">Please enter album title</string>
+    <string name="watch_tip_please_enter_album_description">Please enter album description</string>
+
+    <!--CreateAlbum-->
+    <string name="watch_tip_please_select_some_categories">Please select some categories</string>
+    <string name="watch_tip_please_select_some_tags">Please select some tags</string>
+    <string name="pos_txt_all_podcasts">All Podcasts</string>
+    <string name="pos_txt_tab_home_name">Home</string>
+    <string name="pos_txt_tab_sub_name">Subscription</string>
+    <string name="pos_txt_tab_favorite_name">Favorite</string>
+    <string name="pos_txt_tab_profile_name">Profile</string>
+    <string name="pos_txt_tab_library_name">Library</string>
+    <string name="pos_txt_add_title">Fill in the title here</string>
+    <string name="pos_txt_album_title_here">Album title here~</string>
+    <string name="pos_ctrl_post_link_album">Album</string>
+    <string name="pos_ctrl_post_tag_user">Tag users</string>
+    <string name="pos_text_album_title_here">Description</string>
+    <string name="pos_text_category">"Category "</string>
+    <string name="post_tip_video_max_mum_size_all">Upload failed : video exceeds %d min. / %d MB</string>
+    <string name="title_create_album">Create album</string>
+    <string name="watch_tip_video_max_mum_size_d">Maximum size is</string>
+    <string name="watch_tip_video_max_mum_size_200">Maximum size is 200MB</string>
+    <string name="watch_tip_video_max_mum_duration_fix">Maximum recording video duration is 2 minutes</string>
+    <string name="watch_tip_video_min_mum_duration_fix">Minimum recording video duration is 5 seconds</string>
+    <string name="watch_tip_video_duration_max_mins">Maximum duration is %d minutes.</string>
+    <string name="watch_tip_video_large_vedio">Select Edit to edit videos less than 2 minutes , for longer videos select upload</string>
+    <string name="watch_ctrl_dialog_edit">Edit</string>
+    <string name="watch_ctrl_dialog_upload">Upload</string>
+    <string name="watch_ctrl_dialog_cancel">Cancel</string>
+    <string name="watch_tip_does_not_support">The current version does not support</string>
+    <string name="watch_tip_the_downloaded_file_deleted">local file has been deleted, whether to download again?</string>
+    <string name="watch_tip_failed_play_local_file">file error please download again</string>
+    <string name="watch_holder_my_wish_none">Oops!\nYou have not added any videos to your wishlist yet</string>
+
+    <string name="watch_tip_access_cannot">Cannot access to this content.</string>
+    <string name="watch_tip_no_longer_available">Watch is no longer available.</string>
+
+    <!--20200616-->
+    <string name="watch_tip_kids_watch_selected_number">We have selected a number of videos for Kids. Enabling “Kids Watch” will make it your Home page</string>
+    <string name="watch_tip_kids_watch_selected_number_disable">You have enabled Kids Watch.Click Disable to exit to Normal Watch</string>
+    <string name="watch_txt_kids_watch_title">Kids Watch</string>
+    <string name="watch_txt_kids_watch_enable">Enable</string>
+    <string name="watch_tip_please_add_title">Please add a title</string>
+    <string name="watch_tip_please_set_video_cover">Please set video cover</string>
+    <string name="watch_tip_format_video_tips">Please upload files in Mp4 format!</string>
+    <string name="podcast_tip_please_select_a_category">Please select a category</string>
+    <string name="podcast_tip_only_one_category_is_allow">Only one category is allowed</string>
+    <string name="podcast_tip_please_select_the_category">Please select the category</string>
+    <string name="watch_tip_please_select_tag">Please select tag</string>
+    <string name="watch_tip_download_deleting">Deleting</string>
+    <string name="watch_txt_add_your_preference_tags">Add your preferred tags</string>
+    <string name="watch_txt_please_enter_description">Say something...</string>
+    <string name="watch_txt_me_txt_gender">GENDER:</string>
+    <string name="watch_txt_me_nick_name">USER NAME:</string>
+    <string name="watch_txt_please_enter_name">Please enter name</string>
+    <string name="watch_txt_personal_tags">TAGS:</string>
+    <string name="watch_txt_change_image">change image</string>
+    <string name="watch_txt_dear">Dear</string>
+    <string name="wallet_pin_change_verify_tip">Verify Sasai Wallet PIN</string>
+    <string name="post_ctrl_notification_moments">Moments</string>
+    <string name="post_ctrl_notification_messages">Messages</string>
+    <string name="post_ctrl_public_account_list">List view</string>
+    <string name="post_ctrl_public_account_album">Album view</string>
+    <string name="podcast_txt_recording_title">Recording</string>
+    <string name="podcast_txt_save_draft">Whether to Save the draft?</string>
+    <string name="podcast_txt_draft_tip">If you give up now, the audio file will be lost</string>
+    <string name="podcast_download_traffic_title">Download Audio</string>
+    <string name="podcast_download_traffic_tips">Do you want to download this audio using mobile data?</string>
+    <string name="podcast_ctrl_publish">Publish</string>
+    <string name="title_text_mycreations">My Creations</string>
+    <string name="podcast_tab_release">Release</string>
+    <string name="podcast_tab_unpublisheddraft">Draft</string>
+    <string name="title_text_select_from">Select from...</string>
+    <string name="text_audio_next">Next</string>
+    <string name="podcast_create_album_successfully">Album created successfully</string>
+    <string name="podcast_tip_please_add_description">Please Add Description</string>
+    <string name="podcast_tip_please_add_pictures">please add a cover photo</string>
+    <string name="podcast_title_select_album">Link to…</string>
+    <string name="podcast_txt_create_album">Create album</string>
+    <string name="title_text_following">My follow</string>
+    <string name="title_text_follower">My fans</string>
+    <string name="title_text_subscribers">Subscribers</string>
+    <string name="podcast_txt_title_here">Please enter title</string>
+    <string name="podcast_txt_album_delete">Do you want to delete this album? Delete album will clear audios under it</string>
+    <string name="title_text_podcast">PodCast</string>
+    <string name="podcast_txt_home_title">"SasaiPodcast "</string>
+    <string name="podcast_title_select_audio">Play List</string>
+    <string name="watch_profile_history_pay">Pay history</string>
+    <string name="podcast_details_title_comment">Comment</string>
+    <string name="podcast_txt_favorite_title">"Favorite "</string>
+    <string name="podcast_txt_sub_title">My Subscriptions</string>
+    <string name="podcast_title_merge_audio">Merge audio</string>
+    <string name="podcast_tips_file_size_exceeds_limit">File size exceeds limit.</string>
+    <string name="podcast_ctrl_merge_audio">Merge</string>
+    <string name="podcast_txt_audio_merging">Merging</string>
+    <string name="podcast_txt_audio_merging_successfully">Merge successfully</string>
+    <string name="podcast_txt_audio_cutting">Cutting</string>
+    <string name="podcast_txt_audio_mixing">Mixing</string>
+    <string name="podcast_txt_audio_cut_successfully">Cut successfully</string>
+    <string name="podcast_txt_audio_mix_successfully">Mix successfully</string>
+    <string name="podcast_txt_audio_mix_error">Mixing failed, please select another audio file</string>
+    <string name="podcast_txt_audio_noise_reduction">Noise reduction...</string>
+    <string name="podcast_txt_audio_noise_reduction_success">Noise reduction success</string>
+    <string name="podcast_txt_audio_trim">Trim</string>
+    <string name="podcast_txt_audio_bg_music">BG Music</string>
+    <string name="podcast_txt_audio_reduce_noise">Reduce noise</string>
+    <string name="podcast_txt_audio_trim_audio">Trim audio</string>
+    <string name="podcast_txt_audio_start_point">Start point</string>
+    <string name="podcast_txt_audio_end_point">End point</string>
+
+    <string name="podcast_locking_hints_desc">You are blocked</string>
+    <string name="podcast_txt_unsubscribe_tip">Do you want to unsubscribe this album?</string>
+    <string name="podcast_txt_unfavorite_tip">Do you want to unfavorite this audio?</string>
+    <string name="podcas_create_release_title">Notice</string>
+    <string name="podcas_create_release_tips">Do you want to delete this audio?</string>
+    <string name="podcas_create_draft_tip">Do you want to delete this draft?</string>
+    <string name="podcast_txt_recording_sta_title">Start</string>
+    <string name="podcast_txt_recording_stop_title">Stop</string>
+    <string name="podcast_publish_text_tip">Upload Complete</string>
+    <string name="podcast_audio_title_text_tip">Please add a title</string>
+    <string name="podcsat_audio_path_tip">Please upload the recording file</string>
+    <string name="podcast_album_text_tip">Please select Album</string>
+    <string name="podcast_title_text_album_details">Album Details</string>
+    <string name="podcast_title_text_author_details">Author Details</string>
+    <string name="podvast_text_rigtitle_clear">Clear</string>
+    <string name="podcast_dialog_text_caution">Caution</string>
+    <string name="podcast_dialog_text_caution_desc">Do you want to clear the record both notification and subscribe?</string>
+    <string name="podcast_dialog_text_select_from">Select from…</string>
+    <string name="podcast_dialog_text_mobile_phone_files">Mobile phone files</string>
+    <string name="podcast_dialog_text_record_audio">Record audio</string>
+    <string name="podcast_txt_delete_audio_tip">" Are you sure you want to delete?"</string>
+    <string name="podcast_title_right_text">Next</string>
+    <string name="title_text_my_draft">My Draft</string>
+    <string name="podcast_txt_subscribed">Subscribed</string>
+    <string name="podcast_txt_subscribe">Subscribe</string>
+    <string name="podcast_dialog_text_view_edit_history">View edit history</string>
+    <string name="podcast_dialog_text_edit_history">Edit history</string>
+    <string name="podcast_txt_audios_size">" audios"</string>
+    <string name="podcast_title_txt_view_edit_history">Edit History</string>
+    <string name="podcast_txt_no_audioid">No content, please click add button below to create or add new audio</string>
+    <string name="podcast_profile_published_audios">Published audios</string>
+    <string name="podcast_txt_upload_audio">File too big, maximum file size is 30M</string>
+    <string name="podcast_dialog_text_edits">Edits</string>
+    <string name="podcast_dialog_text_delete">Delete</string>
+    <string name="podcast_txt_create_up_img_tip">Album creation failed please try again</string>
+    <string name="podcast_txt_sorry_play_failed">Sorry Play Failed</string>
+    <string name="podcast_tip_upload_dialog_content">You are using mobile data to upload the audio. Do you want to continue?</string>
+
+    <string name="watch_txt_subscription_package">Package</string>
+    <string name="watch_txt_subscription_album">Album</string>
+    <string name="watch_txt_subscribe_repeat">Repeat</string>
+    <string name="watch_txt_subscribe_now">Subscribe Now</string>
+    <string name="watch_tip_subscribe_premium_access">Subscribe For Premium Access</string>
+
+
+    <string name="wall_txt_send_egiftcard">Send eGiftCard</string>
+    <string name="wall_txt_select_currency">Select Currency</string>
+    <string name="podcast_setting_phone_data_playing_audio_fix">Notice of using mobile data to play audio</string>
+    <string name="podcast_setting_album_board_banned_comments_fix">Album broad banned comments</string>
+    <string name="podcast_setting_continue_is_breakpoint">Continue to play from breakpoint</string>
+    <string name="podcast_txt_hide_comments">Hide</string>
+    <string name="podcast_txt_empty_album">Album is empty</string>
+    <string name="podcast_txt_playprogress">Play</string>
+    <string name="podcast_upload_limit_tip">The file can\'t be greater than 200M</string>
+    <string name="podcast_txt_tab_title_popular">Popular</string>
+    <string name="podcast_txt_tab_title_newest">Newest</string>
+    <string name="podcast_volume_tip">Warning:playing audio at hight volumes may damage speakers/hearing.all use at your own risk.particularly beware of boosts above 40%, especially with music.</string>
+    <string name="podcast_text_volume">Volume</string>
+    <string name="podcast_txt_boost">Boost</string>
+    <string name="text_comment_len">The maximum word limit has been exceeded</string>
+
+    <string name="podcast_array_select_tags_title_type_0">Welcome to Sasai Podcast!</string>
+    <string name="podcast_array_select_tags_title_type_1">Select Tags</string>
+    <string name="podcast_array_select_tags_title_type_2">Select Tags</string>
+
+    <string name="podcast_array_select_tags_tips_type_0">In order to show you relevant content, please select tags that you are interested in.</string>
+    <string name="podcast_array_select_tags_tips_type_1">Select your preferred tags, and we will recommend more of the content you like</string>
+    <string name="podcast_array_select_tags_tips_type_2">Please choose your preference, and we will recommend more accurate content for you according to your preference.</string>
+
+    <string name="podcast_array_select_tags_confirms_type_0">Start</string>
+    <string name="podcast_array_select_tags_confirms_type_1">Save</string>
+    <string name="podcast_array_select_tags_confirms_type_2">Save</string>
+
+    <string name="common_ctrl_spin_and_win">Spin and Win</string>
+    <string name="common_ctrl_spin_now">Spin Now</string>
+    <string name="common_txt_you_have_won_prize">You have won a prize!</string>
+    <string name="common_ctrl_claim_the_prize">Claim the prize</string>
+    <string name="dialog_txt_claim_the_prize">Invite friends to use Sasai before claiming your prize</string>
+    <string name="dialog_txt_title_invite_friends">Invite friends</string>
+
+
+    <string name="watch_holder_my_subcription_go">Go</string>
+    <string name="post_watch_kids_watch">Kids Watch</string>
+    <string name="post_watch_kids_watch_verify_password_content_tips">Confirm password to enable Kids Watch. Recommended Kids videos will be shown after password confirmation.</string>
+    <string name="post_watch_kids_watch_setting_password_title">Setting Password</string>
+    <string name="post_watch_kids_watch_setting_password_content_tips">Please note that before you proceed to access Kids content, you are required to set a 4 digit pin/password for Kids Watch. This is a once off process and you will need this pin to logout of Kids Watch mode</string>
+    <string name="post_watch_kids_watch_setting_password_bottom">Please input the same PIN</string>
+    <string name="post_watch_kids_verify_password_title">Sign Out Of Kids Watch</string>
+    <string name="post_watch_kids_verify_password_content">To sign out of Kids Watch,Please enter Parental PIN</string>
+    <string name="post_watch_kids_verify_password_bottom">Forgot PIN?</string>
+    <string name="post_watch_kids_forget_password_zero_title">Reset Parental PIN</string>
+    <string name="post_watch_kids_forget_password_zero_content">You have not set up PIN, for Sasai We have sent OTP, to the mobile phone number link to your account. Please enter the received 4-digit OTP input to verify the operation.</string>
+    <string name="post_watch_kids_forget_password_input_password_content">In order to prevent non-personal operation，Please Enter Sasai Password to reset the parental PIN</string>
+    <string name="post_watch_kids_forget_password_input_password_enter_sasai_password">Enter Sasai Password</string>
+    <string name="post_watch_kids_forget_password_input_password_bottom">Input the wrong PIN 3 times, please retry after 30s</string>
+    <string name="post_watch_kids_forget_password_input_new_password_title">Enter new PIN</string>
+    <string name="post_watch_kids_forget_password_input_new_password_content">Eneter the new PIN for Kids Watch</string>
+    <string name="post_watch_kids_forget_password_verify_new_password_title">Confirm Password</string>
+    <string name="post_watch_kids_forget_password_verify_new_password_content">Kids Watch enable after confirm the password. Watch will recommend the videos for kids after enable this mode</string>
+    <string name="post_watch_kids_resend_code">Resend code</string>
+    <string name="post_watch_kids_resend_otp">Resend OTP</string>
+    <string name="post_watch_kids_s">s</string>
+    <string name="post_watch_kids_confirm">Confirm</string>
+    <string name="watch_kids_watch_guide_no_data_detail">You can\'t upload videos or edit profile under kids watch</string>
+    <string name="post_watch_kids_enable">Enable</string>
+    <string name="post_watch_kids_disable">Disable</string>
+    <string name="post_kids_guide_age_low_16">You are under 16 years old, can\'t exist kids watch</string>
+
+    <string name="post_txt_new_campagins">Run new campaign</string>
+    <string name="post_txt_previous_campaigns">See previous campaigns</string>
+    <string name="post_txt_title_campaign">Campaign</string>
+    <string name="post_txt_title_campaigns">Campaigns</string>
+    <string name="post_txt_title_manage_your_campaigns">Manage Your Campaigns</string>
+    <string name="post_txt_power_up_post_promote">Promote Post</string>
+    <string name="post_txt_power_up">Power up</string>
+    <string name="post_txt_promote_your_page">Promote your page</string>
+    <string name="post_txt_title_objective">Objective</string>
+    <string name="post_txt_title_behavior_choice">Button</string>
+    <string name="post_txt_title_behavior_choice_tips">This is the button that will appear on the post</string>
+    <string name="post_txt_title_behavior_budget">Budget and Duration</string>
+    <string name="post_txt_add_website">Add Website/Link</string>
+    <string name="post_txt_add_website_tips">Please fill in a valid Website/Link</string>
+    <string name="post_txt_title_audience_features">Audience Features</string>
+    <string name="post_txt_txt_chose">Chose</string>
+    <string name="post_txt_title_audience_details">Audience Details</string>
+    <string name="post_txt_title_audience_placement">Placement</string>
+    <string name="post_txt_title_ad_center">Ad Center</string>
+    <string name="post_ctrl_link">Link</string>
+    <string name="post_ctrl_link_new_card">Link a new card</string>
+    <string name="post_txt_available_ad_credits">Available Ad Credits</string>
+    <string name="post_txt_ad_credits">Ad Credits</string>
+    <string name="post_ctrl_learn_more">Learn more</string>
+    <string name="post_ctrl_unlink">Unlink</string>
+    <string name="post_txt_usd">USD</string>
+    <string name="post_txt_title_unbind_any_card">Link payment method</string>
+    <string name="post_txt_title_upload_ad">Upload Ad</string>
+    <string name="post_txt_title_promote_page">Promote Page</string>
+    <string name="post_ctrl_post_next">Next</string>
+    <string name="post_ctrl_post_next_capital">NEXT</string>
+    <string name="post_ctrl_location">Location</string>
+    <string name="post_txt_ad_start_date">Start Date</string>
+    <string name="post_txt_ad_end_date">End Date</string>
+    <string name="post_txt_ad_date_tips">The end time cannot be earlier than the start time</string>
+    <string name="post_txt_ad_budget">Budget</string>
+    <string name="post_txt_ad_available_balance">Available Balance</string>
+    <string name="post_txt_ad_select_your_objective">Select Your Objective</string>
+    <string name="post_txt_ad_what_results_would">What Results Would You Like From This Ad?</string>
+    <string name="post_txt_ad_automatic">Automatic</string>
+    <string name="post_txt_ad_engagement">Engagement</string>
+    <string name="post_txt_ad_followers">Followers</string>
+    <string name="post_txt_ad_video_views">Video Views</string>
+    <string name="post_txt_ad_automatic_tips">Allow Sasai to choose the most suitable objective based on your settings.</string>
+    <string name="post_txt_ad_engagement_tips">Your ad will be seen by people who may comment,share,like, follow or subscribe.</string>
+    <string name="post_txt_ad_followers_tips">Build your Sasai audience</string>
+    <string name="post_txt_ad_video_views_tips">Increase your video views</string>
+    <string name="post_txt_ad_audience_your_followers">Your followers</string>
+    <string name="post_txt_ad_audience_your_followers_their_followers">Your followers and their followers</string>
+    <string name="post_txt_ad_audience_locals">Locals</string>
+    <string name="post_txt_ad_audience">Audience</string>
+    <string name="post_txt_ad_promotion_summary">Promotion Summary</string>
+    <string name="post_txt_ad_audience_features">Audience Features</string>
+    <string name="post_txt_ad_gender">Gender</string>
+    <string name="post_txt_ad_age">Age</string>
+    <string name="post_txt_ad_country">Country</string>
+    <string name="post_txt_ad_budget_duration">Budget &amp; Duration</string>
+    <string name="post_txt_ad_power_up_now_promote">Promote</string>
+    <string name="post_txt_ad_load_balance">Load Balance</string>
+    <string name="post_txt_ad_load_amount">LOAD AMOUNT</string>
+    <string name="post_txt_ad_power_up_capital">POWER UP</string>
+    <string name="post_txt_ad_state_rejected">Rejected</string>
+    <string name="post_txt_ad_state_review">Under Review</string>
+    <string name="post_txt_ad_state_active">Active</string>
+    <string name="post_txt_ad_state_completed">Completed</string>
+    <string name="post_txt_ad_state_stop">Stopped</string>
+    <string name="post_txt_ad_state_under_appeal">Under Appeal</string>
+    <string name="post_txt_ad_state_owing_money">Owing Money</string>
+    <string name="post_txt_ad_state_banned">Banned</string>
+    <string name="post_txt_ad_warning">Warning</string>
+    <string name="post_txt_ad_budget_tips">Please increase your budget or adjust campaign dates. Minimum spend is USD1/day</string>
+    <string name="post_txt_ad_budget_more_your_ad_credits">Your budget is more than your Ad Credits. Please choose another Payment Method and continue.</string>
+    <string name="post_txt_ad_select_placement">Select Placement</string>
+    <string name="post_txt_ad_confirmation">Confirmation</string>
+    <string name="post_txt_ad_confirmation_campaign_tips">Dear Customer, thank you for starting your advertisement campaign, kindly note that your campaign will cost</string>
+    <string name="post_txt_ad_confirmation_tips">Your Campaign has been successfully added!You will receive a notification once the campaign is live</string>
+    <string name="post_txt_ad_upload_error">Upload Error</string>
+    <string name="post_txt_ad_upload_error_tips">Your Campaign upload failed, please try again</string>
+    <string name="post_txt_ad_button_preview">Preview</string>
+    <string name="post_txt_ad_history_start_date">Start date:</string>
+    <string name="post_txt_ad_history_end_date">End date:</string>
+    <string name="post_txt_ad_history_budget">Budget:</string>
+    <string name="post_txt_ad_powered">Powered</string>
+    <string name="post_txt_ad_visit_profile">Visit Profile</string>
+    <string name="post_txt_ad_send_sasai_message">Send Sasai Message</string>
+    <string name="post_txt_ad_visit_our_website">Visit Our Website</string>
+    <string name="post_txt_ad_watch_more">Watch More</string>
+    <string name="post_txt_ad_follow">Follow</string>
+    <string name="post_txt_ad_button_state_visit_more">Visit More</string>
+    <string name="post_txt_ad_button_state_view_profile">View Profile</string>
+    <string name="post_txt_ad_button_state_visit_page">Visit Page</string>
+    <string name="post_txt_ad_button_state_chat">Chat</string>
+    <string name="post_txt_ad_button_state_follow_me">Follow Me</string>
+    <string name="post_txt_ad_following">Following</string>
+    <string name="post_txt_ad_dialog_edit">Edit</string>
+    <string name="post_txt_ad_dialog_view_details">View details</string>
+    <string name="post_txt_ad_dialog_add_budget">Add budget</string>
+    <string name="post_txt_ad_dialog_view_report">View report</string>
+    <string name="post_txt_ad_dialog_stop_campaign">Stop Campaign</string>
+    <string name="post_txt_ad_dialog_resume_campaign">Resume Campaign</string>
+    <string name="post_txt_ad_dialog_appeal">Appeal</string>
+    <string name="post_txt_ad_dialog_delete_campaign">Delete Campaign</string>
+    <string name="post_txt_ad_card_ending">Card Ending</string>
+    <string name="post_txt_ad_reporting">Reporting</string>
+    <string name="post_txt_ad_add_budget_successfully">Add budget successfully</string>
+    <string name="post_txt_ad_stop_this_campaigns">Are you sure you want to stop\nthis campaign?\nFor certain users, this action will convert the remaining Ad budget balance to Advertising Credits. To learn more about Advertising Credits, please click or visit the link below.</string>
+    <string name="post_txt_ad_resume_this_campaign">Are you sure you want to resume this campaign?</string>
+    <string name="post_txt_ad_unavailable_balance">Unavailable balance</string>
+    <string name="post_txt_ad_follow_successfully">Follow successfully</string>
+    <string name="post_txt_ad_preview_your_promotion">Preview your promotion</string>
+    <string name="post_txt_ad_country_list">Country list</string>
+    <string name="post_txt_ad_wordfilter_waring">Your campaign might contain text that is against our Community Guidelines.Please review your caption for inappropriate phrases.</string>
+    <string name="post_txt_ad_waring_title">Warning</string>
+    <string name="post_txt_ad_sure_unlink">Are you sure to unlink?</string>
+    <string name="post_txt_ad_unlink">Unlink</string>
+    <string name="post_txt_ad_email_sent_successfully">The verification email has been sent successfully</string>
+    <string name="post_txt_ad_not_supported">This type of post is not supported</string>
+    <string name="post_txt_ad_transaction_record">Transaction Record</string>
+    <string name="post_txt_ad_who_see_ad">Who should see your ad</string>
+    <string name="post_txt_ad_select_payment_method">Select Payment Method</string>
+    <string name="post_txt_ad_select_your_moments_account">Select your moments account</string>
+
+
+</resources>

@@ -1,0 +1,340 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="common_ctrl_share">Share</string>
+
+    <string name="common_tip_come_soon">Coming soon...</string>
+    <string name="common_tip_service_come_soon">Service coming soon...</string>
+    <string name="common_tip_service_pay_come_soon">Everyday Payments by Everyday People \"Coming Soon\"</string>
+    <string name="common_tip_service_pod_cast_come_soon">Listen, Learn &amp; Enjoy \"Coming Soon\"</string>
+    <string name="common_tip_donot_support_root">Does not support mobile phones that are already rooted</string>
+    <string name="common_tip_enter_valid_mobile_number">Please enter valid mobile number</string>
+
+
+    <!-- 20192801 -->
+    <string name="common_txt_third_name_google">Google</string>
+    <string name="common_txt_third_name_facebook">Facebook</string>
+    <string name="register_txt_dialog_confirm">Ok, I get it</string>
+    <string name="register_txt_with_third">Register with</string>
+    <string name="register_txt_with_mobile">Or Register with Mobile</string>
+    <string name="register_txt_with_third_dialog_title">Register with Facebook or Google</string>
+    <string name="register_txt_with_mobile_dialog_title">Register with Mobile</string>
+    <string name="register_txt_with_third_dialog_content">"\n"
+                            "Step 1: Click FB/Google Icon\n"
+                            "Step 2: Allow Sasai access your FB/Google account user name and image\n"
+                            "Step 3: Select your country\n"
+                            "Step 4: Input your Mobile\n"
+                            "Step 5: Get OTP\n"
+                            "Step 6: Input OTP\n"
+                            "Step 7: Agree privacy policy\n"
+                            "Step 8: Register"</string>
+    <string name="register_txt_with_mobile_dialog_content">"\n"
+                            "Step 1: Select your country\n"
+                            "Step 2: Input your Mobile number\n"
+                            "Step 3: Get OTP\n"
+                            "Step 4: Input OTP\n"
+                            "Step 5: Agree privacy policy\n"
+                            "Step 6: Verify\n"
+                            "Step 7: Input your full name\n"
+                            "Step 8: Create your login password\n"
+                            "Step 9: Register"</string>
+    <string name="register_txt_auth_title">Link mobile</string>
+    <string name="register_txt_auth_info_title">%1$s Authorized</string>
+    <string name="register_txt_auth_info_content">In order to retrieve the password, you need to bind the mobile phone number.</string>
+    <string name="register_txt_auth_link_success_title">Link successful</string>
+    <string name="register_txt_auth_link_success_content">%1$s link successful, you can use %1$s to quickly log in to Sasai in the future</string>
+    <string name="register_txt_auth_link_fail_title">Oops!？</string>
+    <string name="register_txt_auth_link_fail_content">This mobile number have been linked another Facebook/Google account! Please change another mobile number to link.</string>
+    <string name="register_login_txt_check_phone_content">Phone Number invalid</string>
+
+    <string name="me_account_link_label">Linked Accounts</string>
+    <string name="me_account_link_defalut_value">Link</string>
+    <string name="me_account_link_defalut_account">Linked</string>
+    <string name="me_account_link_facebook">Link Facebook</string>
+    <string name="me_account_link_google">Link Google</string>
+    <string name="me_account_link_reset_title">Reset %1$s</string>
+    <string name="me_account_link_success_title">Success!</string>
+    <string name="me_account_link_success_content">If the link is successful, you can quickly log in to sasai using the associated %1$s account</string>
+    <string name="me_account_unlink_title">Unlink %1$s</string>
+    <string name="me_account_unlink_content">After unlinking, you will be required to relink for you to login using %1$s</string>
+
+
+    <!-- 添加好友 -->
+    <string name="add_friend_tips">Add as a friend</string>
+    <string name="add_friend_save_to_my_phone_book">Save to my phone book :</string>
+    <string name="add_friend_verify_message">VERIFY MESSAGE :</string>
+    <string name="add_friend_phone_book_name">PHONE BOOK NAME :</string>
+    <string name="add_friend_phone_number">PHONE NUMBER :</string>
+    <string name="add_friend_waiting_tips">Waiting for %1$s to accept your chat invitation.</string>
+    <string name="add_friend_inviting_tips">%1$s is inviting you to chat.</string>
+    <string name="add_friend_declined_inviting_tips">%1$s has declined your invitation.</string>
+    <string name="add_friend_accepted_tips">%1$s has accepted your invitation.</string>
+    <string name="common_version_not_support">The current version is not supported, please update the version.</string>
+    <string name="common_qr_none">Unable to identify</string>
+
+
+    <!--*********** common ***********-->
+    <string name="common_ctrl_resend_otp">Resend</string>
+    <string name="common_ctrl_see_all">See all</string>
+    <string name="common_ctrl_type_">TYPE:</string>
+    <string name="common_ctrl_click_to_change">Click To Change</string>
+
+    <string name="rc_notice_mobile_contacts_unavailable">Click to access the phone book</string>
+    <string name="common_txt_request_not_completed">Your request could not be completed. Please try again.</string>
+    <string name="common_txt_net_timeout_econection_exception">Poor network connection</string>
+    <string name="common_tip_no_storage_permission">No storage permission, whether to open</string>
+    <string name="common_tip_no_loc_permission">The location service is not turned on. Do you want to turn it on?</string>
+
+    <string name="common_txt_retry_in_time">Retry in %1$ds</string>
+
+    <string name="common_tip_web_no_net">Oops! No network connection,please spread network</string>
+    <string name="common_tip_fragment_web_no_net">Loading failed, please try again</string>
+    <string name="common_tip_web_no_found">Oops! the page you are looking for is not found</string>
+
+    <!--*********** chat ***********-->
+    <string name="contacts_txt_near_by">Who\'s Nearby</string>
+    <string name="contacts_txt_search_phone_or_sasa_id">Search name or phone number</string>
+
+
+    <!--*********** AV ***********-->
+    <string name="display_pop_up_windows">You have to accept the display pop_up windows.</string>
+    <string name="av_meeting_tap_to_return_to_call">Tap to return to call</string>
+    <string name="av_you_mkf_is_use">Microphone is busy,retry later.</string>
+    <string name="av_dialog_ask_for_float_window_permission">You can\'t minimize a video call as Sasai isn\'t authorized to use floating windows.</string>
+    <string name="av_you_have_a_voice_video_miss_called">You have a Missed Call.</string>
+
+    <string name="video_net_work_error_info">No network connection now! \n Please check device.</string>
+    <string name="video_poor_connect_error_info">Poor connection  \n please try again</string>
+    <string name="video_connect_failed_error_info">Connection error, failed to join \n please try again later</string>
+    <string name="av_more_then_ty_bt">Maximun 20 users</string>
+    <string name="video_user_busy_text">User Busy</string>
+    <string name="video_required_to_upgrade_text">is required to upgrade to the latest Sasai version</string>
+    <string name="video_user_call_failed_text">Call Failed</string>
+    <string name="start_a_group_voice_call">Start group voice call</string>
+    <string name="video_connect_failed_error_try_later_info">Connection error, Please try again later</string>
+    <!--*********** 20 AV ***********-->
+    <string name="ty_group_be_wait_info_voice">Invite you to join the voice chat</string>
+    <string name="ty_group_be_wait_info_video">Invite you to join the video chat</string>
+    <!--    <string name="ty_group_user_info_mark">&#160;and others people have joined here</string>-->
+    <string name="ty_group_user_info_mark">&#160;and %1$s others &#160;</string>
+    <string name="ty_group_users_num_mark">&#160;people </string>
+    <string name="ty_group_users_num_participant">Participant &#160;</string>
+    <string name="ty_group_users_num_participant_l">&#160; participant &#160;</string>
+    <string name="ty_video_notifications_info_tag">Tap to continue as voice/video call in progress</string>
+    <!--    <string name="ty_group_invite_sasai_call_mark"> Invite Sasai call</string>-->
+    <string name="ty_group_invite_sasai_call_mark">Calling...</string>
+    <string name="ty_video_setting_voice_stream">Voice stream</string>
+    <string name="ty_video_setting_video_stream">Video stream</string>
+    <string name="ty_video_turn_off_your_audio_stream">Turn off your own audio stream</string>
+    <string name="ty_video_turn_on_your_audio_stream">Turn on your own audio stream</string>
+    <string name="ty_video_colse_your_own_video_stream">Close your own video stream</string>
+    <string name="ty_video_open_your_own_video_stream">Open your own video stream</string>
+    <string name="ty_video_oncall">ON CALL</string>
+    <string name="ty_video_notoncall">NOT ON CALL</string>
+
+    <string name="ty_video_calling">Calling</string>
+    <string name="ty_video_rejected">Rejected</string>
+    <string name="ty_video_time_out">Unavailable</string>
+    <string name="ty_video_hang_up">Left</string>
+    <string name="ty_video_sasai_lite">Sasai Lite</string>
+
+    <string name="ty_video_dialog_send_massage">Send massage</string>
+    <string name="ty_video_dialog_add_to_call">Add to call</string>
+    <string name="ty_video_dialog_unmute">Unmute</string>
+    <string name="ty_video_dialog_mute">Mute</string>
+    <string name="ty_video_dialog_remove_from_the_call">Remove from the call</string>
+    <string name="ty_video_dialog_you_confim_to_close">Are you confim to close ?</string>
+    <string name="ty_video_mute_failed">Mute failed. The user Sasai Version is too low</string>
+
+
+    <!--*********** main ***********-->
+    <string name="main_tab_setting">Settings</string>
+    <string name="login_txt_dialog_verification_title">Notice</string>
+    <string name="me_txt_bind_device_title">Authorized Devices</string>
+    <string name="me_txt_bind_device">Manage Devices</string>
+    <string name="me_tip_link_third_success">Success!</string>
+    <string name="me_tip_link_third_content">If the link is successful, you can quickly log in to sasai using the associated facebook account</string>
+    <string name="me_tip_link_device">Recent login devices: You may delete any devices from list, but you\'ll need to verify your identity the next time you log in to Sasai from the deleted device.</string>
+    <string name="me_tip_del_device">Do you want to remove this device from devices list?</string>
+    <string name="me_tip_device_last_login">Last login:</string>
+    <string name="me_tip_upload_mobile_contacts_title">Notice</string>
+    <string name="me_tip_upload_mobile_contacts_content">Do you want to upload your phone book?</string>
+    <string name="me_tip_upload_mobile_contacts_update">Upload</string>
+    <string name="me_tip_upload_mobile_contacts_decline">Decline</string>
+
+    <string name="common_invite_friend">Hi, I\'m using an amazing and secure global App called Sasai. Like WeChat, it allows Chat, Pay, Remittances &#38; eCommerce. Download it &#38; let\'s Sasai. %1$s</string>
+    <string name="common_txt_web_share_link_default_title">Share link</string>
+
+    <!--*********** wallet ***********-->
+    <string name="wallet_bind_card_num_label">MOBILE WALLET NUMBER</string>
+    <string name="wallet_bind_card_num_label1">CARD NUMBER</string>
+    <string name="wallet_txt_payment_method">payment Method</string>
+    <string name="wallet_txt_transfer_disable">Transfer not available</string>
+    <string name="wallet_txt_transfer_disable_tip">MasterCard does not support transfer function please try another payment method</string>
+    <string name="wallet_ctrl_wallet_back">Back wallet</string>
+    <string name="wallet_ctrl_transfer_method">Transfer Method</string>
+    <string name="wallet_txt_receive_disable">Receive not available</string>
+    <string name="wallet_txt_receive_disable_tip">MasterCard does not support receive function please try another payment method</string>
+    <string name="wallet_txt_verify_otp">Verify OTP</string>
+    <string name="wallet_txt_verify_otp_forget_tip">An OTP will be sent to the recovery mobile number you set.</string>
+    <string name="wallet_txt_can_not_get_otp">Can\'t get the OTP?</string>
+
+    <string name="wallet_txt_country_code">COUNTRY CODE:</string>
+
+    <string name="wallet_txt_verify_identity">Verify Identity</string>
+    <string name="wallet_txt_verify_identity_desc">In order to ensure account security, please enter the Wallet PIN:</string>
+
+    <string name="wallet_txt_security_upgrade">Security Upgrade</string>
+    <string name="wallet_tip_security_upgrade">Sasai always committed to improve your security environment. We\'d like to invite you to set up your security mobile number.</string>
+    <string name="wallet_text_security_mobile">Recovery Mobile Number</string>
+    <string name="wallet_txt_secure_phone_hint">Enter the email link to the account</string>
+    <string name="wallet_txt_set_security_phone_set">Set Recovery Mobile Number</string>
+    <string name="wallet_txt_set_security_phone">RECOVERY MOBILE NUMBER</string>
+    <string name="wallet_txt_set_security_phone_tip">Please check current recovery mobile number:</string>
+    <string name="wallet_txt_set_security_phone_hint">Enter Security mobile phone</string>
+    <string name="wallet_txt_security_verify_phone">An one time password has sent to your Email address, please login your mailbox and enter the 6 digts PIN.</string>
+
+    <string name="wallet_txt_set_security_mobile">Set Recovery Mobile Number</string>
+    <string name="wallet_txt_set_security_mobile_tip">Please set a recovery mobile number to ensure the security of your account and retrieve the Wallet PIN.</string>
+
+    <string name="wallet_txt_security_phone_modify_title">Verify New Number</string>
+    <string name="wallet_txt_security_phone_modify_desc">An SMS has been sent to the current recovery number with a 4-digit one time password.</string>
+    <string name="wallet_txt_security_phone_modify_new_desc">An SMS has been sent to the new recovery number with a 4-digit one time password.</string>
+
+
+    <string name="wallet_txt_security_current_phone">Current mobile number:</string>
+    <string name="wallet_txt_security_new_phone">Mobile number:</string>
+    <string name="wallet_txt_security_new_phone_title">New recovery mobile number</string>
+    <string name="wallet_txt_security_new_phone_desc">Please set a new recovery mobile number</string>
+    <string name="wallet_txt_security_new_phone_hint">Please enter new recovery mobile number</string>
+
+
+    <string name="wallet_tip_relink_tip">System detects that your account does not have a security mobile number,for security reasons, we will remove your payment method. Please rebind the payment method and set new Wallet PIN.</string>
+
+    <!--*********** pay ***********-->
+    <string name="pay_txt_transfer_detail">Transfer details</string>
+    <string name="pay_txt_password_enter_new_password">Enter new password :</string>
+    <string name="pay_txt_password_enter_new_password_hint">Please enter new password</string>
+    <string name="pay_txt_password_enter_confirm_pwd">Confirm password :</string>
+    <string name="pay_txt_password_enter_confirm_pwd_hint">Please enter new password again</string>
+    <string name="pay_txt_select_currency">Select Currency</string>
+    <string name="pay_txt_select_balance">Select Balance</string>
+
+    <!--*********** other ***********-->
+    <string name="common_txt_search_new_friend">Search new friend:</string>
+
+    <!--*********** discovery ***********-->
+    <string name="discovery_ctrl_game">Games</string>
+    <string name="discovery_ctrl_music">Music</string>
+    <string name="discovery_ctrl_explore">Explore Countries</string>
+    <string name="discovery_ctrl_explore_desc">Select any country and enjoy local content</string>
+    <string name="discovery_txt_game">CLICK TO FIND MORE GAMES</string>
+    <string name="discovery_txt_music">CLICK TO FIND MOVING MUSIC</string>
+    <string name="discovery_tip_game">Discovery bigger and more interesting game worlds</string>
+    <string name="discovery_tip_music">Million music library, Discovery the music you love</string>
+
+    <string name="discovery_select_service">Please select a service provider</string>
+    <string name="discovery_select_one_service">Select one of \nthe services below</string>
+    <string name="discovery_tip_publish_live_video">Where do you want to start and publish your live video?</string>
+    <string name="discovery_tip_publish_live_show_watch_on">on Sasai Watch</string>
+    <string name="discovery_tip_publish_live_show_moment_go">Go Live</string>
+    <string name="discovery_tip_publish_live_show_on_moment_on">on Sasai Moments</string>
+    <string name="discovery_tip_publish_live_web_go">Launch</string>
+    <string name="discovery_tip_publish_live_web_on">Sasai Live on Web</string>
+    <string name="discovery_tip_publish_live_show_tv">Your Favourite Channels Live</string>
+    <string name="discovery_txt_moment">Moments</string>
+    <string name="discovery_txt_moment_live">Moments Live</string>
+    <string name="discovery_txt_tv">Live TV Channels</string>
+    <string name="discovery_txt_team_talk">Team Talk</string>
+    <string name="discovery_txt_send_money">Send Money Home</string>
+    <string name="discovery_txt_pay">SasaiPay</string>
+    <string name="discovery_txt_explore">Country Service</string>
+    <string name="discovery_txt_health_status_report">Health Status Report</string>
+    <string name="discovery_txt_watch">Watch</string>
+    <string name="discovery_txt_watch_live">Watch Live</string>
+    <string name="discovery_txt_watch_web">Sasai Live on Web</string>
+    <string name="discovery_txt_podcast">Podcast</string>
+    <string name="discovery_txt_wifi_finder">Wi-Fi Finder</string>
+    <string name="discovery_txt_translate">Languages</string>
+    <string name="discovery_txt_chat">Chat</string>
+    <string name="discovery_txt_contents">My Sasai Contacts</string>
+    <string name="discovery_txt_send_money_sa">Send Money from SA</string>
+    <string name="discovery_txt_send_money_uk_eu">Send Money from UK/EU</string>
+    <string name="discovery_txt_send_money_sa_tips">Send money from South Africa to friends and family across Africa &amp; Asia. </string>
+    <string name="discovery_txt_send_money_uk_eu_tips">Send money from the UK and EU to loved ones across Africa &amp; Asia.</string>
+    <string name="discovery_txt_current_country">Current country</string>
+
+    <string name="discovery_txt_new_call">New call</string>
+    <string name="discovery_txt_discover">Explore Sasai</string>
+
+    <string name="common_txt_welcome_to_sasai">Welcome to Sasai</string>
+
+
+    <string name="me_language_title">Language</string>
+
+    <string name="common_txt_msg_type_html">[WebPage]</string>
+    <string name="common_txt_msg_type_html_code">WebPage</string>
+    <string name="common_txt_msg_type_moments">[Sasai Moments]</string>
+    <string name="common_txt_msg_type_moments_code">Sasai Moments</string>
+    <string name="common_txt_msg_type_moment_forward">Forward from: </string>
+
+    <string name="wifi_finder_txt_title">WiFi Finder</string>
+    <string name="wifi_finder_txt_setting_title">Settings</string>
+    <string name="wifi_finder_txt_setting_reminder">WiFi Reminder</string>
+    <string name="wifi_finder_txt_setting_reminder_available">Available WiFi</string>
+    <string name="wifi_finder_txt_setting_reminder_distance">Distance when WiFi shows</string>
+    <string name="wifi_finder_txt_setting_reminder_distance_unit_m">m</string>
+    <string name="wifi_finder_txt_setting_reminder_distance_unit_km">km</string>
+    <string name="wifi_finder_txt_setting_reminder_network">Network Option</string>
+    <string name="wifi_finder_txt_setting_reminder_network_type_1">Mobile Data</string>
+    <string name="wifi_finder_txt_setting_reminder_network_type_2">Mobile Data &amp; WiFi</string>
+
+    <string name="wifi_finder_dialog_near_you">Available WiFi near you</string>
+    <string name="wifi_finder_dialog_reminder_dismiss_title">Dismiss the reminder</string>
+    <string name="wifi_finder_dialog_reminder_dismiss_tips">You can also search for WiFi near you from Explore</string>
+    <string name="wifi_finder_dialog_distance_label">Distance:</string>
+    <string name="wifi_finder_dialog_reminder_confirm">View</string>
+    <string name="wifi_finder_dialog_reminder_cancel">Cancel</string>
+    <string name="wifi_finder_txt_view_wifi_owner">WiFi Owner:</string>
+    <string name="wifi_finder_txt_view_wifi_speed">WiFi Speed:</string>
+    <string name="wifi_finder_txt_view_wifi_working_time">Working Time:</string>
+    <string name="wifi_finder_txt_view_more">View more</string>
+    <string name="wifi_finder_txt_view_collapse">Collapse</string>
+
+    <string name="common_txt_msg_type_gift">[eGift card]</string>
+    <string name="common_txt_msg_type_gift_code">eGift card</string>
+    <string name="common_txt_msg_type_gift_default_tips">A pleasant surprise</string>
+    <string name="common_txt_msg_type_gift_state_collected">Collected</string>
+    <string name="common_txt_msg_type_gift_state_received">You received</string>
+
+    <string name="common_txt_msg_type_pay_balance_load">[Balance Load]</string>
+    <string name="common_txt_msg_type_pay_balance_unload">[Balance Unload]</string>
+    <string name="common_txt_msg_type_pay_transfer">[Balance Transfer]</string>
+    <string name="common_txt_msg_type_cash_out">[Cash Out]</string>
+    <string name="common_txt_msg_type_pay_church">[Pay Church]</string>
+    <string name="common_txt_msg_type_pay_school">[Pay School]</string>
+    <string name="common_txt_msg_type_airtime_credit">[Airtime Credit]</string>
+    <string name="common_txt_msg_type_init_pin">[Pin Reset]</string>
+    <string name="common_txt_msg_type_airtime_bundles">[Airtime Bundles]</string>
+    <string name="common_txt_msg_type_pay_kyc">[KYC]</string>
+
+    <string name="common_tip_msg_rating_audio">Audio</string>
+    <string name="common_tip_msg_rating_success">Thank you for your rating</string>
+    <string name="common_tip_msg_rating_feedback">Thank you for your feedback</string>
+    <string name="common_txt_msg_type_gift_card">[eGift Card]</string>
+    <string name="common_txt_msg_type_gif_emoticon">[gif]</string>
+    <string name="common_txt_msg_type_work_order">[Work Order]</string>
+
+    <string name="sasai_video_call_new">Sasai Video...</string>
+    <string name="sasai_voice_call_new">Sasai Audio...</string>
+    <string name="sasai_invite_call_mark"> Invite Sasai call...</string>
+
+    <string name="remittace_email_address_is_not_empty_info">Please Enter Email Address</string>
+
+    <string name="remittace_upload_information_title">Upload Information</string>
+    <string name="remittace_upload_information_content">Please uploads ID information</string>
+    <string name="remittace_upload_information_now">Upload now</string>
+
+    <string name="remittace_send_msm_code_info">Send SMS Code</string>
+    <string name="remittace_send_emmail_link_info">Send Email</string>
+    <string name="remittace_submit_code_info">Submit Code</string>
+</resources>

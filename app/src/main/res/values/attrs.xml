@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+        <attr name="circle_background_color" format="color" />
+    </declare-styleable>
+
+    <!-- LazyViewPager -->
+    <declare-styleable name="LazyViewPager">
+        <attr name="init_lazy_item_offset" format="float" />
+        <attr name="init_lazy_is_lazyload" format="boolean" />
+        <attr name="init_lazy_is_noscroll" format="boolean" />
+    </declare-styleable>
+
+    <!-- itemLayout -->
+    <declare-styleable name="ItemLayout">
+        <attr name="itemIcon" format="reference|color" />
+        <attr name="itemLabel" format="string" />
+        <attr name="itemValue" format="string" />
+        <attr name="itemHint" format="string" />
+        <attr name="itemNum" format="integer" />
+        <attr name="itemUnread" format="integer" />
+        <attr name="itemUnreadDot" format="boolean" />
+        <attr name="itemSwitchChecked" format="boolean" />
+        <attr name="isIcon" format="boolean" />
+        <attr name="isLabel" format="boolean" />
+        <attr name="isArrow" format="boolean" />
+        <attr name="isLine" format="boolean" />
+        <attr name="isRed" format="boolean" />
+        <attr name="isSwitch" format="boolean" />
+        <attr name="itemStyle" format="integer" />
+        <attr name="itemType" format="integer" />
+        <attr name="itemIconSize" format="dimension" />
+        <attr name="itemIconSize2" format="integer" />
+    </declare-styleable>
+<!--    &lt;!&ndash; itemLayout &ndash;&gt;-->
+    <declare-styleable name="PayItemLayout">
+        <attr name="payItemIcon" format="reference|color" />
+        <attr name="payItemLabelName" format="string" />
+    </declare-styleable>
+    <!-- PagerTabStrip -->
+    <declare-styleable name="PagerTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPaddingTopBottom" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <!--该属性表示里面的TAB是否均分整个PagerSlidingTabStrip控件的宽,true是,false不均分,从左到右排列,默认false-->
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsTextSelectedColor" format="color" />
+        <!--缩放的最大值,0.3表示放大后最大是原来的0.3倍,默认未0.3-->
+        <attr name="pstsScaleZoomMax" format="float" />
+        <attr name="pstsSmoothScrollWhenClickTab" format="boolean" />
+        <attr name="pstsDividerPadding" format="dimension" />
+    </declare-styleable>
+
+    <!-- 二维码 -->
+    <item name="auto_focus" type="id" />
+    <item name="decode" type="id" />
+    <item name="decode_failed" type="id" />
+    <item name="decode_succeeded" type="id" />
+    <item name="encode_failed" type="id" />
+    <item name="encode_succeeded" type="id" />
+    <item name="launch_product_query" type="id" />
+    <item name="quit" type="id" />
+    <item name="restart_preview" type="id" />
+    <item name="return_scan_result" type="id" />
+    <item name="search_book_contents_failed" type="id" />
+    <item name="search_book_contents_succeeded" type="id" />
+
+    <!--SlideSwitchView-->
+    <declare-styleable name="SwitchButton">
+        <attr name="bmWidth" format="dimension" />
+        <attr name="bmHeight" format="dimension" />
+    </declare-styleable>
+
+    <!--SwipeMenuView-->
+    <declare-styleable name="SwipeMenuView">
+        <attr name="swipeEnable" format="boolean" />
+        <attr name="ios" format="boolean" />
+        <attr name="leftSwipe" format="boolean" />
+    </declare-styleable>
+
+    <!--EmptyView-->
+    <declare-styleable name="EmptyView">
+        <attr name="emptyImage" format="reference" />
+        <attr name="emptyTitle" format="string" />
+        <attr name="emptyDesc" format="string" />
+        <attr name="emptyActionName" format="string" />
+    </declare-styleable>
+
+
+    <declare-styleable name="SkyRoundCornerLayout">
+        <attr name="cornerRadius" format="dimension" />
+        <attr name="topEnabled" format="boolean" />
+        <attr name="bottomEnabled" format="boolean" />
+        <attr name="topLeftEnabled" format="boolean" />
+        <attr name="topRightEnabled" format="boolean" />
+        <attr name="bottomLeftEnabled" format="boolean" />
+        <attr name="bottomRightEnabled" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordEditView">
+        <attr name="defaultIsShowText" format="boolean" />
+        <attr name="passwordHint" format="string" />
+        <attr name="maxLength" format="integer" />
+        <attr name="editTextSize" format="integer" />
+        <attr name="onlyNumber" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DynamicHeightListView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="BaseCircleIndicator">
+        <attr name="ci_width" format="dimension" />
+        <attr name="ci_height" format="dimension" />
+        <attr name="ci_margin" format="dimension" />
+        <attr name="ci_animator" format="reference" />
+        <attr name="ci_animator_reverse" format="reference" />
+        <attr name="ci_drawable" format="reference" />
+        <attr name="ci_drawable_unselected" format="reference" />
+
+        <attr name="ci_orientation" format="enum">
+            <!-- Defines an horizontal widget. -->
+            <enum name="horizontal" value="0" />
+            <!-- Defines a vertical widget. -->
+            <enum name="vertical" value="1" />
+        </attr>
+
+        <attr name="ci_gravity">
+            <!-- Push object to the top of its container, not changing its size. -->
+            <flag name="top" value="0x30" />
+            <!-- Push object to the bottom of its container, not changing its size. -->
+            <flag name="bottom" value="0x50" />
+            <!-- Push object to the left of its container, not changing its size. -->
+            <flag name="left" value="0x03" />
+            <!-- Push object to the right of its container, not changing its size. -->
+            <flag name="right" value="0x05" />
+            <!-- Place object in the vertical center of its container, not changing its size. -->
+            <flag name="center_vertical" value="0x10" />
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill_vertical" value="0x70" />
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
+            <flag name="center_horizontal" value="0x01" />
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
+            <flag name="fill_horizontal" value="0x07" />
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
+            <flag name="center" value="0x11" />
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
+            <flag name="fill" value="0x77" />
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the vertical gravity: a top gravity will clip the bottom
+            edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
+            <flag name="clip_vertical" value="0x80" />
+            <!-- Additional option that can be set to have the left and/or right edges of
+            the child clipped to its container's bounds.
+            The clip will be based on the horizontal gravity: a left gravity will clip the right
+            edge, a right gravity will clip the left edge, and neither will clip both edges. -->
+            <flag name="clip_horizontal" value="0x08" />
+            <!-- Push object to the beginning of its container, not changing its size. -->
+            <flag name="start" value="0x00800003" />
+            <!-- Push object to the end of its container, not changing its size. -->
+            <flag name="end" value="0x00800005" />
+        </attr>
+
+    </declare-styleable>
+
+    <!-- 圆角图片 -->
+    <declare-styleable name="SuperCircleImageView">
+        <attr name="radius" format="dimension">圆角半径</attr>
+        <attr name="topLeftRadius" format="dimension">左上</attr>
+        <attr name="topRightRadius" format="dimension">右上</attr>
+        <attr name="bottomLeftRadius" format="dimension">左下</attr>
+        <attr name="bottomRightRadius" format="dimension">右下</attr>
+
+        <attr name="topLeftRadius_x" format="dimension">左上X轴</attr>
+        <attr name="topLeftRadius_y" format="dimension">左上Y轴</attr>
+
+        <attr name="topRightRadius_x" format="dimension">右上X轴</attr>
+        <attr name="topRightRadius_y" format="dimension">右上Y轴</attr>
+
+        <attr name="bottomLeftRadius_x" format="dimension">左下X轴</attr>
+        <attr name="bottomLeftRadius_y" format="dimension">左下Y轴</attr>
+
+        <attr name="bottomRightRadius_x" format="dimension">右下X轴</attr>
+        <attr name="bottomRightRadius_y" format="dimension">右下Y轴</attr>
+
+        <attr name="borderWidth" format="dimension">描边宽度</attr>
+        <attr name="borderColor" format="color">描边颜色</attr>
+        <attr name="borderSpace" format="dimension">描边与图片间距</attr>
+        <!-- 无论是什么展示形式，都会填充满整个控件，如果不想填充满，自己去改onDraw里面的 dst -->
+        <attr name="scaleType2" format="enum">
+            <enum name="top" value="0">从图片顶部开始绘制，即肯定会展示图片顶部，默认</enum>
+            <enum name="center" value="1">展示图片中心</enum>
+            <enum name="bottom" value="2">从图片底部开始绘制，即肯定会展示图片底部</enum>
+            <enum name="fitXY" value="3">完全展示，有可能变形</enum>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="ChatItemLayout">
+        <attr name="chat_layout_id" format="reference" />
+        <attr name="like_layout_id" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="PasswordView">
+        <attr name="styleMode" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="PriceCurrencyEditText">
+        <attr name="priceTextSize" format="dimension" />
+        <attr name="priceTextColor" format="color|reference" />
+        <attr name="currencyTextSize" format="dimension" />
+        <attr name="currencyTextColor" format="color|reference" />
+        <attr name="editEnable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DividerView">
+        <attr name="lineColor" format="color" />
+        <attr name="dashLength" format="dimension" />
+        <attr name="dashGap" format="dimension" />
+        <attr name="dashThickness" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="ParticipantView">
+        <attr name="state" format="enum">
+            <enum name="video" value="0"/>
+            <enum name="no_video" value="1"/>
+            <enum name="selected" value="2"/>
+        </attr>
+        <attr name="identity" format="reference"/>
+        <attr name="mirror" format="boolean" />
+        <attr name="videotype" format="enum">
+            <enum name="fit" value="0"/>
+            <enum name="fill" value="1"/>
+            <enum name="balanced" value="2"/>
+        </attr>
+        <attr name="overlaySurface" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DiscussionAvatarView">
+        <!--头像的半径,dp为单位-->
+        <attr name="radius_" format="reference|integer" />
+        <!--头像间的距离，为头像直径的长度的百分比，dp为单位-->
+        <attr name="space" format="reference|float" />
+        <!--最多显示多少个头像-->
+        <attr name="maxCount" format="reference|integer" />
+        <!--是否最后一个显示完全,默认是true-->
+        <attr name="isLastComplete" format="reference|boolean" />
+        <!--是否显示动画效果-->
+        <attr name="isShowAnimation" format="reference|boolean" />
+    </declare-styleable>
+
+
+    <attr name="interval" format="integer"/>
+    <attr name="showIndicator" format="boolean"/>
+    <attr name="banner_orientation" format="enum">
+        <enum name="horizontal" value="0"/>
+        <enum name="vertical" value="1"/>
+    </attr>
+    <attr name="autoPlaying" format="boolean"/>
+    <declare-styleable name="RecyclerViewBannerBase">
+        <attr name="interval"/>
+        <attr name="showIndicator" />
+        <attr name="banner_orientation" />
+        <attr name="autoPlaying"/>
+        <attr name="indicatorSelectedSrc" format="color|reference"/>
+        <attr name="indicatorUnselectedSrc" format="color|reference"/>
+        <attr name="indicatorSpace" format="dimension|reference"/>
+        <attr name="indicatorMarginLeft" format="dimension|reference"/>
+        <attr name="indicatorMarginRight" format="dimension|reference"/>
+        <attr name="indicatorMarginBottom" format="dimension|reference"/>
+        <attr name="indicatorGravity" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="center" value="1"/>
+            <enum name="right" value="2"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="BannerLayout">
+        <attr name="interval" />
+        <attr name="showIndicator" />
+        <attr name="banner_orientation" />
+        <attr name="autoPlaying"/>
+        <attr name="itemSpace" format="integer"/>
+        <attr name="centerScale" format="float"/>
+        <attr name="moveSpeed" format="float"/>
+    </declare-styleable>
+
+    <declare-styleable name="HeadImageView">
+        <attr name="head_border_width" format="dimension" />
+        <attr name="head_border_color" format="color" />
+        <attr name="head_image_width" format="dimension" />
+        <attr name="head_image_height" format="dimension" />
+        <attr name="head_icon_width" format="dimension" />
+        <attr name="head_icon_height" format="dimension" />
+    </declare-styleable>
+</resources>

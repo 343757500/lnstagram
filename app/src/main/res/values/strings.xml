@@ -1,0 +1,1891 @@
+<resources>
+
+    <!--*********** common ***********-->
+
+    <string name="rc_notice_network_unavailable">Network unavailable, please check</string>
+    <string name="rc_notice_tcp_connect_unavailable">Can\'t connect to server, click to retry</string>
+    <string name="rc_notice_tcp_unavailable">Connecting...</string>
+    <string name="tips_not_wifi">You\'re using mobile data, continue to play?</string>
+    <string name="common_ctrl_yes">Yes</string>
+    <string name="common_ctrl_no">No</string>
+    <string name="common_ctrl_ok">OK</string>
+    <string name="common_ctrl_ok_reset">Reset</string>
+    <string name="common_ctrl_done">Done</string>
+    <string name="common_ctrl_del">Delete</string>
+    <string name="common_ctrl_cancel">Cancel</string>
+    <string name="common_ctrl_search">Search</string>
+    <string name="common_ctrl_Search_group_name">Search group name</string>
+    <string name="common_ctrl_confirm">Confirm</string>
+    <string name="common_ctrl_close">Turn Off</string>
+
+    <string name="common_ctrl_get">Verify</string>
+    <string name="common_ctrl_result">Result</string>
+    <string name="common_ctrl_copy">Copy</string>
+    <string name="common_ctrl_download">Download</string>
+    <string name="common_ctrl_downloading">Downloading</string>
+    <string name="common_ctrl_scan">Scan</string>
+    <string name="common_ctrl_open">Open</string>
+    <string name="common_ctrl_resubmit">Resubmit</string>
+    <string name="common_ctrl_submit">Submit</string>
+    <string name="common_ctrl_unlink">Unlink</string>
+    <string name="common_ctrl_title">Title</string>
+    <string name="common_ctrl_invite">Invite</string>
+    <string name="common_ctrl_update">Update</string>
+    <string name="common_ctrl_add">Add</string>
+    <string name="common_ctrl_added">Added</string>
+    <string name="common_ctrl_release">Release</string>
+    <string name="common_ctrl_refuse">Refuse</string>
+    <string name="common_ctrl_accept">Accept</string>
+    <string name="common_ctrl_accepted">Accepted</string>
+    <string name="common_ctrl_allow">Approve</string>
+    <string name="common_ctrl_allowed">Allowed</string>
+    <string name="common_ctrl_decline">Decline</string>
+    <string name="common_ctrl_declined">Declined</string>
+    <string name="common_ctrl_expired">Expired</string>
+    <string name="common_ctrl_view">View</string>
+    <string name="common_ctrl_source">Source</string>
+    <string name="common_ctrl_more">More</string>
+    <string name="common_ctrl_transfer">Transfer</string>
+    <string name="common_ctrl_finish">Finish</string>
+    <string name="common_ctrl_finished">Finished</string>
+    <string name="common_ctrl_options">Options</string>
+    <string name="common_ctrl_payment">Payment</string>
+    <string name="common_ctrl_subscription">Subscription</string>
+    <string name="common_ctrl_refresh">Refresh</string>
+    <string name="common_ctrl_back">Back</string>
+
+    <string name="common_ctrl_detail">Details</string>
+    <string name="common_ctrl_album">Gallery</string>
+    <string name="common_ctrl_account">Account</string>
+    <string name="common_ctrl_account_">Account:</string>
+    <string name="common_ctrl_edit_profile">Edit Profile</string>
+    <string name="common_ctrl_message">Message</string>
+    <string name="common_ctrl_phone">Phone</string>
+    <string name="common_ctrl_mobile">Mobile</string>
+    <string name="common_ctrl_mobile_">Mobile:</string>
+    <string name="common_ctrl_email">Email</string>
+    <string name="common_ctrl_email_">Email:</string>
+    <string name="common_ctrl_address">Address</string>
+    <string name="common_ctrl_address_">Address:</string>
+    <string name="common_ctrl_nickname">Name</string>
+    <string name="common_ctrl_nickName_">Name:</string>
+    <string name="common_ctrl_remark_name">Rename Contact</string>
+    <string name="common_ctrl_creation_time_">Creation time:</string>
+
+    <string name="common_ctrl_friends">Friends</string>
+
+    <string name="common_ctrl_sent_successfully">Sent Successfully</string>
+    <string name="common_ctrl_send">Send</string>
+    <string name="common_ctrl_forward">Forward</string>
+    <string name="common_ctrl_recall">Recall</string>
+    <string name="common_ctrl_reply">Reply</string>
+    <string name="common_ctrl_reply_private">Reply Privately</string>
+    <string name="common_ctrl_save">Save</string>
+    <string name="common_ctrl_identify_qr_code">Read QR Code</string>
+    <string name="common_ctrl_edit">Edit</string>
+    <string name="common_ctrl_image">Image</string>
+    <string name="common_ctrl_audio">Audio</string>
+    <string name="common_ctrl_video">Video</string>
+    <string name="common_ctrl_file">Document</string>
+    <string name="common_ctrl_media">Media</string>
+    <string name="common_ctrl_location">Location</string>
+    <string name="common_ctrl_camera">Camera</string>
+    <string name="common_ctrl_select_gallery">Select Photos from Gallery</string>
+    <string name="common_ctrl_use_default">Use default image</string>
+    <string name="common_ctrl_open_with_other_app">Open with other APP</string>
+    <string name="common_ctrl_delete_file">Are you sure you want to delete this file?</string>
+    <string name="common_ctrl_open_app">Cannot find open application</string>
+    <string name="common_ctrl_open_pdf">Open with third-party APP</string>
+
+    <string name="common_ctrl_facebook">Facebook</string>
+    <string name="common_ctrl_google">Google</string>
+
+    <string name="common_tip">Tips</string>
+    <string name="common_oops">Oops!</string>
+    <string name="common_tip_success">Success</string>
+    <string name="common_tip_copy_success">Copied</string>
+    <string name="common_tip_image_error">Image error</string>
+    <string name="common_tip_sure_resubmit">Are you sure you want to resubmit?</string>
+    <string name="common_tip_sure_unlink">Are you sure you want to unlink?</string>
+    <string name="common_tip_modify_success">Modify Success</string>
+    <string name="common_tip_save_fail">Save Fail</string>
+    <string name="common_tip_no_permission">No Permission</string>
+    <string name="common_tip_request_error">Request Error</string>
+    <string name="common_tip_on_request">Request...</string>
+    <string name="common_tip_on_connection">Connecting...</string>
+    <string name="common_tip_on_cancel">Cancelled</string>
+    <string name="common_tip_on_error">Error</string>
+    <string name="common_tip_sent_sus">Sent Successfully</string>
+    <string name="common_tip_input_not_empty">The text content can\'t empty, please fill in</string>
+    <string name="common_tip_sus">Successful</string>
+    <string name="common_tip_failed">Failed</string>
+    <string name="common_tip_expired">Expired</string>
+    <string name="common_tip_payment_successful">Payment Successful</string>
+    <string name="common_tip_submitted_successful">Submitted Successful</string>
+    <string name="common_tip_payment_failed">Payment Failed</string>
+    <string name="common_tip_payment_expired">Payment Expired</string>
+    <string name="common_tip_operation_sus">Operation Success</string>
+    <string name="common_tip_describe_sus">Please pay attention to the balance changes.</string>
+    <string name="common_tip_describe_sdk_sus">The specific payment status shall be subject to the feedback of the merchant</string>
+    <string name="common_tip_describe_sdk_no_sus">Please reintiate your payment with Merchant</string>
+    <string name="common_tip_Reason_fai">Reason:</string>
+
+    <string name="common_txt_link_wait_verify">Waiting for validation</string>
+    <string name="common_txt_qr_scan_tips">Place the QR code into the scan box.</string>
+    <string name="common_txt_empty_network_not_good">Please check your network connection</string>
+
+    <string name="common_txt_dialog_tips">Tips</string>
+    <string name="common_txt_dialog_content">Content</string>
+
+    <string name="common_txt_item_layout_input_hint">Please enter content</string>
+    <string name="common_txt_item_layout_label">Label</string>
+    <string name="common_txt_search_result">Result</string>
+
+    <string name="common_txt_to">To:</string>
+    <string name="common_txt_from">From:</string>
+    <string name="common_txt_method">METHOD:</string>
+    <string name="common_txt_balance">Balance</string>
+    <string name="common_txt_amount">AMOUNT</string>
+    <string name="common_txt_sus">Successful</string>
+
+    <string name="common_txt_use_password">Use Password</string>
+
+    <string name="common_tip_no_support_fingerprint">Your phone does not support Touch ID</string>
+    <string name="common_tip_no_fingerprint">Please go to the system settings to enter the Touch ID</string>
+    <string name="common_tip_fingerprint_fail">Authentication failed, try again</string>
+
+    <!--SmartRefresh-->
+    <string name="refresh_footer_pullup">Pull up and load more</string>
+    <string name="refresh_footer_release">Release immediate load</string>
+    <string name="refresh_footer_refreshing">Refreshing</string>
+    <string name="refresh_footer_loading">Loading</string>
+    <string name="refresh_footer_finish">Loading completed</string>
+    <string name="refresh_footer_failed">Failed to load</string>
+
+    <string name="refresh_header_pulldown">Pull down to refresh</string>
+    <string name="refresh_header_release">Release immediate refresh</string>
+    <string name="refresh_header_finish">Refresh completed</string>
+    <string name="refresh_header_failed">Refresh failed</string>
+    <string name="refresh_header_refresh_time">\'Last updated:\' M-d HH:mm</string>
+
+    <!--录音-->
+    <string name="tip_recoding_fail">Recording failed. Please try again!</string>
+    <string name="tip_recording_without_permission">No permission to record</string>
+    <string name="tip_recording_time_is_too_short">Too short to record the audio</string>
+    <string name="tip_send_chat_failure_please">Failed, please check whether the server is connected</string>
+    <string name="tip_send_chat_failure_sd">Failed. Please check if the storage space is available</string>
+    <string name="tip_send_voice_need_sdcard_support">Sdcard support for sending voice</string>
+    <string name="tip_record_failed">Recording failed, please try again</string>
+    <string name="tip_record_status">Drag up to cancel, let go to send</string>
+    <string name="tip_record_send">Let go to cancel</string>
+    <string name="tip_hold_to_voice">Hold to send a voice clip</string>
+    <string name="tip_send_chat_transfer_fail">Transfer Failed</string>
+    <string name="tip_send_chat_transfer_success">Transfer Successful</string>
+    <string name="tip_send_chat_transfer_progress">Transfer Processing</string>
+
+
+    <string name="common_txt_msg_type_reply_to">Replying to</string>
+    <string name="common_txt_msg_type_user_card">Profile Card</string>
+    <string name="common_txt_msg_type_contact_code">Contact Card</string>
+    <string name="common_txt_msg_type_other">[You have received 1 new message]</string>
+    <string name="common_txt_msg_type_input">[input]</string>
+    <string name="common_txt_msg_type_contact_card">[Contact info]</string>
+    <string name="common_txt_msg_type_image">[Image]</string>
+    <string name="common_txt_msg_type_video">[Video]</string>
+    <string name="common_txt_msg_type_audio">[Audio]</string>
+    <string name="common_txt_msg_type_file">[File]</string>
+    <string name="common_txt_msg_type_transfer">[Transfer]</string>
+    <string name="common_txt_msg_type_egift_card">[eGift Card]</string>
+    <string name="common_txt_msg_type_profile_card">[Profile]</string>
+    <string name="common_txt_msg_type_location">[Location]</string>
+    <string name="common_txt_msg_type_call_video">[Call Video]</string>
+    <string name="common_txt_msg_type_call_audio">[Call Audio]</string>
+    <string name="common_txt_msg_type_wallet_balance">[Balance Inquiry]</string>
+    <string name="common_txt_msg_type_wallet_bill">[Payment Record]</string>
+    <string name="common_txt_msg_type_wallet_invite">[Link Invite]</string>
+    <string name="common_txt_msg_type_wallet_invite_success">[Link Completed]</string>
+    <string name="common_txt_msg_type_wallet_transfer">[Transfer]</string>
+    <string name="common_txt_msg_type_wallet_kashagi_loan">[Kashagi Loan]</string>
+    <string name="common_txt_msg_type_wallet_kashagi_repay">[Kashagi Repay]</string>
+
+    <string name="common_txt_update_later">Update Later</string>
+    <string name="common_txt_dismiss">Dismiss</string>
+    <string name="common_txt_new_version">New Version</string>
+    <string name="common_txt_update_title">Hey There, upgrade to the latest Sasasi version to enjoy new exciting features.</string>
+
+    <string name="common_txt_my_image">Profile Picture</string>
+    <string name="common_txt_user_image">Profile Picture</string>
+    <string name="common_txt_delete_pic">Delete Picture</string>
+    <string name="common_txt_delete_video">Delete Video</string>
+    <string name="common_txt_new_friend">New Friends</string>
+    <string name="common_txt_push_group_notice">Group Notices</string>
+    <string name="common_txt_push_message_notice">Message Notice</string>
+    <string name="common_txt_push_apply_join_group"> apply to join group</string>
+    <string name="common_txt_push_have_message">You have a new message.</string>
+
+    <string name="common_tip_pic_del">After the picture is deleted, it will not be retrieved. Do you want to delete it?</string>
+    <string name="common_tip_video_del">After the video is deleted, it will not be retrieved. Do you want to delete it?</string>
+    <string name="common_tip_del_fail">Delete fail!</string>
+    <string name="common_tip_download_fail">Download fail!</string>
+    <string name="common_tip_upload_fail">Upload fail</string>
+    <string name="common_tip_download_to">Download to</string>
+    <string name="common_tip_already_saved_to">Successfully saved :</string>
+    <string name="common_tip_no_qr_found">No QRCode Found</string>
+    <string name="common_tip_give_up_editor">Are you sure you want to cancel without saving changes?</string>
+    <string name="common_tip_latest_version">This is the latest version.</string>
+    <string name="common_tip_image_not_available">Sorry! This image is not available.</string>
+    <string name="common_tip_no_result">No Results.</string>
+    <string name="common_tip_no_data">No data found</string>
+
+    <string name="dialog_txt_phone_exist_title">%1$s Duplicate Contact(s)</string>
+    <string name="dialog_txt_phone_exist_tips">There are %1$s identical contact(s) found on this device. Please create a new one or replace.</string>
+    <string name="dialog_txt_phone_exist_new">New</string>
+    <string name="dialog_txt_phone_exist_cover">Replace</string>
+
+    <string name="common_month_jan">Jan.</string>
+    <string name="common_month_feb">Feb.</string>
+    <string name="common_month_mar">Mar.</string>
+    <string name="common_month_apr">Apr.</string>
+    <string name="common_month_may">May.</string>
+    <string name="common_month_jun">Jun.</string>
+    <string name="common_month_jul">Jul.</string>
+    <string name="common_month_aug">Aug.</string>
+    <string name="common_month_sept">Sept.</string>
+    <string name="common_month_oct">Oct.</string>
+    <string name="common_month_nov">Nov.</string>
+    <string name="common_month_dec">Dec.</string>
+
+    <string name="common_yesterday">Yesterday</string>
+    <string name="common_today">Today</string>
+    <string name="common_last_now">Now</string>
+    <string name="common_last_online">Online</string>
+    <string name="common_last_offline">Offline</string>
+    <string name="common_last_second">Last seen %1$d second(s) ago</string>
+    <string name="common_last_minute">Last seen %1$d minute(s) ago</string>
+    <string name="common_last_hours">Last seen %1$d hour(s) ago</string>
+    <string name="common_last_yesterday">Last seen yesterday at %1$s</string>
+    <string name="common_last_day">Last seen %1$d day(s) ago at %2$s</string>
+
+
+    <string name="com_txt_webview_dialog_title">MORE OPERATIONS:</string>
+    <string name="com_txt_webview_dialog_item_floating">Floating</string>
+    <string name="com_txt_webview_dialog_item_floating_remove">Cancel\n Floating</string>
+    <string name="com_txt_webview_dialog_item_send">Send to Chat</string>
+    <string name="com_txt_webview_dialog_item_copy">Copy Link</string>
+    <string name="com_txt_webview_dialog_item_browser">Open in browser</string>
+    <string name="com_txt_webview_dialog_item_feedback">Report</string>
+    <string name="com_txt_webview_float_not_enabled_title">Floating window not enabled</string>
+    <string name="com_txt_webview_float_not_enabled_tips">You have not enabled floating window of Sasai. Floating webpage cannot be used.</string>
+    <string name="com_txt_webview_float_not_enabled_confirm">Enable</string>
+    <string name="com_txt_webview_float_not_enabled_cancel">Cancel</string>
+    <string name="com_txt_webview_ssl_title">Your connection is not private.</string>
+    <string name="com_txt_webview_ssl_content">Attackers may have access to your information from %1$s Do you want to continue accessing?</string>
+    <string name="com_txt_webview_ssl_continue">Continue</string>
+    <string name="com_txt_webview_ssl_cancel">Cancel</string>
+
+    <string name="common_tip_open_file_fail">Failed to open file</string>
+
+
+    <!--*********** chat ***********-->
+
+    <string name="chat_title_index">Chats</string>
+    <string name="chat_start_desc">Favourites</string>
+
+    <string name="chat_txt_custom_menu">CUSTOM MENU</string><!--暂时无用-->
+    <string name="chat_txt_contacts">Contacts</string>
+    <string name="chat_txt_groups">Groups</string>
+    <string name="chat_txt_profile">Profile</string>
+    <string name="chat_txt_select_member">Select Members</string>
+    <string name="chat_txt_recent_chat">RECENT CHAT</string>
+    <string name="chat_txt_frequently_contacted">FREQUENTLY CONTACTED</string>
+
+    <string name="chat_title_contacts_list_new_chat">New Chat</string>
+    <string name="chat_title_contacts_list_new_group">New Group</string>
+    <string name="chat_title_contacts_days_ago">7 DAYS AGO</string>
+    <string name="chat_title_contacts_new_friends">New Friends in Sasai</string>
+
+    <string name="contacts_txt_new_friends">New Friends</string>
+    <string name="contacts_txt_search_phone_number_or_sasa_id">Search name, phone number</string>
+    <string name="contacts_txt_new_friends_who_save_you">Users who saved your mobile</string>
+    <string name="contacts_txt_new_friends_who_save_you_more">More</string>
+    <string name="contacts_txt_new_friends_invite">Invite</string>
+
+    <string name="contacts_txt_connect">Connect</string>
+    <string name="contacts_txt_my_code">Add Me</string>
+    <string name="contacts_txt_friend_verification">Add a Personal Note</string>
+    <string name="contacts_txt_friend_verification_hint">Please add me as a friend on Sasai. --[%1$s]</string>
+
+    <string name="chat_txt_group_chats_default_name">Group Chat</string>
+    <string name="chat_txt_group_chats">Group Chats</string>
+    <string name="chat_txt_recent_chats">Recent chats</string>
+    <string name="chat_txt_group_name">Group Name</string>
+    <string name="chat_txt_group_notice">Group Notice</string>
+    <string name="chat_txt_group_setting">Group Info</string>
+    <string name="chat_txt_group_members">Participants</string>
+    <string name="chat_txt_group_notes">Group Requests</string>
+    <string name="chat_txt_all_members">All Participants</string>
+    <string name="chat_txt_join_application">Request</string>
+    <string name="chat_txt_group_information">Group Info</string>
+    <string name="chat_txt_group_rule_holder">Group Holder</string><!--暂时无用-->
+    <string name="chat_txt_group_rule_admin">Admin</string>
+    <string name="chat_txt_group_rule_member">Other members</string><!--暂时无用-->
+    <string name="chat_txt_group_switch_owner">Switch Group Ownership</string>
+    <string name="chat_txt_select_contact">Select Contact</string>
+    <string name="chat_txt_saved_from">FROM:</string>
+    <string name="chat_txt_nick_in_group">Group Nickname</string>
+    <string name="chat_txt_show_nick_in_group">Show Participant Names</string>
+    <string name="chat_txt_search_history">Chat Search</string>
+    <string name="chat_txt_search_history1">Search Chat History</string>
+    <string name="chat_txt_search_history2">Search Chat Media</string>
+    <string name="chat_txt_search_history3">Search Chat Document</string>
+    <string name="chat_txt_clear_history">Clear Chat History</string>
+    <string name="chat_txt_search_history_how_many_matches">%1$s message found</string>
+    <string name="chat_txt_sticky_top">Pin on Top</string>
+    <string name="chat_txt_hide_her_post">Hide his/her post</string><!--暂时无用-->
+    <string name="chat_txt_no_share_my_post">Don\'t share my post</string><!--暂时无用-->
+    <string name="chat_txt_join_verify">Approve Participant Requests</string>
+    <string name="chat_txt_display_red_status">Show Read Status</string>
+    <string name="chat_txt_display_online_status">Show Online Status</string>
+    <string name="chat_txt_display_contact_card_status">Show Contact Card Status</string>
+    <string name="chat_txt_add_to_black">Block</string>
+    <string name="chat_txt_add_to_report">Report</string>
+    <string name="chat_txt_add_to_feedback">FeedBack</string>
+    <string name="chat_txt_chat_history">Chat History</string>
+    <string name="chat_txt_tap_to_select">Search Category</string>
+    <string name="chat_txt_phone_video">Media</string>
+    <string name="chat_txt_send_to">SEND TO:</string>
+    <string name="chat_txt_send_to_chat">Send to Chat</string>
+    <string name="chat_txt_unread">Unread</string>
+    <string name="chat_txt_new">New</string>
+    <string name="chat_txt_recall_you">you</string>
+    <string name="chat_txt_recall">%1$s recalled a message</string>
+    <string name="chat_txt_note">[Draft]</string>
+    <string name="chat_txt_navigate_google">Navigate by Google Maps</string>
+    <string name="chat_txt_navigate_map">Navigate by Map</string>
+
+    <string name="chat_ctrl_recall_admin">Remove Admin</string>
+    <string name="chat_ctrl_make_admin">Make Admin</string>
+    <string name="chat_ctrl_remove">Remove</string>
+    <string name="chat_ctrl_join_now">Join Now</string>
+    <string name="chat_ctrl_mute">Mute Chat</string>
+    <string name="chat_ctrl_del_leave">Exit Group</string>
+    <string name="chat_ctrl_del_dismiss">Delete Group</string>
+    <string name="chat_ctrl_find_more_friend">Find more friends</string>
+    <string name="chat_ctrl_invite_friends">Invite Friends</string>
+    <string name="chat_ctrl_who_on_sasai">Who\'s on Sasai</string>
+    <string name="chat_ctrl_can_not_remove">Cannot delete current friend</string>
+
+    <string name="chat_txt_my_group_size">My Groups(%1$d)</string>
+    <string name="chat_txt_managed_group_size">Managed Groups(%1$d)</string>
+    <string name="chat_txt_joined_group_size">Groups(%1$d)</string>
+    <string name="chat_txt_members_size">%1$s members</string>
+    <string name="chat_txt_scan_share_by">Group QR Code shared by %1$s</string>
+    <string name="chat_txt_invite_by">Invited by %1$s</string>
+    <string name="chat_tip_invite_join_sasa">Invite Friends to Join Sasai</string>
+    <string name="chat_tip_invite_from_email">Invite Friends via Email</string>
+    <string name="chat_tip_invite_from_msg">Invite Friends via SMS</string>
+    <string name="chat_tip_invite_from_facebook">Invite Friends via Facebook</string>
+    <string name="chat_tip_invite_from_whatapp">Invite Friends via WhatsApp</string>
+    <string name="chat_tip_no_invite">no invite</string>
+    <string name="chat_tip_friend_has_blacklist">The friend has been blacklisted</string>
+    <string name="chat_tip_invite_friend_to_sasa">Invite Friends To Sasai</string>
+    <string name="chat_tip_invite_friend_to_sasa2">invite your friends to interact with and have more fun and enjoyment</string>
+
+    <string name="chat_txt_message_state_title">Message detail</string>
+    <string name="chat_txt_message_state_tab_read">Read</string>
+    <string name="chat_txt_message_state_read_label">Read: </string>
+    <string name="chat_txt_message_state_tab_receive">Delivered</string>
+    <string name="chat_txt_message_state_receive_label">Delivered: </string>
+    <string name="chat_txt_message_state_empty_title">Nothing here...</string>
+    <string name="chat_txt_message_state_empty_tips_read">The news has not yet been read by the members of the group</string>
+    <string name="chat_txt_message_state_empty_tips_receive">No group members have received the message yet</string>
+    <string name="chat_txt_message_info">Info</string>
+    <string name="chat_txt_message_info_title">Message Info</string>
+    <string name="chat_qr_code_reset">QR code reset successfully</string>
+
+    <!--User Profile-->
+    <string name="contacts_txt_set_label">Set label</string>
+    <string name="contacts_txt_contact_card">Contact card</string>
+    <string name="contacts_txt_post">Moments</string>
+    <string name="contacts_txt_entry_mode">Entry Mode</string>
+    <string name="contacts_txt_share_user_card_to">Share Profile Info to</string>
+    <string name="contacts_txt_chat_wallpaper">Chat Wallpaper</string>
+    <string name="contacts_txt_chat_wallpaper_choose">Choose photo</string>
+
+    <string name="chat_txt_say_something">Add a caption…</string>
+    <string name="chat_txt_say_something_to_friend">Say something to you friend</string>
+    <string name="chat_txt_sasai_contact">Sasai Contacts</string>
+    <string name="chat_txt_mobile_contact">Mobile Contacts</string>
+    <string name="chat_txt_search_phone_name">Search</string>
+    <string name="chat_tip_contact_empty">Contacts is Empty</string>
+    <string name="chat_tip_contact_size">%1$d Contacts</string>
+    <string name="chat_tip_no_notice">No notices</string>
+    <string name="chat_tip_leave_group_tip">You will no longer be able to send or receive messages from this group.</string>
+    <string name="chat_tip_dismiss_group_tip">If you delete this group, all members will be removed from this group.</string>
+    <string name="chat_tip_invitation_has_send">Group invitation has been sent</string>
+    <string name="chat_tip_no_transfer_member">No transferable members!</string>
+    <string name="chat_tip_del_member">Are you sure you want to remove this user from the group?</string>
+    <string name="chat_tip_transfer_to">Are you sure you want to switch group ownership to </string>
+    <string name="chat_tip_no_transfer_member_sus">Transfer Successful !</string>
+    <string name="chat_tip_recent_chat_clear">Once deleted, all chat history will be cleared.</string>
+    <string name="chat_tip_remove_black_list">Are you sure you want to remove this user from block list?</string>
+
+    <!-- user profile index -->
+    <string name="user_profile_txt_id_label">Username: </string>
+    <string name="user_profile_txt_group_nickname_label">Group Nickname: </string>
+    <string name="user_profile_txt_slogan">Sasai is your simple all-in-one App that allows you to send and receive money, pay bills, chat with your family and friends, and explore a whole lot more!</string>
+    <string name="user_profile_txt_website">WEBSITE</string>
+    <string name="user_profile_txt_website_value">www.sasai.africa</string>
+    <string name="user_profile_txt_about">CONTACT</string>
+    <string name="user_profile_txt_about_value">support@sasai.africa</string>
+
+    <string name="chat_tip_file_max_size">File size cannot exceed 100MB.</string>
+    <string name="chat_tip_file_max_size_200mb">File size cannot exceed 200MB.</string>
+    <string name="chat_tip_video_larger">video file is larger than 300 seconds,can not be sent</string>
+    <string name="chat_tip_file_not_support">File format is not supported</string>
+    <string name="chat_tip_file_is_empty">Empty File</string>
+
+    <string name="chat_contact_txt">contact</string>
+    <string name="chat_tip_input_status_typing">typing...</string>
+    <string name="chat_tip_input_status_speaking">Recording…</string>
+
+    <string name="chat_tip_read_contact_error">Read Contact Error</string>
+    <string name="chat_tip_no_match_user">no matching user</string>
+    <string name="chat_tip_del_friend">Delete friend?</string>
+    <string name="chat_tip_del_success">Deleted</string>
+    <string name="chat_tip_please_enter_msg">Please Enter Message</string>
+    <string name="chat_tip_qr_code_incorrect">The QR code is incorrect</string>
+    <string name="chat_tip_already_applied">Request already sent!</string>
+
+    <string name="chat_txt_stranger_notice_im_not_in_his_friend_list">Note: You are not in the user’s Sasai contact</string>
+    <string name="chat_txt_stranger_notice_he_not_in_my_friend_list">Note: This user is not in your Sasai contact</string>
+    <string name="chat_txt_stranger_notice_he_in_my_block_list">Note: This user is in your block list</string>
+    <string name="chat_txt_setting_password">Password set successfully</string>
+
+    <string name="chat_txt_wallet_item_amount_payment">PAYMENT AMOUNT</string>
+    <string name="chat_txt_wallet_item_amount_rloan">LOAN AMOUNT</string>
+    <string name="chat_txt_wallet_item_amount_repay">REPAY AMOUNT</string>
+    <string name="chat_txt_wallet_item_type_label_wallet">Wallet</string>
+    <string name="chat_txt_wallet_item_type_label_initator">Initator</string>
+    <string name="chat_txt_wallet_item_type_label_recipient">Recipient</string>
+    <string name="chat_txt_wallet_item_type_label_ecocash_account">Ecocash account</string>
+    <string name="chat_txt_wallet_item_status">Status</string>
+    <string name="chat_txt_wallet_item_view_bill">View bill</string>
+    <string name="chat_txt_wallet_item_link_now">Link Now</string>
+    <string name="chat_txt_wallet_item_transfer_now">Transfer Now</string>
+
+
+    <string name="chat_txt_share_title">Share to</string>
+    <string name="chat_txt_share_item_share_to_friends">Send to friends</string>
+    <string name="chat_txt_share_item_share_to_moment">Send to moment</string>
+    <string name="chat_txt_share_item_share_to_favorite">Add to Favorites</string>
+
+    <string name="chat_message_tranfer_max_message_select">Limit messages is %1$d</string>
+    <string name="chat_message_tranfer_max_member_select">Limit targets is %1$d</string>
+    <string name="chat_message_tranfer_message_number">%1$d messages have been selected</string>
+
+    <string name="chat_input_hold_voice">Hold to send a voice clip</string>
+
+
+    <!--*********** AV ***********-->
+
+    <string name="av_choose_friends_title">Invite User</string>
+    <string name="av_select_member_title">Invited users</string>
+    <string name="av_voice_call_bt">Voice Call</string>
+    <string name="av_video_call_bt">Video Call</string>
+    <string name="av_more_then_five_bt">Maximun 5 users</string>
+    <string name="av_please_select_member_to_call">Please select user</string>
+    <string name="av_call_status_outgo">Call Out</string>
+    <string name="av_call_status_incoming">Incoming Call</string>
+    <string name="av_call_status_misscall">Missed Call</string>
+    <string name="av_call_status_other">Others</string>
+
+    <string name="av_call_m_status_title">Calling</string>
+    <string name="av_recent_call_m_status_title">Recent Call</string>
+
+    <string name="av_you_are_in_the_meeting">Your line is busy</string>
+    <string name="av_call_log_join">Join</string>
+    <string name="start_a_group_video_call">Start group video call</string>
+
+    <string name="av_call_member_call">Participants</string>
+
+    <string name="av_call_log_empty_title">No Records</string>
+    <string name="av_call_log_empty_content">No records. Start a call now.</string>
+    <string name="av_call_leave_out_title">Note</string>
+    <string name="av_call_leave_out_content">End video call?</string>
+    <string name="av_call_leave_out_voice_content">End The call?</string>
+
+    <string name="av_call_leave_out_resef_content">Reject The call?</string>
+
+    <string name="av_network_unavailable">No internet connection, please check the network</string>
+
+    <string name="av_you_are_in_meeting">Currently on a call , try again when it ends.</string>
+    <string name="av_choice_more_then_four_bt">Maximun invite 4 users to group call.</string>
+
+    <string name="av_join_in_meeting_error">Failed to join. The call has ended or the group is full.</string>
+
+    <string name="av_join_broke_black_man_info">The user rejects to answer your call.</string>
+
+    <string name="av_call_is_not_your_friend_info">Can not call a user who is not in your contacts.</string>
+    <string name="common_tip_friend_request_sent">Friend request sent</string>
+
+    <string name="select_member">Select User</string>
+    <string name="search_p_n_o_info">Search Phone Number or Sasa Username</string>
+
+    <!--<string name="permision_grant_failed">Permission grant failed, unable to open floating window</string>-->
+    <string name="permision_grant_failed">Permission grant failed, unable to open floating window.</string>
+    <string name="permision_grant_success">Permission granted success</string>
+    <string name="av_txt_msg_type_voice_call">[Voice Call]</string>
+    <string name="you_have_hand_up">You have hand up </string>
+    <string name="you_have_cancell">Cancelled</string>
+
+    <string name="invite_sasai_voice_call">Incoming Sasai Voice Call ...</string>
+
+    <string name="invite_sasai_video_call">Incoming Sasai Video Call  ...</string>
+
+    <!--<string name="av_ringing">Ringing…</string>-->
+    <string name="av_ringing">Ringing…</string>
+
+
+    <string name="av_conncting">Connecting…</string>
+    <string name="av_call_not_answered">Call Not Answered</string>
+
+    <string name="av_call_declined">Call Declined</string>
+    <string name="sasai_video_call">[Sasai Call]</string>
+
+    <!--<string name="av_choose_friends_title">Choose Friends_</string>-->
+
+
+    <!--<string name="av_user_refused_to_answer">User refused to answer</string>-->
+    <string name="av_user_refused_to_answer_voice">The user declined.</string>
+    <string name="av_more_then_five">Maximun 5 users in group call</string>
+    <string name="av_cancel_call_state">Cancel...</string>
+    <string name="av_call_end">Call Ended...</string>
+    <string name="av_call_no_answere_voice">The user is busy,try again later.</string>
+    <string name="av_call_is_buy_now">&#160; Line busy</string>
+    <string name="av_call_is_answer_now">Conneted</string>
+
+    <string name="av_call_is_cancel_end">The user hung up, call ended.</string>
+    <string name="av_call_other_is_off_line">This user is offline...</string>
+
+    <!--<string name="av_call_net_work_is_poor_reconnting">Poor network. Reconnecting…</string>-->
+    <string name="av_call_net_work_is_poor_reconnting">Poor network. Reconnecting…</string>
+
+    <string name="av_call_someone_out_call"> Left the call</string>
+    <string name="av_call_someone_aject_call"> Declined the call.</string>
+    <!--<string name="av_call_end">Call Ended</string>-->
+    <string name="av_call_someone_no_respon_str">No response.</string>
+    <string name="av_your_has_hand_up_meeting">You declined the call...</string>
+    <string name="av_your_timer_out_meeting">Call wasn\'t answered</string>
+
+    <string name="av_microphone_is_off_info">Microphone off</string>
+    <string name="av_microphone_is_on_info">Microphone on</string>
+
+
+    <string name="av_camera_is_off_info">Camera off</string>
+    <string name="av_camera_is_on_info">Camera on</string>
+
+
+    <string name="av_earpiece_is_on_info">Earpiece on</string>
+    <string name="av_loudspeaker_is_on_info">Speaker on</string>
+    <string name="av_front_camera_is_on_info">Front camera on</string>
+    <string name="av_rear_camera_is_on_info">Rear camera on</string>
+
+
+    <string name="av_confirm_add_info">Confirm Add</string>
+
+    <string name="av_you_are_meeting_please_try_later">Currently on a call, try again when it ends.</string>
+
+    <string name="av_invite_sasai_meeting_info">Invite Sasai Meeting</string>
+
+    <string name="av_more_then_two_bt">Select one person to make a call only.</string>
+
+    <string name="av_other_net_work_is_poor">The other user\'s network is poor</string>
+
+    <string name="av_other_someone_net_work_is_poor"> network is poor</string>
+
+    <string name="av_pull_to_load_more">Pull up load more...</string>
+    <string name="av_load_more_ing">Loading more...</string>
+
+
+    <string name="av_call_leave_out_content_no_accept">Cancell video call ?</string>
+    <string name="av_call_leave_out_voice_content_no_accept">Cancell voice call ?</string>
+
+    <string name="av_invite_text_meeting_info">Invite Sasai Meeting</string>
+    <string name="av_invite_text_meeting_othe_refuse_info">&#160; Declined by User</string>
+
+    <string name="av_invite_text_meeting_othe_cancel_info">Cancelled by User</string>
+    <string name="av_invite_text_meeting_othe_cancel_issender_info">Cancelled</string>
+    <string name="av_invite_text_meeting_no_answer_issender_info">Call no answer</string>
+    <string name="av_invite_meeting_during_info">Call Duration  </string>
+    <string name="av_invite_meeting_default_voice_info">[Voice call]</string>
+    <string name="av_invite_meeting_default_video_info">[Video call]</string>
+
+    <string name="av_connecting_info">Connecting...</string>
+    <string name="av_meeting_connecting_info">Meeting Connecting...</string>
+
+    <string name="av_connect_meeting_error">Meeting Connecting Error...</string>
+    <string name="av_unblock_contact_error">Please unblock contact to make the call...</string>
+    <string name="av_phone_is_online">The phone is busy and cannot be operated...</string>
+    <string name="av_phone_is_on_hold">The Call is on hold..</string>
+    <string name="av_meeting_hand_up">Hand Up</string>
+
+    <string name="av_invite_text_meeting_othe_refuse_issende_info">Declined</string>
+
+    <string name="av_calling_info_str">Calling...</string>
+
+
+    <!--*********** main ***********-->
+
+    <!-- main -->
+    <string name="main_tab_chat">Chat</string>
+    <string name="main_tab_call">Calls</string>
+    <string name="main_tab_contact">Contacts</string>
+    <string name="main_tab_post">Moments</string>
+    <string name="main_tab_wallet">SasaiPay</string>
+    <string name="main_tab_discovery">Explore</string>
+    <string name="main_txt_exit_if_again">Double click to exit Sasai</string>
+    <string name="main_txt_sign_up_on_sasai">Sign up on Sasai</string>
+
+    <!-- user -->
+    <string name="login_mobile_login">Mobile Login</string>
+    <string name="login_verify_login">Login with OTP</string>
+    <string name="login_sasai_login">Sasai Username Login</string>
+    <string name="login_email_login">Email Login</string>
+    <string name="login_with_pwd">Login With Password</string>
+    <string name="login_with_otp">Login with OTP</string>
+    <string name="login_change_login_mode">Change Login Mode</string>
+    <string name="login_or">Or login with</string>
+
+    <string name="login_use_password_login">Password Login</string>
+    <string name="login_input_phone">Phone</string>
+    <string name="login_input_nickname">Enter Name</string>
+    <string name="login_input_email">Enter email</string>
+    <string name="login_input_email_address">Email address</string>
+    <string name="login_input_phone_number">Phone Number</string>
+    <string name="login_input_password">Password</string>
+    <string name="login_input_original_password">Current Password</string>
+    <string name="login_input_new_password">New Password</string>
+    <string name="login_input_confirm_password">Confirm Password</string>
+    <string name="login_btn_submit">Submit</string>
+    <string name="login_btn_verification_code">Enter Code</string>
+    <string name="login_btn_txt_switch_user">Switch Account</string>
+    <string name="login_txt_register">Register</string>
+    <string name="login_txt_sign_up">Sign up</string>
+    <string name="login_txt_sign_up_now">Sign up now</string>
+    <string name="login_btn_txt_forget__">Forgot?</string>
+    <string name="login_txt_tapping_verify_means_you_agree_to_terms_privacy_policy">I have read and agree to the </string>
+    <string name="login_txt_register_provacy_policy_tip">I had agreed to </string>
+    <string name="login_txt_privacy_policy">Privacy Policy</string>
+    <string name="login_txt_region">Country Code</string>
+    <string name="login_txt_select_location">Select Location</string>
+    <string name="login_btn_login">Login</string>
+    <string name="login_btn_guest_access">Guest Access</string>
+    <string name="login_btn_verify">Verify</string>
+    <string name="login_btn_get_via_call">Get OTP via Call</string>
+    <string name="login_btn_get_via_sms">Get OTP via SMS</string>
+    <string name="login_btn_forget_password">Forgot password</string>
+    <string name="login_txt_set_up_new_password">Reset Password</string>
+
+    <string name="login_check_input_username">Please input Sasai username</string>
+    <string name="login_check_input_nickname">Please input nickname</string>
+    <string name="login_check_input_phone">Please input phone number</string>
+    <string name="login_check_input_sms_code">please input OTP</string>
+    <string name="login_check_input_password">Please input password</string>
+    <string name="login_check_input_login_password">Please input login password</string>
+    <string name="login_check_input_new_password">Please input new password</string>
+    <string name="login_check_input_old_password">Please input old password</string>
+    <string name="login_check_input_confirm_password">Please input confirm password</string>
+    <string name="login_check_input_password_not_match">Please ensure the same password twice</string>
+    <string name="login_check_input_old_phone">Please input old phone number</string>
+    <string name="login_check_input_new_phone">Please input new phone number</string>
+    <string name="login_check_input_email">Please input email</string>
+    <string name="login_check_email_is_right">Incorrect email address</string>
+    <string name="login_check_input_pwd_text">Password must be at least 6 characters, must have uppercase &amp; lowercase letters and at least 1 number</string>
+    <string name="login_check_input_pwd_toast">Password must be at least 6 characters, must have uppercase &amp; lowercase letters and at least 1 number</string>
+
+
+    <!-- me -->
+    <string name="me_txt_me">Profile</string>
+    <string name="me_txt_personal_center">My Profile</string>
+    <string name="me_txt_my_code">Add Me</string>
+    <string name="me_txt_group_code">Group QR Code</string>
+    <string name="me_txt_txt_my_contact_card">My Contact Info</string>
+    <string name="me_txt_favorite">Favourite</string>
+    <string name="me_txt_my_post">My Post</string>
+    <string name="me_txt_game">Game</string>
+    <string name="me_txt_shopping">Shopping</string>
+    <string name="me_txt_setting">Settings</string>
+    <string name="me_txt_account">Account</string>
+    <string name="me_txt_notification">Notifications</string>
+    <string name="me_txt_live_stream_setting">Live Stream</string>
+    <string name="me_txt_live_guidance">Guidance</string>
+    <string name="me_txt_moment_ad_center">Ad Center</string>
+    <string name="me_txt_privacy">Privacy</string>
+    <string name="me_txt_general">General</string>
+    <string name="me_txt_version">Version</string>
+    <string name="me_txt_about">About</string>
+    <string name="me_txt_about_sasai">About Sasai</string>
+    <string name="me_txt_faq">FAQ</string>
+    <string name="me_txt_customer_service">Customer Service</string>
+    <string name="me_txt_feedback">Query</string>
+    <string name="me_txt_log_out">Log Out</string>
+    <string name="me_txt_ver__">Ver </string>
+    <string name="me_txt_current_version">Current Version</string>
+    <string name="me_txt_new_features">New Features</string>
+    <string name="me_txt_version_update">Version Update</string>
+    <string name="me_txt_scan_the_qr_code_profile___">Scan the QR Code to add me as a friend on Sasai.</string>
+    <string name="me_txt_scan_the_qr_code_contact___">Scan the QR Code to save my contact information.</string>
+    <string name="me_txt_scan_the_qr_code_contact_confirm">Save to phone book</string>
+    <string name="me_txt_welcome">Welcome !</string>
+    <string name="me_txt_welcome_to_sasai">Welcome to SASAI</string>
+    <string name="me_txt_contact_us">Contact Us</string>
+
+    <string name="me_txt_sasai_id">Username</string>
+    <string name="me_txt_mobile">Mobile</string>
+    <string name="me_txt_reset_password">Reset Password</string>
+    <string name="me_txt_setting_password">Setting Password</string>
+    <string name="me_txt_link_email">Link Email</string>
+    <string name="me_txt_verify_email">Verify Email</string>
+    <string name="me_txt_verified_email">Verified Email</string>
+    <string name="me_txt_verified_mobile">Verified Mobile</string>
+
+    <string name="me_tip_link_email">A link will be sent to your email address after you click submit. Please click on the link to complete the verification process. </string>
+    <string name="me_tip_link_email_sus">Success! You can now login to Sasai using your email and password.</string>
+    <string name="me_tip_link_email_unlink_tip">Are you sure you want to unlink your email address?</string>
+    <string name="me_tip_link_email_unlink">If you unlink your email address %1$s will no longer be associated with your account.</string>
+    <string name="me_tip_link_mobile">The above mobile number is currently linked to your Sasai account. </string>
+    <string name="me_tip_link_mobile_">Bind your mobile phone number. You can use your number to log in, retrieve your account and find friends who are on Sasai.</string>
+
+
+    <string name="me_txt_change_mobile">Change Mobile Number</string>
+    <string name="me_txt_contact_card">Contact Info</string>
+    <string name="me_txt_edit_contact_card">Edit Contact Info</string>
+    <string name="me_txt_select_country_code">Please select country code</string>
+    <string name="me_txt_current_mobile">Current Mobile:</string>
+    <string name="me_txt_new_mobile">New Phone Number</string>
+
+    <string name="me_tip_change_mobile_sus">Mobile Number Changed</string>
+    <string name="me_tip_change_mobile_sus2">Success! You can now login to Sasai using your new mobile number.</string>
+    <string name="me_tip_contact_not_exist">Contact does not exist</string>
+
+    <string name="me_tip_first_not_empty">Please enter your first name.</string>
+    <string name="me_tip_last_not_empty">Please enter your last name.</string>
+    <string name="me_tip_mobile_not_empty">Please enter your phone number.</string>
+    <string name="me_tip_email_err">Please enter a valid email address.</string>
+    <string name="me_tip_login_sus">Login Success!</string>
+    <string name="me_tip_pwd_change_sus">Your Sasai password has been reset.</string>
+    <string name="me_tip_pwd_reset_sus">Success!</string>
+    <string name="me_tip_pwd_reset_sus_1">Your Sasai password has been successfully reset. </string>
+    <string name="me_tip_registration_sus">You have successfully registered for Sasai.</string>
+    <string name="me_tip_registration_sus_set_paw">You have successfully registered for Sasai. Go and set your password now.</string>
+    <string name="me_tip_set_paw">You don\'t have password.\nGo and set your password now.</string>
+    <string name="me_new_pwd_text">Sasai passwords must be 6-16 characters long and must contain lowercase, uppercase, and numeric characters.</string>
+    <string name="me_tip_cannot_same_pwd">Your new Sasai password cannot be the same as the old one. </string>
+    <string name="me_tip_incorrect_email">Invalid email address.</string>
+    <string name="me_tip_go_set_paw">GO</string>
+    <string name="me_tip_no_set_paw">Not now</string>
+
+
+    <string name="main_image_take_photo">Take Photo</string>
+    <string name="main_image_camera">Camera</string>
+    <string name="main_image_gallery">Gallery</string>
+    <string name="main_image_choose_gallery">Choose from Gallery</string>
+    <string name="main_image_default">Use default image</string>
+
+    <!-- QR code-->
+    <string name="code_reset_send">Send to a friend</string>
+    <string name="code_reset_tips_reset">Reset QR Code</string>
+    <string name="code_reset_save">Save As Image</string>
+    <string name="code_reset_cancel">Cancel</string>
+    <string name="code_reset_title">Reset QR Code?</string>
+    <string name="code_turn_on_flash">\nPlease use flash light. Image too dark.</string>
+    <string name="code_reset_tips">After resetting, your current QR Code becomes invalid and a new one is created.</string>
+    <string name="code_qr_time">This QR code is valid for the next 7 days.</string>
+    <!-- Card -->
+    <string name="card_tip_phone_exist">Contact Info already exists in the mobile contact</string>
+    <string name="card_tip_phone_exist_new">Create new contact</string>
+    <string name="card_tip_phone_exist_exist">Add to existing contact</string>
+
+    <!-- scan -->
+    <string name="scan_tips_please_open_light">Please use flash light. Image too dark.</string>
+
+    <string name="main_ctrl_change_pwd">Change password</string>
+
+    <string name="main_tip_logged_other_device_change">Your Sasai account is currently logged in on another device. If this is not you, please change your password.</string>
+    <string name="main_tip_logged_other_device">Your Sasai account is currently logged in on another device. If this is not you, please change your password.</string>
+    <string name="main_tip_not_qrcode">No QRCode Found</string>
+
+    <!--setting-->
+    <string name="me_ctrl_blocked">Blocked</string>
+    <string name="me_ctrl_auto_download">Auto-Download</string>
+    <string name="me_ctrl_download_image">Image Auto-Download</string>
+    <string name="me_ctrl_download_audio">Audio Auto-Download</string>
+    <string name="me_ctrl_download_video">Video Auto-Download</string>
+    <string name="me_ctrl_download_file">Document Auto-Download</string>
+    <string name="me_ctrl_media_file">Media</string>
+    <string name="me_ctrl_auto_save_album">Auto-Save To Mobile Gallery</string>
+    <string name="me_ctrl_chat_history">Chat History</string>
+    <string name="me_ctrl_clean_history">Clear Chat History</string>
+    <string name="me_ctrl_txt_cache">Cache</string>
+    <string name="me_ctrl_back_up">Back up</string>
+    <string name="me_ctrl_back_up_">Backup &amp; Synchronise Chat Data</string>
+    <string name="me_ctrl_general">General</string>
+    <string name="me_ctrl_advertising">Advertising</string>
+    <string name="me_ctrl_clear_cache">Clear cache</string>
+    <string name="me_ctrl_txt_cache_by_type">Clear by type</string>
+    <string name="me_ctrl_clear_cache_im">IM messages</string>
+    <string name="me_ctrl_clear_cache_data">Data</string>
+    <string name="me_ctrl_clear_cache_documents">Documents</string>
+    <string name="me_ctrl_clear">Clear</string>
+    <string name="me_tips_cleared">Cleared</string>
+    <string name="me_tips_clear_cache">Temporary data such as images, texts and logs cached by Sasa will not affect the normal operation of Sasai</string>
+    <string name="me_tips_clear_cache_im">Clear the historical data of IM chat messages.</string>
+    <string name="me_tips_clear_cache_data">Clear media data, including pictures, videos, audio data.</string>
+    <string name="me_tips_clear_cache_file">Clear all documents such as Word, Excel, PDF, and powerpoint saved through Sasai chat sharing.</string>
+    <string name="me_title_clear_cache">SELECT DATES TO CLEAR</string>
+    <string name="me_tips_clear_cache_dialog">Clearing cache will remove videos, pictures and audio data and will require this device to download this data again in order to be viewed. Do you still want to clear cache?</string>
+    <string name="me_tips_clear_cache_dialog_im">Clearing IM messages will clear all chat history older than %1$d days and you will not be able to recover these messages.Do you still want to clear IM messages?</string>
+    <string name="me_tips_clear_cache_dialog_data">Clearing date will remove all Sasai videos and audios and will require this device to download this data again in order to be viewed.Do you still want to clear data?</string>
+    <string name="me_tips_clear_cache_dialog_file">Clearing document will remove all word documents, excel documents, pdf, powerpoint etc shared via Sasai Chat and will not be able to recover.Do you still want to clear data?</string>
+
+    <string name="me_ctrl_ad_tip">Kinds of view</string>
+    <string name="me_ctrl_ad_chats">Chats</string>
+    <string name="me_ctrl_ad_discover">Discover</string>
+    <string name="main_ctrl_ad_explorer">Explore</string>
+    <string name="me_ctrl_ad_moment">Moment</string>
+
+    <string name="me_txt_never">Never</string>
+    <string name="me_txt_wifi">Wifi</string>
+    <string name="me_txt_wifi_cellular">Wifi &amp; Cellular</string>
+    <string name="me_txt_sasa_opend">When Sasai is open</string>
+    <string name="me_txt_sasa_not_opend">When Sasai is not open</string>
+    <string name="me_txt_chat_notice_message">Show Notifications</string>
+    <string name="me_txt_chat_wallet_message">Wallet Message</string>
+    <string name="me_txt_voice_video_call_notification">Voice/Video call notification</string>
+    <string name="me_txt_show_preview_text">Show Preview</string>
+    <string name="me_txt_show_night_mode">Night mode</string>
+    <string name="me_txt_show_night_mode_tip">Enabling Night Mode will mute Sasai notifications between 23:00 to 07:00</string>
+    <string name="me_txt_sound_vibrate">Alerts</string>
+    <string name="me_txt_alert_sound">Notification Sounds</string>
+    <string name="me_txt_alert_vibrate">Alert vibrate</string>
+    <string name="me_txt_alert_sound_vibrate">Alert Sound &amp; Vibrate</string>
+
+    <string name="me_txt_my_name">Name</string>
+    <string name="me_txt_my_title">Title</string>
+    <string name="me_txt_my_mobile">Mobile</string>
+    <string name="me_txt_my_email">Email</string>
+    <string name="me_txt_my_address">Address</string>
+    <string name="me_txt_my_company">Company</string>
+
+    <string name="me_txt_first_name">First Name</string>
+    <string name="me_txt_enter_first_name">please enter First Name</string>
+    <string name="me_txt_last_name">Last Name</string>
+    <string name="me_txt_enter_last_name">please enter Last Name</string>
+    <string name="me_txt_enter_title">please enter title</string>
+    <string name="me_txt_enter_org">please enter Organization</string>
+    <string name="me_txt_org">Company</string>
+    <string name="me_txt_enter_phone">please enter Phone</string>
+    <string name="me_txt_enter_email">please enter Email</string>
+    <string name="me_txt_enter_address">please enter Address</string>
+    <string name="me_txt_nick_name">Name</string>
+    <string name="me_txt_enter_nickName">please enter name</string>
+    <string name="me_txt_gender">Gender</string>
+    <string name="me_txt_birth">Date Of Birth</string>
+    <string name="me_txt_male">Male</string>
+    <string name="me_txt_female">Female</string>
+    <string name="me_txt_sex_other">Other</string>
+    <string name="me_txt_region">Region</string>
+    <string name="me_txt_select_region">please select region</string>
+    <string name="me_txt_select_birth">Select Date of Birth</string>
+    <string name="me_txt_what_up">Status</string>
+    <string name="me_txt_please_enter">please enter</string>
+
+    <string name="me_tip_select_gender">please select gender</string>
+
+    <string name="me_txt_friend_verification">Approve Requests</string>
+    <string name="me_txt_display_to_friend">Visible to Friends</string>
+    <string name="me_txt_display_to_stranger">Visible to all</string>
+    <string name="me_txt_stranger_contact">Stranger contact</string>
+
+    <string name="me_tip_logout">Are you sure you want to Log Out?</string>
+    <string name="me_tip_clean_history_title">Clear Chat History?</string>
+    <string name="me_tip_clean_history_all">If you clear chat history, all messages will be deleted.</string>
+    <string name="me_tip_notify_close">If off, you will not receive message notifications.</string>
+    <string name="me_tip_edited_sus">Edited successfully. </string>
+
+
+    <!--*********** wallet ***********-->
+
+    <string name="wallet_pay">Pay</string>
+    <string name="wallet_price">Price:</string>
+    <string name="wallet_Add">Add</string>
+    <string name="wallet_total">Total</string>
+    <string name="wallet_save">Save</string>
+    <string name="wallet_to">TO:</string>
+    <string name="wallet_amount">AMOUNT</string>
+    <string name="wallet_remarks">Payment Reference</string>
+    <string name="wallet_unbind">UnLink</string>
+    <string name="wallet_next">Next</string>
+    <string name="wallet_link_now">Link Now</string>
+
+    <string name="wallet_txt_new_payment">New Payment</string>
+    <string name="wallet_txt_wallet">Pay</string>
+
+    <string name="wallet_txt_verify_password">Verify Password</string>
+    <string name="wallet_txt_verify_touch_id">Verify Touch ID</string>
+
+    <!-- wallet -->
+    <string name="wallet_txt_balance">EcoCash Balance</string>
+    <string name="wallet_txt_balance_details">EcoCash Balance</string>
+    <string name="wallet_txt_biller">Wallet service</string>
+    <string name="wallet_txt_add_biller">Add Biller</string>
+    <string name="wallet_txt_scan">Scan</string>
+    <string name="wallet_txt_receive">Receive</string>
+    <string name="wallet_txt_transfer">Transfer</string>
+    <string name="wallet_txt_bind">Link</string>
+    <string name="wallet_txt_cash_out">CashOut</string>
+    <string name="wallet_txt_card_service_title">Card Services</string>
+    <string name="wallet_txt_cash_out_title">Cash Out</string>
+    <string name="wallet_txt_airtime_bundles">Airtime - Bundles</string>
+    <string name="wallet_txt_zesa_prepaid">ZESA Prepaid</string>
+    <string name="wallet_txt_zol">ZOL</string>
+    <string name="wallet_txt_city_of_harare_online">City of Harare - Online</string>
+    <string name="wallet_txt_merchant">Pay Merchant</string>
+    <string name="wallet_txt_pay_biller">Pay Biller</string>
+    <string name="wallet_txt_merchant_desc">Enter merchant code and amount</string>
+    <string name="wallet_txt_biller_desc">Enter biller code, Account NO. and amount</string>
+    <string name="wallet_txt_merchant_code">Merchant Code</string>
+    <string name="wallet_txt_merchant_name">Merchant Name</string>
+
+    <string name="wallet_txt_biller_code">Biller Code</string>
+    <string name="wallet_txt_biller_name">Biller Name</string>
+    <string name="wallet_txt_biller_account_no">Account NO.</string>
+    <string name="wallet_txt_biller_beneficiary_info">Beneficiary Information</string>
+    <string name="wallet_txt_tranfer_mach_link">Add pay method</string>
+    <string name="wallet_txt_tranfer_mach_link_tip">There is no payment method supported by the binding merchant, click link</string>
+    <string name="wallet_txt_payment_method_name">%1$s (%2$s %3$s)</string>
+    <string name="wallet_txt_payment_method_name_ecocash">%1$s (%2$s)</string>
+    <string name="wallet_txt_payment_amount">%1$s %2$s</string>
+    <string name="wallet_txt_merchant_order_id">Merchant Order ID</string>
+    <string name="wallet_txt_product_name">Product Name</string>
+    <string name="wallet_txt_countdown_reminder_tip">If the payment is overdue, please return to the page to initiate payment again</string>
+
+    <!--recharge-->
+    <string name="wallet_recharge_phone">AirTime</string>
+    <string name="wallet_recharge_phone_voice">Voice</string>
+    <string name="wallet_recharge_phone_Text">Text</string>
+    <string name="wallet_recharge_phone_bundles">Bundles</string>
+    <string name="wallet_recharge_phone_airtime_credit">Airtime Credit</string>
+    <string name="wallet_recharge_phone_data">Data Bundles</string>
+    <string name="wallet_recharge_phone_monthly">Monthly Bundles</string>
+
+    <string name="wallet_recharge_phone_num">MOBILE NUMBER</string>
+    <string name="wallet_recharge_select_amount">SELECT AMOUNT</string>
+    <string name="wallet_recharge_select_plan">SELECT PLAN</string>
+    <string name="wallet_recharge_get_contacts_err">Contacts loading failed</string>
+
+    <string name="wallet_bill_manage">Manage biller</string>
+    <string name="wallet_bill_enter_amount">Enter Bill Account and Amount</string>
+    <string name="wallet_bill_account_meterno">Biller Account</string>
+    <string name="wallet_bill_account_meterno_">Account/Meter Number</string>
+    <string name="wallet_bill_pay_zesa">ZESA</string>
+    <string name="wallet_bill_pay_city">City of Harare - Online</string>
+    <string name="wallet_bill_air_time_custom">Custom</string>
+    <string name="wallet_bill_air_time_custom_enter">Enter Amount</string>
+    <string name="wallet_bill_pay_tip">Please check account information before payment</string>
+
+    <string name="wallet_pm">Wallet Settings</string>
+    <string name="wallet_pm_transaction">Transactions</string>
+    <string name="wallet_pm_lock">Wallet lock</string>
+    <string name="wallet_pm_touch_id">Fingerprint authorisation</string>
+    <string name="wallet_pm_reset_pwd">Reset Wallet PIN</string>
+    <string name="wallet_pm_forgot_pwd">Forgot Wallet PIN</string>
+    <string name="wallet_pm_subscription">Subscription</string>
+    <string name="wallet_pm_tran_history">Transactions</string>
+    <string name="wallet_pm_transaction_history">Transaction History</string>
+    <string name="wallet_pm_tran_history_outfolow">Outfolow ($)</string>
+    <string name="wallet_pm_tran_history_income">Income ($)</string>
+    <string name="wallet_pm_unlock">Enable Touch ID Unlock</string>
+    <string name="wallet_pm_unlock_with_pin">Reset pattern</string>
+    <string name="wallet_pm_unlock_tip">Please enter Wallet PIN to verify your identity</string>
+    <string name="wallet_pm_finger_verify">Touch ID verification</string>
+    <string name="wallet_pm_finger_verify_tip">Please verify the Touch ID</string>
+    <string name="wallet_pm_finger_verify_err">Please try again.</string>
+    <string name="wallet_pm_finger_verify_perm_tip">Are you sure you want to use Touch ID verification?</string>
+    <string name="wallet_pm_finger_verify_err_tip">Too many attempts, please try again after 30 seconds</string>
+    <string name="wallet_pm_finger_verify_err_desc">Or unlock via Wallet PIN </string>
+
+    <string name="wallet_pattern_tip">Create a pattern connecting at least 4 points. You will use this pattern to unlock Sasai app.</string>
+    <string name="wallet_pattern_err_tip">Please connect at least 4 points.</string>
+    <string name="wallet_pattern_confirm_tip">Confirm pattern.</string>
+    <string name="wallet_pattern_confirm_err_tip">The patterns do not match. Please try again.</string>
+    <string name="wallet_pattern_verify">Pattern verification</string>
+    <string name="wallet_pattern_verify_forgot">Unlock with Wallet PIN</string>
+    <string name="wallet_pattern_verify_err">Incorrect pattern, please try again.</string>
+
+    <string name="wallet_receive_code">Receive Code</string>
+    <string name="wallet_receive_amount">Receive Amount</string>
+    <string name="wallet_receive_code_tip">Scan to pay me</string>
+    <string name="wallet_receive_code_set_amount">Set Amount</string>
+    <string name="wallet_receive_code_col_amo">COLLECTION AMOUNT</string>
+    <string name="wallet_receive_code_select_method">Select Payment method</string>
+
+    <string name="wallet_transfer_notes">Transfer reference</string>
+    <string name="wallet_transfer_to_friends">Transfer money to a user in your Sasai contacts</string>
+    <string name="wallet_transfer_to_friends_tip">Transfer to the user in your Sasai contacts</string>
+    <string name="wallet_transfer_to_ecocash">Transfer to Specified Account</string>
+    <string name="wallet_transfer_to_ecocash_tip">Transfer money to Specified Account</string>
+    <string name="wallet_transfer_to_ecocash_tip2">Please confirm the amount and receiver are correct.</string>
+
+    <string name="wallet_transfer_payee">Receiver Account</string>
+    <string name="wallet_transfer_payee_account">Receiver Account:</string>
+    <string name="wallet_transfer_account_name">Account Name:</string>
+    <string name="wallet_transfer_account_name_hint">Enter the account name</string>
+    <string name="wallet_transfer_payee_account_hint">Receiver Account</string>
+    <string name="wallet_transfer_payee_info">Payee information :</string>
+
+    <string name="wallet_invite_now">Invite Now</string>
+    <string name="wallet_tip_transfer_failed">Transfer failed</string>
+    <string name="wallet_tip_transfer_failed_content">%1$s has not linked their %2$s with Sasai,invite them to link?</string>
+    <string name="wallet_tip_transfer_multi_way">This user has multiple payment methods, please choose one to transfer.</string>
+
+    <string name="wallet_bind_tip">Please Link a payment method to be able to transact on Sasai.</string>
+    <string name="wallet_bind_tip2">You are not linked to %1$s, do you want to link now?</string>
+    <string name="wallet_bind_add">Link</string>
+    <string name="wallet_bind_add_card">Link Card</string>
+    <string name="wallet_bind_phone_num">Mobile wallet number</string>
+    <string name="wallet_bind_ec_name">NAME</string>
+    <string name="wallet_bind_ec_new_mobile">Mobile number</string>
+    <string name="wallet_bind_ec_input_otp">OTP</string>
+    <string name="wallet_bind_verify_pin">Verify PIN</string>
+
+    <string name="wallet_password_change">Reset Wallet PIN</string>
+    <string name="wallet_password_change_verify_tip">Please enter your current Wallet PIN to verify your identity</string>
+    <string name="wallet_password_change_verify_pin_tip">For the security of your account, we need to verify the PIN of the EcoCash account.</string>
+    <string name="wallet_password_reset">Reset password</string>
+    <string name="wallet_password_reset_tip">Please create a new Wallet PIN.</string>
+    <string name="wallet_password_create_payment">Create Wallet PIN</string>
+    <string name="wallet_password_create_payment_tip">For your account security, the first binding requires a four-digit PIN for daily payment verification.</string>
+    <string name="wallet_password_verify_payment">Verify Wallet PIN</string>
+    <string name="wallet_password_unbind_verify_payment_tip">Part of the wallet service will be unavailable after un-linking this payment method. </string>
+    <string name="wallet_password_forgot_reset_tip1">Relink will removed all your linked payment method.</string>
+
+    <string name="wallet_forget_rebind_tip">Relink payment method to create a new Wallet PIN.</string>
+    <string name="wallet_forget_rebind_tip2">You need to relink one of the payment methods to reset the Wallet PIN. Please select a payment method to relink</string>
+    <string name="wallet_forget_reset_tip">Reset Wallet PIN.</string>
+    <string name="wallet_forget_reset">Relink</string>
+    <string name="wallet_forget_pwd">Forgot Wallet PIN</string>
+
+    <string name="wallet_empty_transact_text">You do not have any transaction records.</string>
+
+    <string name="wallet_tip_please_link_ecocash">Please link the EcoCash account</string>
+    <string name="wallet_tip_please_link_first_title">Oops!</string>
+    <string name="wallet_tip_please_link_first">You have not yet linked a payment method to your Sasai account. Please link now to send money.</string>
+    <string name="wallet_tip_please_link_first_service">You have not yet linked %1$s account to your Sasai.</string>
+    <string name="wallet_tip_account_not_empty">Account cannot be empty</string>
+    <string name="wallet_tip_account_length">The amount must be greater than 0</string>
+    <string name="wallet_tip_unlink_sus">UnLink successful</string>
+    <string name="wallet_tip_paying">Paying ...</string>
+    <string name="wallet_tip_processing">Processing...</string>
+    <string name="wallet_tip_pay_processing">Processing</string>
+    <string name="wallet_tip_pay_successful">Successful</string>
+    <string name="wallet_tip_pay_failed">Fail</string>
+    <string name="wallet_tip_saved_to_album">Saved to gallery</string>
+    <string name="wallet_tip_not_link">Please Link a payment method to be able to transact on Sasai.</string>
+
+    <string name="wallet_tip_select_country_code">Please select country code</string>
+    <string name="wallet_tip_enter_phone">Please input mobile number</string>
+    <string name="wallet_tip_incorrect_pwd">Incorrect Wallet PIN, please re-enter.</string>
+    <string name="wallet_tip_incorrect_pwd_new">Incorrect Payment Password, please re-enter</string>
+    <string name="wallet_tip_incorrect_pwd1">Forgot?</string>
+
+    <string name="wallet_ctrl_transaction_type_all">All</string>
+    <string name="wallet_ctrl_transaction_type_transfer">Transfer</string>
+    <string name="wallet_ctrl_transaction_type_receive">Receive Code</string>
+    <string name="wallet_ctrl_transaction_type_biller">Biller</string>
+
+    <string name="wallet_txt_balance_enquiry">Balance Enquiry</string>
+    <string name="wallet_txt_refresh_tip">You will receive a USSD PIN request to complete the balance enquiry</string>
+
+    <string name="wallet_tip_air_time_empty">SELECT</string>
+    <string name="wallet_tip_air_time_phone_empty">MOBILE NUMBER</string>
+    <string name="wallet_tip_ussd_pin">You will receive a USSD PIN request to complete the transaction.</string>
+
+    <string name="wallet_txt_pattern">Pattern password unlock</string>
+    <string name="wallet_txt_pattern_tip">Verify pattern to access wallet</string>
+    <string name="wallet_txt_finger">Touch ID unlock</string>
+    <string name="wallet_txt_finger_tip">Verify Touch ID to access wallet</string>
+    <string name="wallet_txt_disable">Disable wallet lock</string>
+    <string name="wallet_txt_disable_tip">No verification to access wallet</string>
+
+    <string name="wallet_tip_select_payment_method">Please select the payment method that needs to be linked</string>
+    <string name="wallet_tip_verify_phone_not_same">Inconsistent with the selected mobile number</string>
+
+    <string name="wallet_txt_subscription_manage">Subscription Management</string>
+    <string name="wallet_txt_subscription_edit">Edit subscription</string>
+    <string name="wallet_txt_option_re_subscribe">Select options to re-subscribe</string>
+    <string name="wallet_txt_pay_to">Pay TO</string>
+
+    <string name="wallet_txt_game_exp_time">Expiring in %1$s</string>
+    <string name="wallet_txt_game_exp">Expired %1$s</string>
+    <string name="wallet_txt_effective_time">Effective date:%1$s - %2$s</string>
+
+    <string name="wallet_tip_net_poor">No internet, please check connection and retry.</string>
+
+    <string name="wallet_save_tip">Enter biller details for Identification, so that easy to identify the Merchant/Biller.</string>
+    <string name="wallet_alias">ALIAS:</string>
+    <string name="wallet_alias_input_hint">Please enter a Alias</string>
+    <string name="wallet_merchant_code">Merchant Code:</string>
+    <string name="wallet_merchant_code_input_hint">Please enter a Merchant Code</string>
+    <string name="wallet_biller_code">Biller Code:</string>
+    <string name="wallet_biller_code_input_hint">Please enter a Biller Code</string>
+    <string name="wallet_account_num">Account NO.:</string>
+    <string name="wallet_account_num_input_hint">Please enter a Account NO.</string>
+    <string name="wallet_phone_num">Phone Number:</string>
+    <string name="wallet_phone_num_input_hint">Please enter a Phone Number</string>
+
+    <string name="wallet_save_has_tip">You had the same Merchant/Biller account in the list, please check.</string>
+    <string name="wallet_fetching">Fetching</string>
+    <string name="wallet_collection_search">Alias/Account...</string>
+    <string name="wallet_collection_merchant_list">Merchant List</string>
+    <string name="wallet_collection_biller_list">Biller List</string>
+
+    <string name="wallet_overdraft">Overdraft</string>
+    <string name="wallet_overdraft_tip">Your EcoCash does not have sufficient funds to complete this transaction. To proceed with transaction, accept the above overdraft amount and the transaction will be completed.</string>
+    <string name="wallet_accept_od">Accept OD</string>
+    <string name="wallet_overdraft_agree">I have read and agree to </string>
+    <string name="wallet_overdraft_terms">Terms and Conditions</string>
+    <string name="wallet_text_incorrect_tip">System detects that your account does not have a security mobile number,  for security reasons, we will remove your payment method. Please rebind the payment method and set new payment password.</string>
+
+
+    <string name="app_lock_pm_lock">App lock</string>
+    <string name="app_set_unlock_pattern">Set unlock pattern</string>
+    <string name="app_lock_pm_unlock">Enable Touch ID Unlock</string>
+    <string name="app_lock_pm_unlock_with_pin">Reset pattern</string>
+    <string name="app_lock_pm_unlock_tip">Please enter Wallet PIN to verify your identity</string>
+    <string name="app_lock_pm_finger_verify">Touch ID verification</string>
+    <string name="app_lock_pm_finger_verify_tip">Please verify the Touch ID</string>
+    <string name="app_lock_pm_finger_verify_err">Please try again.</string>
+    <string name="app_lock_pm_finger_verify_perm_tip">Are you sure you want to use Touch ID verification?</string>
+    <string name="app_lock_pm_finger_verify_err_tip">Too many attempts, please try again after 30 seconds</string>
+    <string name="app_lock_pm_finger_verify_err_desc">Or unlock via login password </string>
+    <string name="app_lock_pattern_verify_forgot">Unlock with login password</string>
+
+    <string name="app_lock_txt_finger">Finger print unlock</string>
+    <string name="app_lock_txt_finger_tip">Fingerprint verification into Sasai</string>
+    <string name="app_lock_txt_pattern">Pattern password unlock</string>
+    <string name="app_lock_txt_pattern_tip">Use the drawn pattern to enter the Sasai</string>
+    <string name="app_lock_txt_disable">Disable Sasai lock</string>
+    <string name="app_lock_txt_disable_tip">After leaving the Sasai, it will no longer be certified</string>
+
+
+    <!--*********** other ***********-->
+
+
+    <!-- auth -->
+    <string name="auth_txt_auth_login_authorized_login">Authorized Login</string>
+    <string name="auth_txt_auth_login_sasai_game">Sasai Games</string>
+    <string name="auth_txt_auth_login_title">%1$s will receive sasai:</string>
+    <string name="auth_txt_auth_login_item">The APP will get your Sasai information to login.\nIncluding: Name, Profile image, Gender, Date of birth</string>
+    <string name="auth_txt_auth_login_confirm">Allow</string>
+    <string name="message_type_txt_balance">[Balance Inquiry]</string>
+
+
+    <!-- global search -->
+    <string name="common_txt_search_type_more">View More</string>
+    <string name="common_txt_search_type_contact">FRIENDS</string>
+    <string name="common_txt_search_type_mobile_contact">MOBILE CONTACT</string>
+    <string name="common_txt_search_type_search_friend">NEW FRIENDS</string>
+    <string name="common_txt_search_type_group_contact">GROUPS</string>
+    <string name="common_txt_search_type_chat_history">CHAT HISTORY</string>
+
+
+    <!-- google drive -->
+    <string name="google_drive_txt_title">Backup And Synchronise</string>
+    <string name="google_drive_txt_never">Never</string>
+    <string name="google_drive_txt_backup_label">BACKUP</string>
+    <string name="google_drive_txt_backup_sync_date">Last Sync Date:</string>
+    <string name="google_drive_txt_backup_tips">Backup your media and messages to Google Drive. You can synchronize the data back to your device or new android device. NB: Messages and media backed up in Google Drive are not protected by Sasai</string>
+    <string name="google_drive_txt_backup_size">This backup size</string>
+    <string name="google_drive_txt_backup_confirm">Backup</string>
+    <string name="google_drive_txt_restore_label">RESTORE</string>
+    <string name="google_drive_txt_restore_sync_date">Last Sync Date:</string>
+    <string name="google_drive_txt_restore_tips">You can download the back up file from the Google Drive and sync directly to your phone. Please note that the current chat history will be overwritten after downloading.</string>
+    <string name="google_drive_txt_restore_to">RESTORE TO:</string>
+    <string name="google_drive_txt_restore_confirm">Restore</string>
+
+    <string name="google_drive_toast_login_progress">Sign In...</string>
+    <string name="google_drive_toast_login_fail">Unable to sign in google drive</string>
+    <string name="google_drive_toast_querying">Querying for files...</string>
+    <string name="google_drive_toast_query_fail">Unable to query files</string>
+    <string name="google_drive_toast_backup_tips">Are you sure you want to back up your current data to your google drive account?</string>
+    <string name="google_drive_toast_backup_progress">Backup...</string>
+    <string name="google_drive_toast_backup_success">Backup Success！</string>
+    <string name="google_drive_toast_backup_fail">Backup Failed！</string>
+    <string name="google_drive_toast_restore_tips">The current chat history will be overwritten after downloading. Do you want to proceed?</string>
+    <string name="google_drive_toast_restore_progress">Restore...</string>
+    <string name="google_drive_toast_restore_success">Restore Success！</string>
+    <string name="google_drive_toast_restore_fail">Restore Failed！</string>
+
+    <string name="common_submit_successful">Submit successfully</string>
+    <string name="common_submit_fail">Submit fail</string>
+    <string name="pod_cast_no_content_new">Oops!\nNo related content in here</string>
+    <string name="podcast_common_tip_message_error">There was an error in synchronizing the information. Please try again</string>
+    <string name="chat_txt_activities_not_available">Activities not available</string>
+    <string name="chat_txt_activate_sasai_wallet">Activate Sasai Wallet</string>
+    <string name="chat_txt_gift_hints_tip">Your Sasai wallet is not activated yet. Please go to SasaiPay and activate.</string>
+    <string name="chat_txt_gift_hints_continue">Go to SasaiPay</string>
+
+
+    <!--聚合支付-->
+    <string name="wallet_account_number_title">ACCOUNT NO.:</string>
+    <string name="wallet_account_number_hint">Input account number</string>
+    <string name="wallet_not_support_country">Not available in your country...</string>
+    <string name="chat_txt_title_set_password">Set Password</string>
+    <string name="app_web_refresh">Refresh</string>
+
+
+    <string name="permission_not_granted">Necessary permissions not granted</string>
+    <string name="wifi_finder_tips_title_new">Auto connection failed.</string>
+    <string name="wifi_finder_tips_desc_new">Please click on ‘Go’ button and manually enter the username and password shared in chat when you purchased your WiFi bundle</string>
+
+    <!--    注册，登录-->
+    <!--    An SMS with a code has been sent to  [phone number] for verification. (Carrier charges may apply). Please enter the code below.-->
+    <string name="register_verify_code_detail">An SMS with a code has been sent to</string>
+    <string name="register_verify_code_detail_later">for verification. (Carrier charges may apply). Please enter the code below.</string>
+    <string name="register_resend_code_num">Resend code in 00:</string>
+    <string name="register_resend_code">Resend code</string>
+    <string name="register_input_name_phone_enter">Please enter your name and phone number</string>
+    <string name="register_complete_registration">Complete Registration</string>
+    <string name="register_referral_code">Referral Code</string>
+    <string name="register_referral_code_done">Done</string>
+    <string name="register_referral_code_skip">Skip</string>
+    <string name="register_hint_referral_code">Enter Referral Code</string>
+    <string name="register_referral_code_tip">Did someone refer you for Sasai using a referral link? lf so, please enter the code provided in Referral message.</string>
+    <string name="register_data_request_failed">Data request failed. Please try again later</string>
+    <string name="register_link_to_the_network">Please link to the network and try again later</string>
+    <string name="text_otp_verification">OTP Verification</string>
+    <string name="text_otp_verification_tip">Please enter the Verification code we just sent you.</string>
+    <string name="text_otp_resend_in">&#160;Resend in&#160;</string>
+    <string name="text_otp_resend">&#160;Resend</string>
+    <string name="text_otp_or">or&#160;</string>
+
+    <!--直播-->
+    <string name="live_dialog_fragment_turned_off_comments">You have disabled the comment function.</string>
+    <string name="live_dialog_fragment_audience_turned_off_comments">The initiator has turned off comments. You can\'t publish comments.</string>
+    <string name="live_dialog_fragment_turn_on">Turn on</string>
+    <string name="live_dialog_fragment_exit_live">Exit Live</string>
+    <string name="live_dialog_fragment_end_live">end Live</string>
+    <string name="live_dialog_fragment_leave_live">Leave Live</string>
+    <string name="live_dialog_fragment_leave_live_content">Your Live Video will still be going on after leaving this page ，are you sure want to leave ?</string>
+    <string name="live_dialog_fragment_end_live_content">Are you sure you want to end this Live video now ?</string>
+    <string name="live_dialog_fragment_leave_live_sure">Sure</string>
+    <string name="live_dialog_fragment_block_mike">Block</string>
+    <string name="live_dialog_fragment_unblock">UnBlock</string>
+    <string name="live_dialog_fragment_block_user">Are you sure to block this user?</string>
+    <string name="live_dialog_fragment_unblock_user">Are you sure to unblock this user?</string>
+    <string name="live_dialog_fragment_delete_video">Are you sure to delete this video?</string>
+    <string name="live_dialog_fragment_blocked_video">You have been blocked</string>
+    <string name="live_txt_title_appreciate_activation">Appreciate Activation</string>
+    <string name="live_txt_title_appreciate_activation_tips">Uploading clear documents and IDs can make the approval process faster</string>
+    <string name="live_txt_title_appreciate_username">Username</string>
+    <string name="live_txt_title_appreciate_username_hint">Enter username</string>
+    <string name="live_txt_title_organization_name">ORGANIZATION NAME</string>
+    <string name="live_txt_title_organization_name_hint">Enter Organization name</string>
+    <string name="live_txt_title_appreciate_id_number">LICENSE/PASSPORT/ID NUMBER</string>
+    <string name="live_txt_title_appreciate_id_number_hint">Enter license, passport, ID number</string>
+    <string name="live_txt_title_appreciate_vat_number">VAT NO.</string>
+    <string name="live_txt_title_appreciate_vat_number_hint">Enter VAT no.</string>
+    <string name="live_txt_title_appreciate_upload_tips_new">Upload the photo of the page with your face for either your ID/ License or Passport</string>
+    <string name="live_txt_title_sasai_wallet_account_new">Sasai Wallet Account</string>
+    <string name="live_txt_withdraw_appreciate_use_tips">Activate wallet to receive an appreciation or a donation</string>
+    <string name="live_ctrl_not_activated">Not Activated</string>
+    <string name="live_ctrl_activate">Activate</string>
+    <string name="live_ctrl_activated">Activated</string>
+    <string name="live_txt_agree_to_the_tip">Agree to the</string>
+    <string name="live_txt_terms_and_conditions_new">Terms and Conditions</string>
+    <string name="live_txt_title_appreciate_upload_id_tips">COPY OF ID/PASSPORT/DRIVERS LICENSE/ COMPANY LICENSE</string>
+    <string name="live_ctrl_upload_change">change</string>
+    <string name="live_ctrl_upload_choose_from_library">Choose from library</string>
+    <string name="live_ctrl_upload_take_photo">Take photo</string>
+    <string name="live_ctrl_live_star">Live Stars</string>
+    <string name="live_ctrl_next_step">Next Step</string>
+    <string name="live_ctrl_appreciate_activation">Appreciate Activation</string>
+    <string name="live_ctrl_donate_application">Donate Application</string>
+    <string name="live_ctrl_web_stream">Launch Sasai Live on Web</string>
+    <string name="live_ctrl_integrate_stream">Integrate stream from other platforms</string>
+    <string name="live_txt_license_passport_id_number">License/Passport/ID number</string>
+    <string name="live_txt_vat_no">VAT no.</string>
+    <string name="live_txt_verified_documents">Verified documents</string>
+    <string name="live_txt_settlement_account">Settlement account</string>
+    <string name="live_txt_sasai_wallet">Sasai wallet</string>
+    <string name="live_txt_auditing">Auditing…</string>
+    <string name="live_txt_auditing_tips">Your application has been submitted successfully. You will receive an notification once the application has been approved.</string>
+    <string name="live_txt_rejected">Application has been rejected</string>
+    <string name="live_ctrl_resubmit">Resubmit</string>
+    <string name="live_title_send_starts_to">SEND STARTS TO:</string>
+    <string name="live_tips_the_balance_of_the_stars">The balance of the stars is not enough to pay.</string>
+    <string name="live_tips_the_balance_click_to_buy">There are not enough stars. Click to buy.</string>
+    <string name="live_txt_customize">CUSTOMIZE:</string>
+    <string name="live_txt_enter_the_amount">Enter the amount…</string>
+    <string name="live_ctrl_anonymous_send_star">Anonymous will not display user information</string>
+    <string name="live_ctrl_anonymous">Anonymous</string>
+    <string name="live_tips_by_placing_this_order">By placing this order,you agree to Sasai\'s</string>
+    <string name="live_tips_by_placing_terms">terms and conditions.</string>
+    <string name="live_title_buy_stars">Buy Stars</string>
+    <string name="live_ctrl_get_stars">Get Stars</string>
+    <string name="live_ctrl_send_stars">Send</string>
+    <string name="live_title_transaction_detail">Transaction Detail</string>
+    <string name="live_title_payment_amount">PAYMENT AMOUNT</string>
+    <string name="live_txt_order_information">Order information</string>
+    <string name="live_txt_payment_method">Payment Method</string>
+    <string name="live_finish_txt_customize">Customize</string>
+    <string name="live_finish_send_thank">Send Thank You Message</string>
+    <string name="live_finish_send_contributed">Thank you to all who have participated in this Live video</string>
+    <string name="live_title_appreciate">Appreciate: </string>
+    <string name="live_title_save_draft">Save this drafts?</string>
+    <string name="live_txt_upload_cover">Upload cover</string>
+    <string name="live_tip_save_draft">Your can re-edit this drat after saving it</string>
+    <string name="live_title_wallet_is_not_activated">Wallet is not activated</string>
+    <string name="live_txt_wallet_or_donation">You have to active Sasai Wallet before appreciating or donation</string>
+    <string name="live_ctrl_wallet_activate_now">Activate now</string>
+    <string name="live_tips_wallet_activate_successfully">Activate successfully</string>
+    <string name="live_tips_wallet_send_successfully">Send successfully</string>
+    <string name="live_tips_minimize_live">Minimize Live</string>
+    <string name="live_tips_sure_you">Are you sure you want to minimize?</string>
+    <string name="live_tips_sure_tag_friends">Tag friends</string>
+    <string name="live_tips_sure_invite_friends">Invite friends</string>
+    <string name="live_title_edit_moment">Edit Moment</string>
+    <string name="live_title_edit_watch">Edit Watch</string>
+    <string name="live_txt_download_saving">Saving…</string>
+    <string name="live_tips_download_error">Download failed, click retry</string>
+    <string name="live_tips_download_camera_roll">Already saved to Camera Roll</string>
+    <string name="live_tips_download_url_is_empty">Download URL is empty</string>
+    <string name="live_common_waiting_stream">Broadcaster is reconnecting,will be back soon</string>
+    <string name="live_common_waiting_stream_anchor">Live Connecting...</string>
+    <string name="live_common_waiting_reconnect_now">Reconnect now</string>
+    <string name="live_common_waiting_ignore">Just ignore it</string>
+    <string name="live_common_waiting_instructions">Instructions</string>
+
+    <!--    直播live stars-->
+    <string name="live_stars_liquidable_stars_3600_all_liquidate">liquidate Stars:</string>
+    <string name="live_stars_all_liquidate">All Liquidate</string>
+    <string name="live_stars_no_record">No Record</string>
+    <string name="live_stars_all">All</string>
+    <string name="live_stars_july_2020">July,2020</string>
+    <string name="live_stars_liquidate">Liquidate</string>
+    <string name="live_stars_purchase">Purchase</string>
+    <string name="live_stars_stars_rule">Stars rule</string>
+    <string name="live_stars_star_balance">Star Balance</string>
+    <string name="live_stars_live_stars">Live Stars</string>
+    <string name="live_stars_liquidate_stars_liquidate_to_sasai_wallet_only">LIQUIDATE STARS <font color='#7e8299'><u><bold>(Liquidate to Sasai wallet only)</bold></u></font></string>
+    <string name="live_stars_stars_liquidate">Stars Liquidate</string>
+    <string name="live_tips_stars_liquidate_minimum">Minimum</string>
+    <string name="live_title_liquidation_rule_rule">Integration rule</string>
+    <string name="live_title_liquidation_rule_content">Do you want to integrate stream from Restream IO, Castr, Resi, Streamyard, OBS or any other streaming platform?</string>
+    <string name="live_tips_quantity_exceeds_Liquidate">Input quantity exceeds Liquidate quantity</string>
+    <string name="live_tips_delete_comment">Are you sure to delete this comment?</string>
+    <string name="live_tips_quit">Quit</string>
+    <string name="live_tips_live_want_to_exit">You are about to quit the live video broadcast. Do you want to continue?</string>
+    <string name="live_common_ctrl_send">Send</string>
+    <string name="live_common_check_live_now">You have an ongoing live , would you like to reconnect?</string>
+    <string name="live_common_check_right_now">Check right now</string>
+    <string name="live_common_check_got_now">I got it</string>
+    <string name="live_common_check_got_now_later">Would you like to start live video now or schedule for later?</string>
+    <string name="live_common_check_got_welcome">Welcome to Sasai Live</string>
+    <string name="live_common_check_got_welcome_tv">Watch Live TV or</string>
+    <string name="live_common_check_got_welcome_tv_content">Create Your Live Content</string>
+    <string name="live_common_discovery_txt_tv">Live TV</string>
+    <string name="live_common_reconnect">Live reconnect</string>
+    <string name="live_common_reconnect_start">Oops, cannot start</string>
+    <string name="live_common_reconnect_start_content">You have an on going Live Video now , you can\'t start a new one until end this Live video</string>
+    <string name="live_tips_step_1">Step 1</string>
+    <string name="live_tips_step_2">Step 2</string>
+    <string name="live_tips_step_3">Step 3</string>
+    <string name="live_tips_step_4">Step 4</string>
+    <string name="live_tips_step_5">Step 5</string>
+    <string name="live_tips_step_6">Step 6</string>
+    <string name="live_tips_step_1_content">Click ”Launch Sasai Live on Web”</string>
+    <string name="live_tips_step_2_content">Set up and launch your Live session on Sasai App</string>
+    <string name="live_tips_step_3_content">Copy the URL for Sasai Live Web, Open it on your browser</string>
+    <string name="live_tips_step_4_content">Click ”Go Live” on Sasai Live Web Assistant to begin</string>
+    <string name="live_tips_step_5_content">Click ”End Session” on Sasai Live Web to end the Live session</string>
+    <string name="live_tips_step_6_content">Click ”End Live Session” on Sasai App to close Live video</string>
+
+    <!--    家长模式-->
+    <string name="kids_watch_confirmation">Confirmation</string>
+    <string name="kids_watch_sign_to_watch_select_category">Sign to Watch,Select Category</string>
+    <string name="kids_watch_kids">Kids</string>
+    <string name="kids_watch_normals">Normal</string>
+    <string name="kids_watch_kids_tips">Tips</string>
+    <string name="kids_watch_kids_profile_updated">Your profile needs to be updated. Kindly update or proceed to Kids Watch.</string>
+    <string name="kids_watch_kids_watch">Kids watch</string>
+    <string name="kids_watch_kids_update">Update</string>
+
+
+    <string name="chat_message_info_state_read">Read</string>
+    <string name="chat_message_info_read_state_not_read">Not Read</string>
+    <string name="chat_message_info_state_delivered">Delivered</string>
+    <string name="chat_message_info_state_not_delivered">Not Delivered</string>
+
+
+    <string name="watch_privacy_text">Read</string>
+    <string name="live_common_joined_sasai">joined Sasai</string>
+
+    <string name="chat_service_customer_end_chat">End Chat</string>
+    <string name="chat_service_customer_end">End</string>
+    <string name="chat_service_customer_end_content">Are you sure to end customer service?</string>
+
+    <string name="chat_work_order_title">Related Query from Reporter</string>
+
+    <string name="chat_customer_service_name">Sasai Customer Staff</string>
+    <string name="chat_customer_service_waiting">Waiting for customer service  coming in...</string>
+
+    <string name="chat_customer_service_no_work_list_data">No related query data</string>
+    <string name="common_scheduled_successful">Scheduled successfully</string>
+    <string name="common_starting_live">Starting Live Video</string>
+    <string name="live_common_watch_live">Watch My Live</string>
+    <string name="live_common_end_live">End Live Video</string>
+    <string name="live_common_streaming_key">Streaming Key:</string>
+    <string name="live_common_service_address">Service Address:</string>
+    <string name="live_common_step_one">Copy address / Key to another platform</string>
+    <string name="live_common_step_two">Configure stream platform</string>
+    <string name="live_common_step_three">Click the button below to close or watch</string>
+    <string name="live_common_step_one_web">Copy the URL to your browser</string>
+    <string name="live_common_step_two_web">Go Live on Web</string>
+    <string name="live_common_step_three_web">Click the button below to watch or close</string>
+    <string name="live_common_url_of_sasai_live_assistant">URL for Sasai Live Web</string>
+    <string name="live_common_connect_live">Connect Live</string>
+    <!--remit-->
+    <string name="text_title_remittance">Sasai Remittance</string>
+    <string name="text_title_check_rate">Check Rate</string>
+    <string name="text_title_send_money">Send Money</string>
+    <string name="text_title_our_rates">Our Rates</string>
+    <string name="text_title_choose_recipient">Choose Recipient</string>
+    <string name="text_title_recipient_details">Recipient Details</string>
+    <string name="text_title_sending_limits">Sending Limits</string>
+    <string name="text_title_transaction_history">Transaction History</string>
+    <string name="text_title_transaction_details">Transaction Details</string>
+    <string name="text_title_search_recipient">Search Recipient</string>
+    <string name="text_title_search_translation">Search Translation code</string>
+    <string name="text_title_personal_details">Personal Details</string>
+    <string name="text_title_extended_details">Extended Details</string>
+    <string name="text_title_send_me_promotions">Send Me Promotions</string>
+    <string name="text_title_change_password">Change Password</string>
+    <string name="text_title_upload_document">Upload Document</string>
+    <string name="text_title_log_out">Log Out</string>
+    <string name="text_title_profile">Profile</string>
+    <string name="text_title_day">DAY</string>
+    <string name="text_title_month">MONTH</string>
+    <string name="text_title_year">YEAR</string>
+    <string name="text_main_send_money">Send Money</string>
+    <string name="text_main_check_rates">Check Rates</string>
+    <string name="text_main_bread_winner">Breadwinner</string>
+    <string name="text_main_send_limits">Send Limits</string>
+    <string name="text_main_transac_tions">Transactions</string>
+    <string name="text_main_profile">Profile</string>
+    <string name="text_main_recipients">Recipients</string>
+    <string name="text_main_homewallet">HomeWallet</string>
+    <string name="text_main_help_center">Help Center</string>
+    <string name="text_main_log_in">Log in</string>
+    <string name="text_main_register">Register</string>
+    <string name="text_coming_soon">Coming soon</string>
+    <string name="reset_pwd_phone_vpn_title">Verify Your Identity</string>
+    <string name="reset_pwd_code_vpn_title">Verify SMS Code</string>
+    <string name="reset_pwd_phone_vpn_content">We will send you a 4 digit code to verify your identity.Please ensure you have entered a valid mobile number.</string>
+    <string name="reset_pwd_phone_vpn_6_content">We will send you a 6 digit code to verify your identity.Please ensure you have entered a valid mobile number.</string>
+    <string name="reset_pwd_phone_vpn_7_content">Please enter the 6 digits code provided in our SMS message. It would arrive shortly..</string>
+    <string name="reset_pwd_phone_vpn_8_content">Enter the verification sent to your registered phone number.</string>
+    <string name="reset_pwd_phone_vpn_content_register">We have sent a 4 digit Code to your %1$s. Enter the confirmation sent to your registered phone number.</string>
+    <string name="reset_pwd_enter_phone_number">Enter phone number</string>
+    <string name="reset_pwd_sms_code_btn">Send SMS Code</string>
+    <string name="reset_pwd_email_code_btn">Send Email Link</string>
+    <string name="reset_pwd_get_code_warn_info">Don’t you receive any code? </string>
+    <string name="reset_pwd_resend_code_info">Resend SMS code</string>
+    <string name="reset_pwd_resend_in_info">Resend in %1$d s </string>
+    <string name="text_amount_to_be_sent">Amount to be sent</string>
+    <string name="text_amount_to_be_received">Amount to be received</string>
+    <string name="text_send_to">Choose your country</string>
+    <string name="text_send_to_title_info">Please select the country or region where the payee is located</string>
+    <string name="text_status_all">All</string>
+    <string name="text_status_quoted">Quoted</string>
+    <string name="text_status_pending">Pending</string>
+    <string name="text_status_authorised">Authorised</string>
+    <string name="text_status_completed">Completed</string>
+    <string name="text_status_cancelled">Cancelled</string>
+    <string name="text_status_expired">Expired</string>
+    <string name="text_status_reversed">Reversed</string>
+    <string name="text_status_clear">Clear</string>
+    <string name="text_choose_to_send">Choose send to…</string>
+    <string name="text_updated_time">Updated:&#160;</string>
+    <string name="text_btn_get_started">Get Started</string>
+    <string name="text_key_pay_amount">Pay Amount</string>
+    <string name="text_key_amount">Amount</string>
+    <string name="text_key_promocode">PromoCode</string>
+    <string name="text_key_transfer_type">Transfer Type</string>
+    <string name="text_key_status">Status</string>
+    <string name="text_key_date">Date</string>
+    <string name="text_select_delivery_method">Select delivery Method</string>
+    <string name="text_pay_amount">Pay Amount</string>
+    <string name="text_exchange_rate">Exchange rate</string>
+    <string name="text_transfer_fee">Our transfer fees</string>
+    <string name="text_beneficiary_receives">Beneficiary receives</string>
+    <string name="text_btn_pay_now">Pay Now</string>
+    <string name="text_promotion_code">PROMOTION CODE(Optional) </string>
+    <string name="text_relationship">relationship</string>
+    <string name="text_choose_relationship">Select Relationship</string>
+    <string name="text_please_choose_relationship">Please Select Relationship</string>
+    <string name="text_title_dialog_log_out">Log Out Confirmation</string>
+    <string name="text_title_dialog_contact_operator">Contact the Operator</string>
+    <string name="text_conten_dialog">Do you really want to quit?</string>
+    <string name="text_conten_dialog_1">Please contact us to edit any info on this page:&#160;</string>
+<!--    <string name="text_em_sa">customercare@cassavaecocash.co.za</string>-->
+    <string name="text_em_sa">support@sasairemit.com</string>
+    <string name="text_em_uk">support@sasairemit.com</string>
+    <string name="text_btn_dialog_ok">OK</string>
+    <string name="text_btn_dialog_cancel">Cancel</string>
+    <string name="text_funds_sal">SAL</string>
+    <string name="text_funds_sv">SV</string>
+    <string name="text_funds_gf">GF</string>
+    <string name="text_funds_pn">PN</string>
+    <string name="text_funds_salary">Salary</string>
+    <string name="text_funds_savings">Savings</string>
+    <string name="text_funds_gift">Gift</string>
+    <string name="text_funds_pension">Pension</string>
+    <string name="text_select_reason_for_transfer">Select reason for transfer</string>
+    <string name="text_please_select_reason_for_transfer">Please select reason for transfer</string>
+    <string name="text_select_source_of_funds">Select source of funds</string>
+    <string name="text_please_select_source_of_funds">Please select source of funds</string>
+    <string name="text_choose_payment">Choose payment</string>
+    <string name="text_please_choose_payment">Please choose payment</string>
+    <string name="text_transaction_details">Transaction Details</string>
+    <string name="text_reason">Reason:</string>
+    <string name="text_source">Source:</string>
+    <string name="text_pickup_point">Pickup point:</string>
+    <string name="text_payment_method">Payment Method:</string>
+    <string name="text_sending_currency">Sending currency:</string>
+    <string name="text_receiving_currency">Receiving currency:</string>
+    <string name="text_amount_to_pay">Amount to pay:</string>
+    <string name="text_beneficiary_receives_02">Beneficiary receives:</string>
+    <string name="text_rate">Rate:</string>
+    <string name="text_fees">Fees:</string>
+    <string name="text_vat">VAT:</string>
+    <string name="text_bop_category">BoP category:</string>
+    <string name="text_full_name">Full Name:</string>
+    <string name="text_county">County:</string>
+    <string name="text_address_line_1">Address line 1:</string>
+    <string name="text_city">City:</string>
+    <string name="text_province">Province:</string>
+    <string name="text_pay_later">Pay Later</string>
+    <string name="text_pay_now">Pay Now</string>
+    <string name="text_declaration">Declaration</string>
+    <string name="text_declaration_content">I hereby declare that:\n to the above transaction and confirm that this limit will not be exceeded as a result of the conclusion of this transaction and I consent to this information being provided to the South African Revenue Service and / or the Financial Intelligence Centre.</string>
+    <string name="text_declaration_agree_wit">I agree with the declaration above</string>
+    <string name="text_integrate_form_title">Integrated Form</string>
+    <string name="text_accepted_card_types">CHOOSE CARD TYPE</string>
+    <string name="text_accepted_card_hint_types">Choose Card type</string>
+    <string name="text_accepted_card_types_t">CHOOSE CARD</string>
+    <string name="text_accepted_card_hint_types_t">Choose Card </string>
+    <string name="text_please_accepted_card_types">Please select AcceptedCardTypes</string>
+    <string name="text_sending_limits_explain">Based on your KYC status, you are eligible to send money based on your limit. Please do not Hesitate to contact us for more details of your usage limits.</string>
+    <string name="text_remaining_month">Remaining(month)</string>
+    <string name="text_used_month">Used(month)</string>
+    <string name="text_remaining_day">Remaining(day)</string>
+    <string name="text_used_day">Used(day)</string>
+    <string name="text_remaining_year">Remaining(year)</string>
+    <string name="text_used_year">Used(year)</string>
+    <string name="text_limit_of_zar">Limit of ZAR&#160;</string>
+    <string name="text_per_day">&#160;per day</string>
+    <string name="text_per_month">&#160;per month</string>
+    <string name="text_per_year">&#160;per year</string>
+    <string name="text_zar">ZAR&#160;</string>
+    <string name="text_btn_check_rates">Check Rates</string>
+    <string name="text_btn_skip">Skip</string>
+    <string name="text_title_sasai_remit">Send Money Home to Your Loved Ones Sasai Remit</string>
+    <string name="text_title_login">Login</string>
+    <string name="text_login_ds">Please login with Sasai Remit account</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_account">Don’t have an account?</string>
+    <string name="text_title_register">Register</string>
+    <string name="text_preview_invoice_from">Preview Invoice Form</string>
+    <string name="text_preview_integrated_from">Preview Integrated Form</string>
+    <string name="text_total_amount">Total Amount</string>
+    <string name="text_status_filter">Status Filter</string>
+    <string name="text_date_filter">Date Filter</string>
+    <string name="text_manage_account">MANAGE ACCOUNT</string>
+    <string name="text_tip_no_remit">remittances will be coming soon to their country</string>
+    <string name="text_account_status">Account Status: &#160;</string>
+    <string name="text_customer_no">Customer No.: &#160;</string>
+    <string name="text_user_sta_paused">Paused</string>
+    <string name="text_user_sta_approved">Approved</string>
+    <string name="text_user_sta_channeled">Channeled</string>
+    <string name="text_user_sta_blacklisted">BlackListed</string>
+    <string name="text_user_sta_duplicate">Duplicate</string>
+    <string name="text_please_type_your_amount">Please type your amount</string>
+    <string name="text_please_choose_send_to">Please choose send to</string>
+    <string name="text_btn_edit_profile">Edit Profile</string>
+    <string name="text_bank_list_title">Please select you bank</string>
+    <string name="text_id_verification_document">ID VERIFICATION DOCUMENT *</string>
+    <string name="text_choose_nationality">Choose Document</string>
+    <string name="text_please_choose_nationality">please Choose Document </string>
+    <string name="text_id_document_number">ID DOCUMENT NUMBER *</string>
+    <string name="text_enter_id_document_number">Enter ID Document Number</string>
+    <string name="text_enter_middle_name">Enter Middle Name</string>
+    <string name="text_title_about_us">About Us</string>
+    <string name="text_title_faqs">FAQs</string>
+    <string name="text_title_terms_conditions">Terms and Conditions</string>
+    <string name="text_title_how_works">How it Works</string>
+    <string name="text_title_get_help">Get Help</string>
+    <string name="text_title_help_center">Help Center</string>
+    <string name="text_title_privacy_policy">Privacy Policy</string>
+
+    <string name="text_id_document_expiry_date">ID DOCUMENT EXPIRY DATE *</string>
+    <string name="text_document_expiry_date">Select Date</string>
+    <string name="text_take_a_photo_of_id_document">Take a photo of ID Document</string>
+    <string name="text_selfie_id">Open the photo page of your passport / asylum / RSA ID. Take a photo of your face next to the photo page of your passport / asylum / RSA ID.</string>
+    <string name="text_upload_document">Upload Document</string>
+    <string name="text_uploa_change">Change</string>
+    <string name="text_send_money_result_info">Hi %1$s. Please pay using the following details: \n\nTransaction ref: %2$s; \n\ntotal to pay: %3$s \n\nYour quote has been successfully generated, Kindly visit your nearest agent and pay in %4$s using the following transaction reference: %5$s.\n\nstatus: This quote will expire after 12 hours.\n\nHave a good day </string>
+    <string name="text_send_money_result_later_info">Hi %1$s. Please pay using the following details: \n\nTransaction ref: %2$s; \ntotal to pay: %3$s \n\nYour quote has been successfully generated and saved. your transaction code:%4$s. To proceed to payment, please go to Transation History and select the transaction with this transaction code.\n\nstatus: This quote will expire after 12 hours. \n\nHave a good day</string>
+    <string name="txt_downloaded_audio">Oops!\nNo downloaded audio</string>
+
+
+    <string name="text_title_add_recipient">Add Recipient</string>
+    <string name="text_title_pay_successfully_info">Pay Successfully</string>
+    <string name="please_declaration_agree_with">Please agree with the declaration </string>
+    <string name="text_id_uplod_title">Upload ID information</string>
+    <string name="text_current_password">Current Password</string>
+    <string name="text_new_password">New Password</string>
+    <string name="text_confirm_new_password">Confirm New Password</string>
+    <string name="text_enable">Enable</string>
+    <string name="text_disable">Disable</string>
+    <string name="text_enable_ds">You will receive promotional communication from Sasai Remit</string>
+    <string name="text_about_us">About Us</string>
+    <string name="text_item_code">Code</string>
+    <string name="text_item_name">Name</string>
+    <string name="text_enter_phone_number">Enter phone number</string>
+    <string name="text_enter_password">Enter password</string>
+    <string name="text_follow_us">Follow us</string>
+    <string name="text_contact_us">Contact us</string>
+    <string name="text_version">Version</string>
+    <!--<string name="text_help_email">Email: customrecare@cassavaecocash.co.za</string>-->
+    <string name="text_help_email">Email: support@sasairemit.com</string>
+    <string name="text_help_phone_1">Phone (within SA): 084 133(Toll-free for Cell C Customers)</string>
+    <!--<string name="text_help_phone_2">Phone (within SA): 010 003 5329</string>-->
+    <string name="text_help_phone_2">Phone (within SA): 010 500 8801</string>
+    <!--<string name="text_help_phone_3">Phone (outside SA): +27 10 0035329</string>-->
+    <string name="text_help_phone_3">Phone (outside SA): +27 10 5008801</string>
+    <string name="text_help_facebook">Facebook: @EcoCashRemitSA</string>
+    <string name="text_help_twitter">Twitter: @EcoCashRemitSA</string>
+    <string name="text_help_version">Version Code: 64</string>
+    <string name="text_help_version_1">Version Name: 2.5.5-staging-staging</string>
+    <string name="text_invoice_from">Invoice Form</string>
+    <string name="text_form_declaration">I hereby declare that:
+        \n\n· I have read this document and know and understand both true and correct;
+        \n\n· The information famished above is in all respects both true and correct;
+        \n\n· The currency applied for will only be used for the specific purpose stated herein;
+        \n\n· The documentation presented in support of this above translation and confirm that this limit will not be exceeded as a result of the conclusion of this transaction and;
+        \n\n· I have been informed of the limit applicable to the above transaction and confirm that this limit will not be exceeded as a result of the conclusion of this transaction and;
+        \n\n· I consent to this information being provided the South African Revenue Service and/or the Financial intelligence centre.</string>
+    <string name="text_form_sig_data">Signature: %s
+        \n\nDate: %s pm</string>
+    <string name="text_sender_details">Sender Details</string>
+    <string name="text_tax_invoice">Tax Invoice</string>
+    <string name="text_our_rates_info">Sending money from %1$s to %2$s </string>
+    <string name="reset_please_enter_phone_number">please enter phone number</string>
+    <string name="reset_a_new_pwd">Set a new password</string>
+    <string name="text_confirm_password">Confirm Password*</string>
+    <string name="text_enter_new_password">Enetr New Password*</string>
+    <string name="text_please_enter_sms_code_password">Please enter sms code</string>
+    <string name="reset_pwd_enter_email_number">Enter Your Email</string>
+    <string name="reset_please_pwd_enter_email_number">Please Enter Your Email</string>
+    <string name="reset_please_pwd_enter_email_token">Please Enter Your Email Token</string>
+    <string name="text_not_available">Not Available</string>
+    <string name="text_uk_log_tip">Email Adress as your Account</string>
+    <string name="text_uk_log_tip_1">Do you already have a SasaiRemit account?</string>
+    <string name="text_not_card">No card available</string>
+    <string name="text_send_money_limit_info">The sending limit exceeded.Please try again the next day.</string>
+    <string name="text_source_salary">Salary</string>
+    <string name="text_source_savings">Savings</string>
+    <string name="text_source_gift">Gift</string>
+    <string name="text_source_pension">Pension</string>
+    <string name="text_no_data">Oops!\nNo data in here</string>
+    <string name="text_reg_your_country">YOUR COUNTRY</string>
+    <string name="text_reg_mobile_number">MOBILE NUMBER</string>
+    <string name="text_reg_email_address_optional">EMAIL ADDRESS</string>
+    <string name="text_reg_create_password">CREATE PASSWORD</string>
+    <string name="text_reg_confirm_password">CONFIRM PASSWORD</string>
+    <string name="text_reg_promo_code">PROMO CODE (Optional)</string>
+    <string name="text_hint_enter_first_name">Enter First Name</string>
+    <string name="text_hint_enter_middle_number">Enter Middle Name</string>
+    <string name="text_hint_enter_mobile_number">Enter Moblie Number</string>
+    <string name="text_hint_enter_surname">Enter Surname</string>
+    <string name="text_hint_choose_nationality">Choose Nationality</string>
+    <string name="text_hint_choose_id_verification_document">Choose ID Verification Document</string>
+    <string name="text_hint_enter_id_document_number">Enter ID Document Number</string>
+    <string name="text_hint_enter_occupation">Enter Occupation</string>
+    <string name="text_hint_choose_gender">Choose Gender</string>
+    <string name="text_hint_dd_mm_yy">DD / MM / YY</string>
+    <string name="text_hint_enter_last_name">Enter Last Name</string>
+    <string name="text_hint_choose_country_residence">Choose Country of residence</string>
+    <string name="text_hint_enter_street_address">Enter Street Address</string>
+    <string name="text_hint_enter_suburb">Enter Suburb</string>
+    <string name="text_hint_enter_city">Enter City</string>
+    <string name="text_hint_select_province">Select Province</string>
+    <string name="text_hint_select_uk_province">Enter Province</string>
+    <string name="text_hint_select_uk_is_empty_province">Please Enter Province</string>
+    <string name="text_hint_enter_postal_code">Enter Postal Code</string>
+    <string name="text_title_tell_us_more_about_yourself">Tell us more about yourself</string>
+    <string name="text_hint_choose_your_country">Choose Your Country</string>
+    <string name="text_hint_enter_email_address">Enter Email Address</string>
+    <string name="text_hint_enter_a_password">Enter a Password</string>
+    <string name="text_hint_enter_the_above_password_again">Enter the above password again</string>
+    <string name="text_hint_enter_promo_code">Enter Promo Code</string>
+    <string name="text_hint_enter_referral_code">Enter Referral Code</string>
+    <string name="text_title_welcome_to_sasai_remit">Welcome to Sasai Remit</string>
+    <string name="text_reg_first_name">FIRST NAME</string>
+    <string name="text_reg_middle_name_optional">MIDDLE NAME (Optional)</string>
+    <string name="text_reg_surname">SURNAME</string>
+    <string name="text_reg_nationality">NATIONALITY</string>
+    <string name="text_reg_id_verification_document">ID VERIFICATION DOCUMENT</string>
+    <string name="text_reg_id_document_number">ID DOCUMENT NUMBER</string>
+    <string name="text_reg_occupation">OCCUPATION</string>
+    <string name="text_reg_gender">GENDER</string>
+    <string name="text_reg_date_of_birth">DATE OF BIRTH</string>
+    <string name="text_reg_street_address">STREET ADDRESS</string>
+    <string name="text_reg_suburb">SUBURB</string>
+    <string name="text_reg_city">CITY</string>
+    <string name="text_reg_select_province">SELECT PROVINCE</string>
+    <string name="text_reg_peferral_code">REFERRAL CODE (OPTIONAL)</string>
+    <string name="text_reg_country_residence">COUNTRY OF RESIDENCE</string>
+    <string name="text_reg_last_name">LAST NAME</string>
+    <string name="text_postal_code">POSTAL CODE</string>
+    <string name="text_confirm_address_information_is_valid">Confirm address information is valid</string>
+    <string name="text_privacy_policy">I Agree to the Terms and Conditions and the Privacy Policy</string>
+    <string name="text_send_me_promotions">Send me Promotions</string>
+    <string name="recipient_add_cuntry_choose">RECIPIENT COUNTRY</string>
+    <string name="recipient_add_cuntry_hint_choose">Choose your recipient country</string>
+    <string name="text_send_money_success_title">You request has been submitted</string>
+    <string name="text_send_money_success_content">Please view it in Transaction History</string>
+    <string name="text_send_money_error_title">You request was not received</string>
+    <string name="text_send_money_error_content">Please retry in Transaction History</string>
+    <string name="text_pw_tip">ou New Password and Confirm New Password must be the same</string>
+    <string name="text_pw_tip_01">The New Password must be the same as the Confirm Password.</string>
+    <string name="text_pw_tip_new_and_old_not_the_same">New password must be different from the current one, please re-enter.</string>
+    <string name="text_send_money_payment_not_received_title">Payment not Received</string>
+    <string name="text_send_money_payment_not_received_error_content">Please retry</string>
+    <string name="text_please_choose_card_type">Please choose card type</string>
+    <string name="text_select_delivery_method_title">DELIVERY METHOD</string>
+    <string name="text_title_add_recipient_successfully">Add Recipient Successfully</string>
+    <string name="text_return_to_merchant">Return to merchant</string>
+    <string name="text_back_to_merchant">Back to Merchant</string>
+    <string name="text_payment_amount_new">PAYMENT AMOUNT</string>
+    <string name="text_give_up_to_pay">Give up to pay</string>
+    <string name="text_abandon">abandon</string>
+    <string name="text_dialog_tip">Whether to waive this payment?</string>
+    <string name="text_videos">Swipe left and right to switch videos</string>
+
+
+    <!--    布伦迪-->
+    <string name="pay_common_biramara_bundle">Biramara Bundle</string>
+    <string name="pay_common_buy_bundle">Buy Bundle</string>
+    <string name="pay_common_support">Support</string>
+    <string name="pay_common_recharge_number">RECHARGE  NUMBER:</string>
+    <string name="pay_common_enter_number">Enter the number…</string>
+    <string name="pay_common_enter_dayly">Daily</string>
+    <string name="pay_common_enter_weekly">Weekly</string>
+    <string name="pay_common_enter_monthly">Monthly</string>
+    <string name="pay_common_enter_data">Data</string>
+    <string name="pay_common_enter_sms">SMS</string>
+    <string name="pay_common_enter_social">Social Media</string>
+    <string name="pay_common_enter_payment">PAYMENT METHOD</string>
+    <string name="pay_common_enter_total">TOTAL AMOUNT：</string>
+    <string name="pay_common_enter_buy">Buy</string>
+    <string name="pay_common_enter_check_number">CHECK NUMBER</string>
+    <string name="pay_common_enter_check_balance">Check Balance</string>
+    <string name="pay_common_enter_if_you">If you have any problems or questions, you can contact us to solve them for you.</string>
+    <string name="pay_common_number">Number :</string>
+    <string name="pay_common_website_link">Website Link :</string>
+    <string name="pay_common_website_link1">Website Link</string>
+    <string name="pay_common_website_email">Email :</string>
+    <string name="pay_common_biramara_history">History</string>
+    <string name="pay_common_biramara_currency">Currency</string>
+    <string name="pay_common_biramara_price">Price</string>
+    <string name="pay_common_biramara_date">Date</string>
+    <string name="pay_common_biramara_purchase">PURCHASE AMOUNT</string>
+    <string name="pay_common_biramara_purchase_details">PURCHASE DETAILS</string>
+    <string name="pay_common_biramara_dialog_valid">Valid period</string>
+    <string name="pay_common_biramara_no_bundle">No bundle available</string>
+    <string name="pay_common_biramara_select_number">Select Number</string>
+    <string name="pay_common_biramara_select_data">Data details</string>
+    <string name="pay_common_biramara_select_sms">SMS details</string>
+    <string name="pay_common_biramara_select_voice">Voice details</string>
+    <string name="pay_common_biramara_select_social">Social Media details</string>
+    <string name="pay_common_biramara_select_no_data">Oops! Could not check your balance</string>
+    <string name="pay_common_biramara_select_no_bundle">Bundle</string>
+    <string name="pay_common_biramara_select_no_order">Order ID</string>
+    <string name="wallet_recharge_phone_airtime">Airtime</string>
+    <string name="wallet_recharge_phone_airtime_failed">Failed to load bundle</string>
+
+    <string name="text_remit_login_error">Your account/password is invalid, please retry</string>
+    <string name="text_title_delevery_method">DELIVERY METHOD</string>
+    <string name="text_reg_male">Male</string>
+    <string name="text_reg_girl">Female</string>
+    <string name="reset_swith_phone_to_email_info">Switch to Email Verify </string>
+    <string name="reset_swith_email_to_phone_info">Switch to Mobile Verify </string>
+    <string name="remit_upload_success_info">Upload Successfully</string>
+    <string name="reset_check_your_email_to_verify_title">Check your email to verify your identity</string>
+    <string name="reset_an_email_was_sent_to_below_address">An email was sent to below address:</string>
+    <string name="reset_change_your_pwd_as_inof">Please change your password as instructed in the email, and press below button to log in with new password.</string>
+    <string name="reset_enter_another_address">Enter another address</string>
+    <string name="text_pro_disable">You will no longer receive promotional communication from Sasai Remit.</string>
+
+    <string name="delete_recipient_successfully">successfully deleted</string>
+
+    <string name="remit_reset_pwd_success_title">Password Changed</string>
+    <string name="remit_reset_pwd_success_content">Please use you new password login</string>
+    <string name="reset_pwd_phone_email_vpn_content">We will send you an email link to verify your identity.Please ensure you have entered a valid email address.</string>
+
+
+    <string name="recipient_add_recipient_types_choose">recipient_types</string>
+    <string name="recipient_add_recipient_types_hint_choose">Choose your recipient types</string>
+
+    <string name="accepted_recipient_types_p">Person</string>
+    <string name="accepted_recipient_types_e">Entity</string>
+
+    <string name="accepted_recipient_types_value_p">P</string>
+    <string name="accepted_recipient_types_value_e">E</string>
+
+<!--    <string name="accepted_recipient_field_content_p">,first_name,last_name,middle_name,nickname,id_number,passport_number,passport_country,reference_to_appear,gender,birth_date,relationship,postcode,address_line_1,address_line_2,city,county,province,suburb,postal_postcode,postal_address_line_1,postal_address_line_2,postal_city,postal_county,postal_province,postal_suburb,landline,phone,mobile,email,</string>-->
+    <string name="accepted_recipient_field_content_p">,first_name,last_name,middle_name,nickname,id_number,passport_number,passport_country,reference_to_appear,gender,birth_date,relationship,postcode,address_line_1,address_line_2,city,province,suburb,postal_postcode,postal_address_line_1,postal_address_line_2,postal_city,postal_county,postal_province,postal_suburb,landline,phone,mobile,email,</string>
+    <string name="accepted_recipient_field_content_e">,entity_name,entity_registration_number,entity_classification,entity_type,entity_contact_name,entity_reference,</string>
+
+    <string name="accepted_recipient_field_content_comm">,mobile_money_msisdn,mobile_money_provider,bank,bank_name,bank_city,branch,branch_name,account_number,account_holder_name,account_type,swift_code,iban_number,bsb_number,tax_number,suffix,eight_digit_code,physical_address,sort_code,ewallet_id,country,</string>
+
+
+
+    <string name="text_comfirn_recipient_delete_title">Confrim Delete</string>
+    <string name="text_comfirn_recipient_delete_content">Are you sure to delete this recipient?</string>
+
+    <string name="text_id_upload_doucument_info">Upload ID documents</string>
+    <string name="text_id_upload_selfie_with_id_info">Upload Selfie with ID</string>
+    <string name="text_id_upload_doucument_info_select_p">Please upload respective image(s)</string>
+
+    <string name="change_pwd_error_not_right">Current password is incorrect, please re-enter.</string>
+    <string name="change_pwd_success_lly">Password changed successfully </string>
+    <string name="text_pwp_tip">The password must contain uppercase and lowercase letters and a minimum of 8 to 16 characters</string>
+    <string name="text_get_otp">Didn’t get OTP?</string>
+    <string name="wallet_txt_json_is_null">json is null</string>
+    <string name="text_tourist_mode_prompts">Sign up on Sasai to enjoy exciting features and products</string>
+    <string name="text_already_have_an_account">Already have an account?</string>
+    <string name="text_audio_downloading_now">Audio is already in the download list</string>
+    <string name="text_transaction_status">Transaction Status</string>
+    <string name="text_transaction_time">Transaction Time</string>
+    <string name="text_title_personal_info">Step %1s\/3 Personal Info</string>
+
+    <string name="remit_register_success_title_o">Success</string>
+    <string name="remit_register_success_info_t">You mobile has been verified. Please log in to upload your documents</string>
+
+    <string name="text_title_modify_recipient_successfully">Successfully</string>
+</resources>

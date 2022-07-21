@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/bg_common_transparent2background.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/bg_gray_tra_cro_12.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/icon_tab_wallet.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/post_bg_img_index.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/post_bg_img_indicator.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/post_bg_new_msg.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/post_bg_radius16_white.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/post_bg_radius4_white_gary.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/post_expire_status.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/post_notification_dot.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/view_indicator_selected.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/drawable/white_radius.xml" value="0.2355" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity__item_bottom.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_main.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_main_tablayout_item.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_moment_img_type_item_pic.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_moment_item_bottom.xml" value="0.23697916666666666" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_moment_item_content.xml" value="0.23697916666666666" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_moment_item_head.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_moment_item_translation.xml" value="0.23697916666666666" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_moment_list_item_img.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_moment_list_item_text.xml" value="0.15989583333333332" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_post_pic_indicator_item.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/activity_splash.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/dialog_alert.xml" value="0.23697916666666666" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/fragment_discovery_index_v3.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/fragment_discovery_index_v4.xml" value="0.15989583333333332" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/fragment_post_index.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/fragment_post_list.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/include_title_bar.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/toast_top_icon.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/view_custom_itemlayout_edit.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/view_custom_title_bar.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/view_pic_scroll.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/view_post_head_view_certification.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/view_post_index_title_bar.xml" value="0.2817028985507246" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/view_post_item_like_comment.xml" value="0.23697916666666666" />
+        <entry key="..\:/zsp/lnstagram/app/src/main/res/layout/view_toast_layout.xml" value="0.2817028985507246" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

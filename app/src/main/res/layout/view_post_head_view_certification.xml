@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.lhh.lnstagram.mvvm.view.CircleImageView
+        android:id="@+id/iv_user_head"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:src="@drawable/common_icon_default_avatar"
+        app:border_color="@color/white"
+        app:border_width="2dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/iv_public_account_certification"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_user_head"
+        app:layout_constraintEnd_toEndOf="@+id/iv_user_head" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

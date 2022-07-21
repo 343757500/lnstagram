@@ -1,0 +1,147 @@
+<resources>
+
+    <dimen name="statusbar_view_height">0dp</dimen>
+
+    <!-- BottomBar -->
+    <dimen name="bottombar_icon_height">25dp</dimen>
+    <dimen name="bottombar_text_size">10dp</dimen>
+
+    <!-- 常用字体 -->
+    <dimen name="page_top_15">15dp</dimen>
+    <dimen name="page_bottom_15">15dp</dimen>
+    <dimen name="page_left_right_15">15dp</dimen>
+
+    <!--线条-->
+    <dimen name="line_height">1px</dimen>
+
+    <dimen name="item_with_label">120dp</dimen>
+    <dimen name="item_height_48">48dp</dimen>
+    <dimen name="item_height_68">68dp</dimen>
+    <dimen name="item_height_mini_36">36dp</dimen>
+
+    <!-- 输入框 -->
+    <dimen name="bg_input_height">44dp</dimen>
+    <dimen name="bg_input_height_radius">6dp</dimen>
+    <dimen name="bg_input_search_height">36dp</dimen>
+    <dimen name="bg_input_search_height_radius">18dp</dimen>
+
+    <!-- 确定按钮 -->
+    <dimen name="btn_common_radius">6dp</dimen>
+    <dimen name="btn_common_height">44dp</dimen>
+    <dimen name="btn_common_mini_radius">5dp</dimen>
+    <dimen name="btn_common_mini_height">36dp</dimen>
+    <dimen name="btn_confirm_circle_mini_radius">18dp</dimen>
+    <dimen name="btn_confirm_circle_mini_height">36dp</dimen>
+    <dimen name="btn_confirm_circle_radius">22dp</dimen>
+    <dimen name="btn_confirm_circle_height">44dp</dimen>
+
+    <!-- 常用字体 -->
+    <dimen name="text_size_sm">@dimen/text_size_10</dimen>
+    <dimen name="text_size_m">@dimen/text_size_12</dimen>
+    <dimen name="text_size_default">@dimen/text_size_14</dimen>
+    <dimen name="text_size_l">@dimen/text_size_16</dimen>
+    <dimen name="text_size_xl">@dimen/text_size_18</dimen>
+    <!--字体大小-->
+    <dimen name="text_size_8">8.0dp</dimen>
+    <dimen name="text_size_9">9.0dp</dimen>
+    <dimen name="text_size_10">10.0dp</dimen>
+    <dimen name="text_size_11">11.0dp</dimen>
+    <dimen name="text_size_12">12.0dp</dimen>
+    <dimen name="text_size_13">13.0dp</dimen>
+    <dimen name="text_size_14">14.0dp</dimen>
+    <dimen name="text_size_15">15.0dp</dimen>
+    <dimen name="text_size_16">16.0dp</dimen>
+    <dimen name="text_size_17">17.0dp</dimen>
+    <dimen name="text_size_18">18.0dp</dimen>
+    <dimen name="text_size_19">19.0dp</dimen>
+    <dimen name="text_size_20">20.0dp</dimen>
+    <dimen name="text_size_21">21.0dp</dimen>
+    <dimen name="text_size_22">22.0dp</dimen>
+    <dimen name="text_size_23">23.0dp</dimen>
+    <dimen name="text_size_24">24.0dp</dimen>
+    <dimen name="text_size_25">25.0dp</dimen>
+    <dimen name="text_size_26">26.0dp</dimen>
+    <dimen name="text_size_27">27.0dp</dimen>
+    <dimen name="text_size_28">28.0dp</dimen>
+    <dimen name="text_size_29">29.0dp</dimen>
+    <dimen name="text_size_30">30.0dp</dimen>
+    <dimen name="text_size_31">31.0dp</dimen>
+    <dimen name="text_size_32">32.0dp</dimen>
+    <dimen name="text_size_33">33.0dp</dimen>
+    <dimen name="text_size_34">34.0dp</dimen>
+    <dimen name="text_size_35">35.0dp</dimen>
+    <dimen name="text_size_36">36.0dp</dimen>
+    <dimen name="text_size_37">37.0dp</dimen>
+    <dimen name="text_size_38">38.0dp</dimen>
+    <dimen name="text_size_39">39.0dp</dimen>
+    <dimen name="text_size_40">40.0dp</dimen>
+    <dimen name="text_size_41">41.0dp</dimen>
+    <dimen name="text_size_42">42.0dp</dimen>
+    <dimen name="text_size_43">43.0dp</dimen>
+    <dimen name="text_size_44">44.0dp</dimen>
+    <dimen name="text_size_45">45.0dp</dimen>
+    <dimen name="text_size_46">46.0dp</dimen>
+    <dimen name="text_size_47">47.0dp</dimen>
+    <dimen name="text_size_48">48.0dp</dimen>
+    <dimen name="text_size_49">49.0dp</dimen>
+    <dimen name="text_size_50">50.0dp</dimen>
+    <dimen name="text_size_64">64.0dp</dimen>
+    <dimen name="text_size_70">70.0dp</dimen>
+    <dimen name="text_size_72">72.0dp</dimen>
+    <dimen name="text_size_80">80.0dp</dimen>
+    <dimen name="text_size_95">95.0dp</dimen>
+
+
+    <!--音视频-->
+    <dimen name="av_btn_h">50dp</dimen>
+    <dimen name="av_btn_w">40dp</dimen>
+    <dimen name="av_btn_hand_up_h">62dp</dimen>
+    <dimen name="av_btn_hand_up_w">62dp</dimen>
+
+    <dimen name="av_v_call_h_w">55dp</dimen>
+
+    <dimen name="av_v_call_btn_m_left_and_right">70dp</dimen>
+    <dimen name="av_v_call_title_m_top">100dp</dimen>
+    <dimen name="av_v_call_head_img_w_h">100dp</dimen>
+    <dimen name="av_v_call_head_img_80_w_h">80dp</dimen>
+    <dimen name="av_v_call_head_img_50_w_h">50dp</dimen>
+    <dimen name="av_v_call_head_img_36_w_h">36dp</dimen>
+    <dimen name="av_v_call_head_img_40_w_h">40dp</dimen>
+    <dimen name="av_v_call_head_img_45_w_h">45dp</dimen>
+    <dimen name="av_v_call_head_img_30_w_h">30dp</dimen>
+    <dimen name="av_v_pop_w">118dp</dimen>
+    <dimen name="av_v_pop_h">165dp</dimen>
+
+    <dimen name="av_v_voice_img_h">180dp</dimen>
+
+    <dimen name="av_v_group_o_h">180dp</dimen>
+    <dimen name="av_v_call_15">15dp</dimen>
+
+    <dimen name="av_v_call_19">19dp</dimen>
+
+    <dimen name="av_v_call_180">160dp</dimen>
+
+    <dimen name="av_v_call_27">27dp</dimen>
+    <dimen name="av_v_call_25">25dp</dimen>
+    <dimen name="av_v_call_210">210dp</dimen>
+    <dimen name="av_v_call_7">7dp</dimen>
+    <dimen name="av_v_t_b_h">52dp</dimen>
+
+    <!--20人音视频-->
+    <dimen name="text_size_60">60.0dp</dimen>
+    <dimen name="av_v_call_head_img_56_w_h">56dp</dimen>
+
+    <!-- GET OTP-->
+    <dimen name="main_get_otp_width">90dp</dimen>
+    <dimen name="main_get_otp_width_padding_left">105dp</dimen> <!--+15-->
+
+    <!--  Wallet  -->
+    <dimen name="wallet_card_height">190dp</dimen>
+    <dimen name="wallet_card_mobile_size">30dp</dimen>
+    <dimen name="wallet_card_link_size">14dp</dimen>
+
+
+    <!--    Watch-->
+    <dimen name="watch_banner_corner">12dp</dimen>
+
+</resources>

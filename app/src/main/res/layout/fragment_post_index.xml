@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lhh.lnstagram.mvvm.view.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_white"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/fake_status_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/statusbar_view_height" />
+
+    <com.lhh.lnstagram.mvvm.view.PostIndexTitleBar
+        android:id="@+id/title_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_below="@+id/fake_status_bar" />
+
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/ll_title"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@+id/fake_status_bar"-->
+    <!--        android:orientation="vertical">-->
+
+    <!--        <com.gigaiot.sasa.post.business.view.PostIndexTitleBar-->
+    <!--            android:id="@+id/title_bar_main"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="44dp" />-->
+
+    <!--        <com.gigaiot.sasa.post.business.view.PostTipsView-->
+    <!--            android:id="@+id/post_tips_view"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:visibility="gone" />-->
+    <!--    </LinearLayout>-->
+
+
+    <LinearLayout
+        android:id="@+id/ll_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/title_bar_main"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        android:id="@+id/ll_top_unread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_bar_main"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/post_bg_new_msg"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingTop="10dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_top_unread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_main"
+            android:textSize="@dimen/text_size_default"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:drawableEnd="@drawable/icon_post_page_up"
+            android:drawablePadding="5dp"
+            android:text="@string/post_txt_new_moments"
+            android:textColor="@color/color_main"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:id="@+id/ll_multiple_actions"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="12.1dp"-->
+<!--        android:layout_marginBottom="14.2dp" />-->
+
+    <!--    <com.getbase.floatingactionbutton.FloatingActionsMenu-->
+    <!--        android:id="@+id/fam_multiple_actions"-->
+    <!--        android:layout_width="60dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginEnd="5dp"-->
+    <!--        android:layout_marginBottom="5dp"-->
+    <!--        fab:fab_addButtonColorNormal="@color/color_main"-->
+    <!--        fab:fab_addButtonColorPressed="@color/color_main"-->
+    <!--        fab:fab_addButtonPlusIconColor="@color/white">-->
+
+    <!--        <com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/fab_action_location"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            fab:fab_colorNormal="@color/white"-->
+    <!--            fab:fab_colorPressed="@color/bg_gray1"-->
+    <!--            fab:fab_icon="@drawable/post_icon_floating_location" />-->
+
+    <!--        <com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/fab_action_live"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            fab:fab_colorNormal="@color/white"-->
+    <!--            fab:fab_colorPressed="@color/bg_gray1"-->
+    <!--            fab:fab_icon="@drawable/fab_action_live" />-->
+
+    <!--        <com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/fab_action_text"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            fab:fab_colorNormal="@color/white"-->
+    <!--            fab:fab_colorPressed="@color/bg_gray1"-->
+    <!--            fab:fab_icon="@drawable/post_icon_floating_text" />-->
+
+    <!--        <com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/fab_action_audio"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            fab:fab_colorNormal="@color/white"-->
+    <!--            fab:fab_colorPressed="@color/bg_gray1"-->
+    <!--            fab:fab_icon="@drawable/post_icon_floating_recording" />-->
+
+    <!--        <com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/fab_action_album"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            fab:fab_colorNormal="@color/white"-->
+    <!--            fab:fab_colorPressed="@color/bg_gray1"-->
+    <!--            fab:fab_icon="@drawable/post_icon_floating_pic" />-->
+
+
+    <!--        <com.getbase.floatingactionbutton.FloatingActionButton-->
+    <!--            android:id="@+id/fab_action_camera"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            fab:fab_colorNormal="@color/white"-->
+    <!--            fab:fab_colorPressed="@color/bg_gray1"-->
+    <!--            fab:fab_icon="@drawable/post_icon_floating_camera" />-->
+
+    <!--    </com.getbase.floatingactionbutton.FloatingActionsMenu>-->
+
+    <ImageView
+        android:id="@+id/iv_moment_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/post_icon_send_moment" />
+
+
+</com.lhh.lnstagram.mvvm.view.AutoRelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_ad_info"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/color_line_light_split"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_ad_title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center|start"
+            android:lines="2"
+            android:text="Under armour ad Online Shopping for Women, Men, Kids Fashion "
+            android:textColor="@color/text_color_blue_purple"
+            android:textSize="@dimen/text_size_14" />
+
+        <TextView
+            android:id="@+id/tv_ad_action"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/post_bg_radius16_white"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lines="1"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:text="Visit More"
+            android:textColor="@color/text_color_blue_purple"
+            android:textSize="@dimen/text_size_13"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <com.lhh.lnstagram.mvvm.view.PostLikeCommentView
+        android:id="@+id/post_like_comment_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:paddingTop="15dp"
+        android:paddingEnd="15dp" />
+
+    <View
+        android:id="@+id/view_line0"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height"
+        android:background="@color/color_line_light"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:visibility="gone" />
+
+</LinearLayout>

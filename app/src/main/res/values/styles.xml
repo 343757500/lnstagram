@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- 默认样式 -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textSize">@dimen/text_size_default</item>
+        <item name="android:textColorHint">@color/text_color_gray_light</item>
+        <item name="android:textColor">@color/text_color_gray_dark</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/bg_default</item>
+        <item name="android:windowAnimationStyle">@style/activitySlideAnimation</item>
+
+        <item name="android:typeface">monospace</item>
+    </style>
+
+
+    <style name="AppLockVerifyActivitySlideAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_slide_right_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_slide_left_out</item>
+    </style>
+
+    <!-- 白色背景页面 -->
+    <style name="whiteTheme" parent="BaseAppTheme">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/white</item>
+    </style>
+
+
+    <!-- 启动屏 -->
+    <style name="SplashTheme" parent="BaseAppTheme">
+        <item name="android:background">@drawable/splash</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- 应用锁页面 -->
+    <style name="AppLockVerifyTheme" parent="BaseAppTheme">
+        <item name="android:windowAnimationStyle">@style/AppLockVerifyActivitySlideAnimation</item>
+    </style>
+
+
+
+    <!-- 页面切换样式 -->
+    <style name="activitySlideAnimation" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_slide_left_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_slide_left_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_slide_right_out</item>
+    </style>
+
+    <style name="MyCheckBox" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlNormal">@color/text_color_gray_light</item>
+        <item name="android:colorControlActivated">@color/color_white</item>
+    </style>
+
+
+    <!-- 登录注册接口 -->
+    <integer name="input_max_mobile">15</integer>
+    <integer name="input_max_otp">4</integer>
+    <integer name="input_max_password">16</integer>
+    <!-- 输入框最大限制 -->
+    <integer name="input_max_nick_name">32</integer>
+    <integer name="input_max_remark_name">63</integer>
+    <integer name="input_max_search">63</integer>
+    <integer name="input_live_max_search">500</integer>
+    <integer name="input_max_autograph">150</integer>
+    <integer name="input_max_chat_txt">4000</integer>
+    <integer name="input_max_post_txt">3200</integer>
+    <integer name="input_max_group_name">63</integer>
+    <integer name="input_max_group_notice">200</integer>
+    <integer name="input_max_money">8</integer>
+    <!--名片-->
+    <integer name="input_max_card_first_name">64</integer>
+    <integer name="input_max_card_last_name">64</integer>
+    <integer name="input_max_card_title">32</integer>
+    <integer name="input_max_card_org">64</integer>
+    <integer name="input_max_card_phone">20</integer>
+    <integer name="input_max_card_email">100</integer>
+    <integer name="input_max_card_address">500</integer>
+
+    <!--朋友圈-->
+    <integer name="input_max_post_moment_txt">60000</integer>//发布朋友圈
+    <integer name="input_max_comment_moment_txt">1000</integer>//评论朋友圈
+
+    <integer name="input_max_watch_title">1000</integer>
+
+</resources>
